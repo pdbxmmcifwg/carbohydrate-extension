@@ -1,4 +1,4 @@
-##Chemical Component Definitions
+## Chemical Component Definitions
 
 The following sample chemical component definition files show how parental components are referenced and mapped to the current definition, added nomenclature, and audit revision history.
 
