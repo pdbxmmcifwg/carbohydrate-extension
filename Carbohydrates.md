@@ -129,7 +129,7 @@ In addition, we will standardize wwPDB Chemical Component Dictionary (CCD) so th
 ![Standard atom nomenclature of pyranose and furanose ring sugars.](img/Carbo_Atom_nomenclature.png)
 *Figure 2: Standard atom nomenclature of pyranose and furanose ring sugars.*
 
-To minimize the impact on the coordinate section (atom_site) of the PDB Core Archive files and on other software used in the field such as refinement programs or 3D visualization tools, the three letter code residue names will be retained in `_atom_site.label_comp_id`. We will introduce IUPAC style naming using existing data item, `_pdbx_chem_comp_identifier` in the CCD for consistent annotation in the PDB Core Archive atomic coordinate files. This information will be copied to the PDB Core Archive atomic coordinate files as a metadata.
+To support findability, wwPDB will preserve the commonly used names for oligosaccharides through extending an existing reference dictionary of biologically interesting molecules. To minimize the impact on the coordinate section (atom_site) of the PDB Core Archive files and on other software used in the field such as refinement programs or 3D visualization tools, the three letter code residue names will be retained in `_atom_site.label_comp_id`. We will introduce IUPAC style naming using existing data item, `_pdbx_chem_comp_identifier` in the CCD for consistent annotation in the PDB Core Archive atomic coordinate files. This information will be copied to the PDB Core Archive atomic coordinate files as a metadata.
 
 For example, the IUPAC style naming b-D-GlcpNAc or GlcpNAc or N-acetyl-beta-D-glucosamine for NAG are provided with source provenance identified.
 
