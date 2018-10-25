@@ -1,6 +1,6 @@
-##Sample Model Files
+## Sample Model Files
 
-The following samples are available. You may down them one at a time or the complete set at once.
+The following samples are available. You may download them individually or the complete set.
 
 - [1B5F](models/1B5F-carb.cif) a complex example with four glycosylation site with branched carbohydrate chains.
 
