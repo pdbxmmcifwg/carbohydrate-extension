@@ -6,6 +6,6 @@ The documents in this repository include content extension definitions and examp
 
 - Branched Chain Entity Dictionary Extension [(text)](dict/entity_branch-extension.dic) [(markdown)](dict/entity_branch-extension.md)
 
-- Chemical Component Dictionary Extension [(text)](dict/chem_comp-extension.txt) [(markdown)](dict/chem_comp-extension.md)
+- Chemical Component Dictionary Extension [(text)](dict/chem_comp-extension.dic) [(markdown)](dict/chem_comp-extension.md)
 
 - [Examples](examples/examples.md)
