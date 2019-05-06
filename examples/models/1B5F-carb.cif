@@ -3,7 +3,7 @@ data_1B5F
 _entry.id   1B5F 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.307 
+_audit_conform.dict_version    5.309 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -578,34 +578,33 @@ _chem_comp.id
 _chem_comp.type 
 _chem_comp.mon_nstd_flag 
 _chem_comp.name 
-_chem_comp.pdbx_synonyms 
 _chem_comp.formula 
 _chem_comp.formula_weight 
-ALA 'L-peptide linking' y ALANINE                     ? 'C3 H7 N O2'     89.093  
-ARG 'L-peptide linking' y ARGININE                    ? 'C6 H15 N4 O2 1' 175.209 
-ASN 'L-peptide linking' y ASPARAGINE                  ? 'C4 H8 N2 O3'    132.118 
-ASP 'L-peptide linking' y 'ASPARTIC ACID'             ? 'C4 H7 N O4'     133.103 
-BMA D-saccharide        . beta-D-mannopyranose        ? 'C6 H12 O6'      180.156 
-CYS 'L-peptide linking' y CYSTEINE                    ? 'C3 H7 N O2 S'   121.158 
-FUC L-saccharide        . alpha-L-fucopyranose        ? 'C6 H12 O5'      164.156 
-GLN 'L-peptide linking' y GLUTAMINE                   ? 'C5 H10 N2 O3'   146.144 
-GLU 'L-peptide linking' y 'GLUTAMIC ACID'             ? 'C5 H9 N O4'     147.129 
-GLY 'peptide linking'   y GLYCINE                     ? 'C2 H5 N O2'     75.067  
-HIS 'L-peptide linking' y HISTIDINE                   ? 'C6 H10 N3 O2 1' 156.162 
-HOH non-polymer         . WATER                       ? 'H2 O'           18.015  
-ILE 'L-peptide linking' y ISOLEUCINE                  ? 'C6 H13 N O2'    131.173 
-LEU 'L-peptide linking' y LEUCINE                     ? 'C6 H13 N O2'    131.173 
-LYS 'L-peptide linking' y LYSINE                      ? 'C6 H15 N2 O2 1' 147.195 
-MAN D-saccharide        . alpha-D-mannopyranose       ? 'C6 H12 O6'      180.156 
-MET 'L-peptide linking' y METHIONINE                  ? 'C5 H11 N O2 S'  149.211 
-NAG D-saccharide        . N-acetyl-beta-D-glucosamine ? 'C8 H15 N O6'    221.208 
-PHE 'L-peptide linking' y PHENYLALANINE               ? 'C9 H11 N O2'    165.189 
-PRO 'L-peptide linking' y PROLINE                     ? 'C5 H9 N O2'     115.130 
-SER 'L-peptide linking' y SERINE                      ? 'C3 H7 N O3'     105.093 
-THR 'L-peptide linking' y THREONINE                   ? 'C4 H9 N O3'     119.119 
-TRP 'L-peptide linking' y TRYPTOPHAN                  ? 'C11 H12 N2 O2'  204.225 
-TYR 'L-peptide linking' y TYROSINE                    ? 'C9 H11 N O3'    181.189 
-VAL 'L-peptide linking' y VALINE                      ? 'C5 H11 N O2'    117.146 
+ALA 'L-peptide linking' y ALANINE                     'C3 H7 N O2'     89.093  
+ARG 'L-peptide linking' y ARGININE                    'C6 H15 N4 O2 1' 175.209 
+ASN 'L-peptide linking' y ASPARAGINE                  'C4 H8 N2 O3'    132.118 
+ASP 'L-peptide linking' y 'ASPARTIC ACID'             'C4 H7 N O4'     133.103 
+BMA D-saccharide        . beta-D-mannopyranose        'C6 H12 O6'      180.156 
+CYS 'L-peptide linking' y CYSTEINE                    'C3 H7 N O2 S'   121.158 
+FUC L-saccharide        . alpha-L-fucopyranose        'C6 H12 O5'      164.156 
+GLN 'L-peptide linking' y GLUTAMINE                   'C5 H10 N2 O3'   146.144 
+GLU 'L-peptide linking' y 'GLUTAMIC ACID'             'C5 H9 N O4'     147.129 
+GLY 'peptide linking'   y GLYCINE                     'C2 H5 N O2'     75.067  
+HIS 'L-peptide linking' y HISTIDINE                   'C6 H10 N3 O2 1' 156.162 
+HOH non-polymer         . WATER                       'H2 O'           18.015  
+ILE 'L-peptide linking' y ISOLEUCINE                  'C6 H13 N O2'    131.173 
+LEU 'L-peptide linking' y LEUCINE                     'C6 H13 N O2'    131.173 
+LYS 'L-peptide linking' y LYSINE                      'C6 H15 N2 O2 1' 147.195 
+MAN D-saccharide        . alpha-D-mannopyranose       'C6 H12 O6'      180.156 
+MET 'L-peptide linking' y METHIONINE                  'C5 H11 N O2 S'  149.211 
+NAG D-saccharide        . N-acetyl-beta-D-glucosamine 'C8 H15 N O6'    221.208 
+PHE 'L-peptide linking' y PHENYLALANINE               'C9 H11 N O2'    165.189 
+PRO 'L-peptide linking' y PROLINE                     'C5 H9 N O2'     115.130 
+SER 'L-peptide linking' y SERINE                      'C3 H7 N O3'     105.093 
+THR 'L-peptide linking' y THREONINE                   'C4 H9 N O3'     119.119 
+TRP 'L-peptide linking' y TRYPTOPHAN                  'C11 H12 N2 O2'  204.225 
+TYR 'L-peptide linking' y TYROSINE                    'C9 H11 N O3'    181.189 
+VAL 'L-peptide linking' y VALINE                      'C5 H11 N O2'    117.146 
 # 
 _exptl.entry_id          1B5F 
 _exptl.method            'X-RAY DIFFRACTION' 
@@ -942,8 +941,6 @@ _struct_conn.ptnr1_label_atom_id
 _struct_conn.pdbx_ptnr1_label_alt_id 
 _struct_conn.pdbx_ptnr1_PDB_ins_code 
 _struct_conn.pdbx_ptnr1_standard_comp_id 
-_struct_conn.pdbx_ptnr1_leaving_atom_id 
-_struct_conn.pdbx_ptnr1_atom_stereo_config 
 _struct_conn.ptnr1_symmetry 
 _struct_conn.ptnr2_label_asym_id 
 _struct_conn.ptnr2_label_comp_id 
@@ -957,40 +954,38 @@ _struct_conn.ptnr1_auth_seq_id
 _struct_conn.ptnr2_auth_asym_id 
 _struct_conn.ptnr2_auth_comp_id 
 _struct_conn.ptnr2_auth_seq_id 
-_struct_conn.pdbx_ptnr2_leaving_atom_id 
-_struct_conn.pdbx_ptnr2_atom_stereo_config 
 _struct_conn.ptnr2_symmetry 
 _struct_conn.details 
 _struct_conn.pdbx_dist_value 
 _struct_conn.pdbx_value_order 
-_struct_conn.pdbx_role 
-disulf1  disulf ? ? A CYS 46  SG  A ? ? HG   ? 1_555 A CYS 52  SG A ? A CYS 45  A CYS 50  HG   ? 1_555 ? 2.027 ? ?             
-disulf2  disulf ? ? A CYS 46  SG  B ? ? HG   ? 1_555 A CYS 52  SG B ? A CYS 45  A CYS 50  HG   ? 1_555 ? 2.032 ? ?             
-disulf3  disulf ? ? A CYS 207 SG  ? ? ? HG   ? 1_555 A CYS 211 SG ? ? A CYS 206 A CYS 210 HG   ? 1_555 ? 2.067 ? ?             
-disulf4  disulf ? ? B CYS 7   SG  ? ? ? HG   ? 1_555 B CYS 44  SG ? ? B CYS 249 B CYS 282 HG   ? 1_555 ? 2.078 ? ?             
-disulf5  disulf ? ? C CYS 46  SG  ? ? ? HG   ? 1_555 C CYS 52  SG ? ? C CYS 45  C CYS 50  HG   ? 1_555 ? 2.037 ? ?             
-disulf6  disulf ? ? C CYS 207 SG  ? ? ? HG   ? 1_555 C CYS 211 SG ? ? C CYS 206 C CYS 210 HG   ? 1_555 ? 2.060 ? ?             
-disulf7  disulf ? ? D CYS 7   SG  ? ? ? HG   ? 1_555 D CYS 44  SG ? ? D CYS 249 D CYS 282 HG   ? 1_555 ? 2.056 ? ?             
-covale1  covale ? ? A ASN 69  ND2 ? ? ? HD22 ? 1_555 E NAG .   C1 ? ? A ASN 67  E NAG 1   HD22 ? 1_555 ? 1.471 ? Glycosylation 
-covale2  covale ? ? B ASN 15  ND2 ? ? ? HD22 ? 1_555 F NAG .   C1 ? ? B ASN 257 F NAG 1   HD22 ? 1_555 ? 1.450 ? Glycosylation 
-covale3  covale ? ? C ASN 69  ND2 ? ? ? HD22 ? 1_555 G NAG .   C1 ? ? C ASN 67  G NAG 1   HD22 ? 1_555 ? 1.483 ? Glycosylation 
-covale4  covale ? ? D ASN 15  ND2 ? ? ? HD22 ? 1_555 H NAG .   C1 ? ? D ASN 257 H NAG 1   HD22 ? 1_555 ? 1.456 ? Glycosylation 
-covale5  covale ? ? E NAG .   O3  ? ? ? HO3  ? 1_555 E FUC .   C1 ? ? E NAG 1   E FUC 5   C1   R 1_555 ? 1.430 ? ?             
-covale6  covale ? ? E NAG .   O4  ? ? ? HO4  ? 1_555 E NAG .   C1 ? ? E NAG 1   E NAG 2   C1   R 1_555 ? 1.387 ? ?             
-covale7  covale ? ? E NAG .   O4  ? ? ? HO4  ? 1_555 E BMA .   C1 ? ? E NAG 2   E BMA 3   C1   R 1_555 ? 1.396 ? ?             
-covale8  covale ? ? E BMA .   O3  ? ? ? HO3  ? 1_555 E MAN .   C1 ? ? E BMA 3   E MAN 4   C1   S 1_555 ? 1.408 ? ?             
-covale9  covale ? ? F NAG .   O3  ? ? ? HO3  ? 1_555 F FUC .   C1 ? ? F NAG 1   F FUC 4   C1   R 1_555 ? 1.425 ? ?             
-covale10 covale ? ? F NAG .   O4  ? ? ? HO4  ? 1_555 F NAG .   C1 ? ? F NAG 1   F NAG 2   C1   R 1_555 ? 1.385 ? ?             
-covale11 covale ? ? F NAG .   O4  ? ? ? HO4  ? 1_555 F BMA .   C1 ? ? F NAG 2   F BMA 3   C1   R 1_555 ? 1.389 ? ?             
-covale12 covale ? ? G NAG .   O3  ? ? ? HO3  ? 1_555 G FUC .   C1 ? ? G NAG 1   G FUC 5   C1   R 1_555 ? 1.427 ? ?             
-covale13 covale ? ? G NAG .   O4  ? ? ? HO4  ? 1_555 G NAG .   C1 ? ? G NAG 1   G NAG 2   C1   R 1_555 ? 1.388 ? ?             
-covale14 covale ? ? G NAG .   O4  ? ? ? HO4  ? 1_555 G BMA .   C1 ? ? G NAG 2   G BMA 3   C1   R 1_555 ? 1.399 ? ?             
-covale15 covale ? ? G BMA .   O3  ? ? ? HO3  ? 1_555 G MAN .   C1 ? ? G BMA 3   G MAN 4   C1   S 1_555 ? 1.406 ? ?             
-covale16 covale ? ? G BMA .   O6  ? ? ? HO6  ? 1_555 G MAN .   C1 ? ? G BMA 3   G MAN 6   C1   S 1_555 ? 1.410 ? ?             
-covale17 covale ? ? H NAG .   O3  ? ? ? HO3  ? 1_555 H FUC .   C1 A ? H NAG 1   H FUC 4   C1   R 1_555 ? 1.424 ? ?             
-covale18 covale ? ? H NAG .   O3  ? ? ? HO3  ? 1_555 H FUC .   C1 B ? H NAG 1   H FUC 4   C1   R 1_555 ? 1.416 ? ?             
-covale19 covale ? ? H NAG .   O4  ? ? ? HO4  ? 1_555 H NAG .   C1 ? ? H NAG 1   H NAG 2   C1   R 1_555 ? 1.390 ? ?             
-covale20 covale ? ? H NAG .   O4  ? ? ? HO4  ? 1_555 H MAN .   C1 ? ? H NAG 2   H MAN 3   C1   S 1_555 ? 1.391 ? ?             
+_struct_conn.pdbx_role
+disulf1  disulf ? ? A CYS 46  SG  A ? ? 1_555 A CYS 52  SG A ? A CYS 45  A CYS 50  1_555 ? 2.027 ? ?
+disulf2  disulf ? ? A CYS 46  SG  B ? ? 1_555 A CYS 52  SG B ? A CYS 45  A CYS 50  1_555 ? 2.032 ? ?
+disulf3  disulf ? ? A CYS 207 SG  ? ? ? 1_555 A CYS 211 SG ? ? A CYS 206 A CYS 210 1_555 ? 2.067 ? ?
+disulf4  disulf ? ? B CYS 7   SG  ? ? ? 1_555 B CYS 44  SG ? ? B CYS 249 B CYS 282 1_555 ? 2.078 ? ?
+disulf5  disulf ? ? C CYS 46  SG  ? ? ? 1_555 C CYS 52  SG ? ? C CYS 45  C CYS 50  1_555 ? 2.037 ? ?
+disulf6  disulf ? ? C CYS 207 SG  ? ? ? 1_555 C CYS 211 SG ? ? C CYS 206 C CYS 210 1_555 ? 2.060 ? ?
+disulf7  disulf ? ? D CYS 7   SG  ? ? ? 1_555 D CYS 44  SG ? ? D CYS 249 D CYS 282 1_555 ? 2.056 ? ?
+covale1  covale ? ? A ASN 69  ND2 ? ? ? 1_555 E NAG .   C1 ? ? A ASN 67  E NAG 1   1_555 ? 1.471 ? N-Glycosylation
+covale2  covale ? ? B ASN 15  ND2 ? ? ? 1_555 F NAG .   C1 ? ? B ASN 257 F NAG 1   1_555 ? 1.450 ? N-Glycosylation
+covale3  covale ? ? C ASN 69  ND2 ? ? ? 1_555 G NAG .   C1 ? ? C ASN 67  G NAG 1   1_555 ? 1.483 ? N-Glycosylation
+covale4  covale ? ? D ASN 15  ND2 ? ? ? 1_555 H NAG .   C1 ? ? D ASN 257 H NAG 1   1_555 ? 1.456 ? N-Glycosylation
+covale5  covale ? ? E NAG .   O3  ? ? ? 1_555 E FUC .   C1 ? ? E NAG 1   E FUC 5   1_555 ? 1.430 ? ?
+covale6  covale ? ? E NAG .   O4  ? ? ? 1_555 E NAG .   C1 ? ? E NAG 1   E NAG 2   1_555 ? 1.387 ? ?
+covale7  covale ? ? E NAG .   O4  ? ? ? 1_555 E BMA .   C1 ? ? E NAG 2   E BMA 3   1_555 ? 1.396 ? ?
+covale8  covale ? ? E BMA .   O3  ? ? ? 1_555 E MAN .   C1 ? ? E BMA 3   E MAN 4   1_555 ? 1.408 ? ?
+covale9  covale ? ? F NAG .   O3  ? ? ? 1_555 F FUC .   C1 ? ? F NAG 1   F FUC 4   1_555 ? 1.425 ? ?
+covale10 covale ? ? F NAG .   O4  ? ? ? 1_555 F NAG .   C1 ? ? F NAG 1   F NAG 2   1_555 ? 1.385 ? ?
+covale11 covale ? ? F NAG .   O4  ? ? ? 1_555 F BMA .   C1 ? ? F NAG 2   F BMA 3   1_555 ? 1.389 ? ?
+covale12 covale ? ? G NAG .   O3  ? ? ? 1_555 G FUC .   C1 ? ? G NAG 1   G FUC 5   1_555 ? 1.427 ? ?
+covale13 covale ? ? G NAG .   O4  ? ? ? 1_555 G NAG .   C1 ? ? G NAG 1   G NAG 2   1_555 ? 1.388 ? ?
+covale14 covale ? ? G NAG .   O4  ? ? ? 1_555 G BMA .   C1 ? ? G NAG 2   G BMA 3   1_555 ? 1.399 ? ?
+covale15 covale ? ? G BMA .   O3  ? ? ? 1_555 G MAN .   C1 ? ? G BMA 3   G MAN 4   1_555 ? 1.406 ? ?
+covale16 covale ? ? G BMA .   O6  ? ? ? 1_555 G MAN .   C1 ? ? G BMA 3   G MAN 6   1_555 ? 1.410 ? ?
+covale17 covale ? ? H NAG .   O3  ? ? ? 1_555 H FUC .   C1 A ? H NAG 1   H FUC 4   1_555 ? 1.424 ? ?
+covale18 covale ? ? H NAG .   O3  ? ? ? 1_555 H FUC .   C1 B ? H NAG 1   H FUC 4   1_555 ? 1.416 ? ?
+covale19 covale ? ? H NAG .   O4  ? ? ? 1_555 H NAG .   C1 ? ? H NAG 1   H NAG 2   1_555 ? 1.390 ? ?
+covale20 covale ? ? H NAG .   O4  ? ? ? 1_555 H MAN .   C1 ? ? H NAG 2   H MAN 3   1_555 ? 1.391 ? ?
 # 
 loop_
 _struct_conn_type.id 
@@ -7783,9 +7778,9 @@ loop_
 _pdbx_struct_assembly_gen.assembly_id 
 _pdbx_struct_assembly_gen.oper_expression 
 _pdbx_struct_assembly_gen.asym_id_list 
-1 1 A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,AA 
-2 1 A,B,E,F,G,H,I,J,K,L,M,X,Y                              
-3 1 C,D,N,O,P,Q,R,S,T,U,V,W,Z,AA                           
+1 1 A,B,C,D,E,F,G,H,X,Y,Z,AA 
+2 1 A,B,E,F,X,Y              
+3 1 C,D,G,H,Z,AA             
 # 
 loop_
 _pdbx_struct_assembly_prop.biol_id 
@@ -8495,151 +8490,49 @@ AA 7 HOH 65  1518 1518 HOH HOH D .
 AA 7 HOH 66  1521 1521 HOH HOH D . 
 # 
 loop_
-_pdbx_entity_branch.entity_id 
-_pdbx_entity_branch.type 
-3 oligosaccharide 
-4 oligosaccharide 
-5 oligosaccharide 
-6 oligosaccharide 
-# 
-loop_
-_pdbx_entity_branch_list.entity_id 
-_pdbx_entity_branch_list.comp_id 
-_pdbx_entity_branch_list.num 
-_pdbx_entity_branch_list.hetero 
-3 NAG 1 n 
-3 NAG 2 n 
-3 BMA 3 n 
-3 MAN 4 n 
-3 FUC 5 n 
-4 NAG 1 n 
-4 NAG 2 n 
-4 BMA 3 n 
-4 FUC 4 n 
-5 NAG 1 n 
-5 NAG 2 n 
-5 BMA 3 n 
-5 MAN 4 n 
-5 FUC 5 n 
-5 MAN 6 n 
-6 NAG 1 n 
-6 NAG 2 n 
-6 MAN 3 n 
-6 FUC 4 n 
-# 
-loop_
-_pdbx_entity_branch_link.link_id 
-_pdbx_entity_branch_link.entity_id 
-_pdbx_entity_branch_link.entity_branch_list_num_1 
-_pdbx_entity_branch_link.comp_id_1 
-_pdbx_entity_branch_link.atom_id_1 
-_pdbx_entity_branch_link.leaving_atom_id_1 
-_pdbx_entity_branch_link.atom_stereo_config_1 
-_pdbx_entity_branch_link.entity_branch_list_num_2 
-_pdbx_entity_branch_link.comp_id_2 
-_pdbx_entity_branch_link.atom_id_2 
-_pdbx_entity_branch_link.leaving_atom_id_2 
-_pdbx_entity_branch_link.atom_stereo_config_2 
-_pdbx_entity_branch_link.value_order 
-_pdbx_entity_branch_link.details 
-1  3 1 NAG O4 HO4 ? 2 NAG C1 O1 R SING ? 
-2  3 2 NAG O4 HO4 ? 3 BMA C1 O1 R SING ? 
-3  3 3 BMA O3 HO3 ? 4 MAN C1 O1 S SING ? 
-4  3 1 NAG O3 HO3 ? 5 FUC C1 O1 R SING ? 
-5  4 1 NAG O4 HO4 ? 2 NAG C1 O1 R SING ? 
-6  4 2 NAG O4 HO4 ? 3 BMA C1 O1 R SING ? 
-7  4 1 NAG O3 HO3 ? 4 FUC C1 O1 R SING ? 
-8  5 1 NAG O4 HO4 ? 2 NAG C1 O1 R SING ? 
-9  5 2 NAG O4 HO4 ? 3 BMA C1 O1 R SING ? 
-10 5 3 BMA O3 HO3 ? 4 MAN C1 O1 S SING ? 
-11 5 1 NAG O3 HO3 ? 5 FUC C1 O1 R SING ? 
-12 5 3 BMA O6 HO6 ? 6 MAN C1 O1 S SING ? 
-13 6 1 NAG O4 HO4 ? 2 NAG C1 O1 R SING ? 
-14 6 2 NAG O4 HO4 ? 3 MAN C1 O1 S SING ? 
-15 6 1 NAG O3 HO3 ? 4 FUC C1 O1 R SING ? 
-# 
-loop_
-_pdbx_branch_scheme.asym_id 
-_pdbx_branch_scheme.entity_id 
-_pdbx_branch_scheme.mon_id 
-_pdbx_branch_scheme.num 
-_pdbx_branch_scheme.pdb_asym_id 
-_pdbx_branch_scheme.pdb_mon_id 
-_pdbx_branch_scheme.pdb_seq_num 
-_pdbx_branch_scheme.auth_mon_id 
-_pdbx_branch_scheme.auth_asym_id 
-_pdbx_branch_scheme.auth_seq_num 
-_pdbx_branch_scheme.hetero 
-E 3 NAG 1 E NAG 1 NAG A 401 n 
-E 3 NAG 2 E NAG 2 NAG A 403 n 
-E 3 BMA 3 E BMA 3 MAN A 404 n 
-E 3 MAN 4 E MAN 4 MAN A 405 n 
-E 3 FUC 5 E FUC 5 FUC A 402 n 
-F 4 NAG 1 F NAG 1 NAG B 501 n 
-F 4 NAG 2 F NAG 2 NAG B 503 n 
-F 4 BMA 3 F BMA 3 MAN B 504 n 
-F 4 FUC 4 F FUC 4 FUC B 502 n 
-G 5 NAG 1 G NAG 1 NAG C 401 n 
-G 5 NAG 2 G NAG 2 NAG C 403 n 
-G 5 BMA 3 G BMA 3 MAN C 404 n 
-G 5 MAN 4 G MAN 4 MAN C 405 n 
-G 5 FUC 5 G FUC 5 FUC C 402 n 
-G 5 MAN 6 G MAN 6 MAN C 406 n 
-H 6 NAG 1 H NAG 1 NAG D 501 n 
-H 6 NAG 2 H NAG 2 NAG D 503 n 
-H 6 MAN 3 H MAN 3 MAN D 504 n 
-H 6 FUC 4 H FUC 4 FUC D 502 n 
-# 
-loop_
 _pdbx_entity_descriptor.ordinal 
 _pdbx_entity_descriptor.entity_id 
 _pdbx_entity_descriptor.descriptor 
 _pdbx_entity_descriptor.type 
 _pdbx_entity_descriptor.program 
 _pdbx_entity_descriptor.program_version 
-1  3 'DManpa1-3DManpb1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-' 'Glycam Condensed Sequence'      Gems     1.0 
-2  3 'DManpa1-3DManpb1-4DGlcpb1-4[LFucpa1-3]DGlcb1-' 'Glycam Condensed Core Sequence' Gems     1.0 
-3  3 '[]{[(4+1)][b-D-GlcpNAc]{[(3+1)][a-L-Fucp]{}[(4+1)][b-D-GlcpNAc]{[(4+1)][b-D-Manp]{[(3+1)][a-D-Manp]{}}}}}' LINUCS PDB-CARE ? 
-4  4 'DManpb1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-' 'Glycam Condensed Sequence'      Gems     1.0 
-5  4 'DManpb1-4DGlcpb1-4[LFucpa1-3]DGlcpb1-' 'Glycam Condensed Core Sequence' Gems     1.0 
-6  4 '[]{[(4+1)][b-D-GlcpNAc]{[(3+1)][a-L-Fucp]{}[(4+1)][b-D-GlcpNAc]{[(4+1)][b-D-Manp]{}}}}' LINUCS                           
-PDB-CARE ?   
-7  5 'DManpa1-3[DManpa1-6]DManpb1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-' 'Glycam Condensed Sequence'      Gems     1.0 
-8  5 'DManpa1-3[DManpa1-6]DManpb1-4DGlcpb1-4[LFucpa1-3]DGlcpb1-' 'Glycam Condensed Core Sequence' Gems     1.0 
-9  5 
-'[]{[(4+1)][b-D-GlcpNAc]{[(3+1)][a-L-Fucp]{}[(4+1)][b-D-GlcpNAc]{[(4+1)][b-D-Manp]{[(3+1)][a-D-Manp]{}[(6+1)][a-D-Manp]{}}}}}' 
-LINUCS                           PDB-CARE ?   
-10 6 'DManpa1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-' 'Glycam Condensed Sequence'      Gems     1.0 
-11 6 'DManpa1-4DGlcpb1-4[LFucpa1-3]DGlcpb1-' 'Glycam Condensed Core Sequence' Gems     1.0 
-12 6 '[]{[(4+1)][b-D-GlcpNAc]{[(3+1)][a-L-Fucp]{}[(4+1)][b-D-GlcpNAc]{[(4+1)][a-D-Manp]{}}}}' LINUCS                           
-PDB-CARE ?   
+1 3 'DManpa1-3DManpb1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-'                                                                         
+'Glycam Condensed Sequence' GMML     1.0 
+2 3 '[]{[(4+1)][b-D-GlcpNAc]{[(3+1)][a-L-Fucp]{}[(4+1)][b-D-GlcpNAc]{[(4+1)][b-D-Manp]{[(3+1)][a-D-Manp]{}}}}}'                    
+LINUCS                      PDB-CARE ?   
+3 4 'DManpb1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-'                                                                                  
+'Glycam Condensed Sequence' GMML     1.0 
+4 4 '[]{[(4+1)][b-D-GlcpNAc]{[(3+1)][a-L-Fucp]{}[(4+1)][b-D-GlcpNAc]{[(4+1)][b-D-Manp]{}}}}'                                       
+LINUCS                      PDB-CARE ?   
+5 5 'DManpa1-3[DManpa1-6]DManpb1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-'                                                              
+'Glycam Condensed Sequence' GMML     1.0 
+6 5 '[]{[(4+1)][b-D-GlcpNAc]{[(3+1)][a-L-Fucp]{}[(4+1)][b-D-GlcpNAc]{[(4+1)][b-D-Manp]{[(3+1)][a-D-Manp]{}[(6+1)][a-D-Manp]{}}}}}' 
+LINUCS                      PDB-CARE ?   
+7 6 'DManpa1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-'                                                                                  
+'Glycam Condensed Sequence' GMML     1.0 
+8 6 '[]{[(4+1)][b-D-GlcpNAc]{[(3+1)][a-L-Fucp]{}[(4+1)][b-D-GlcpNAc]{[(4+1)][a-D-Manp]{}}}}'                                       
+LINUCS                      PDB-CARE ?   
 # 
 loop_
-_pdbx_chem_comp_identifier.ordinal 
 _pdbx_chem_comp_identifier.comp_id 
 _pdbx_chem_comp_identifier.type 
 _pdbx_chem_comp_identifier.program 
 _pdbx_chem_comp_identifier.program_version 
 _pdbx_chem_comp_identifier.identifier 
-1  NAG 'CONDENSED IUPAC CARB SYMBOL' Gems     1.0 DGlcpNAcb                          
-2  NAG 'IUPAC CARB SYMBOL'           PDB-CARE 1.0 b-D-GlcpNAc                        
-3  NAG 'COMMON NAME'                 Gems     1.0 N-acetyl-b-D-glucopyranose-osamine 
-4  NAG 'SNFG CARB SYMBOL'            Gems     1.0 GlcNAc                             
-5  BMA 'CONDENSED IUPAC CARB SYMBOL' Gems     1.0 DManpb                             
-6  BMA 'IUPAC CARB SYMBOL'           PDB-CARE 1.0 b-D-Manp                           
-7  BMA 'COMMON NAME'                 Gems     1.0 b-D-mannopyranose                  
-8  BMA 'SNFG CARB SYMBOL'            Gems     1.0 Man                                
-9  MAN 'CONDENSED IUPAC CARB SYMBOL' Gems     1.0 DManpa                             
-10 MAN 'IUPAC CARB SYMBOL'           PDB-CARE 1.0 a-D-Manp                           
-11 MAN 'COMMON NAME'                 Gems     1.0 a-D-mannopyranose                  
-12 MAN 'SNFG CARB SYMBOL'            Gems     1.0 Man                                
-13 FUC 'CONDENSED IUPAC CARB SYMBOL' Gems     1.0 LFucpa                             
-14 FUC 'IUPAC CARB SYMBOL'           PDB-CARE 1.0 a-L-Fucp                           
-15 FUC 'COMMON NAME'                 Gems     1.0 a-L-fucopyranose                   
-16 FUC 'SNFG CARB SYMBOL'            Gems     1.0 Fuc                                
-# 
-_pdbx_chem_comp_related.comp_id             NAG 
-_pdbx_chem_comp_related.related_comp_id     BGC 
-_pdbx_chem_comp_related.relationship_type   'Carbohydrate core' 
-_pdbx_chem_comp_related.details             ? 
+NAG 'CONDENSED IUPAC CARB SYMBOL' GMML     1.0 DGlcpNAcb                          
+NAG 'IUPAC CARB SYMBOL'           PDB-CARE 1.0 b-D-GlcpNAc                        
+NAG 'COMMON NAME'                 GMML     1.0 N-acetyl-b-D-glucopyranose-osamine 
+NAG 'SNFG CARB SYMBOL'            GMML     1.0 GlcNAc                             
+BMA 'CONDENSED IUPAC CARB SYMBOL' GMML     1.0 DManpb                             
+BMA 'IUPAC CARB SYMBOL'           PDB-CARE 1.0 b-D-Manp                           
+BMA 'COMMON NAME'                 GMML     1.0 b-D-mannopyranose                  
+BMA 'SNFG CARB SYMBOL'            GMML     1.0 Man                                
+MAN 'CONDENSED IUPAC CARB SYMBOL' GMML     1.0 DManpa                             
+MAN 'IUPAC CARB SYMBOL'           PDB-CARE 1.0 a-D-Manp                           
+MAN 'COMMON NAME'                 GMML     1.0 a-D-mannopyranose                  
+MAN 'SNFG CARB SYMBOL'            GMML     1.0 Man                                
+FUC 'CONDENSED IUPAC CARB SYMBOL' GMML     1.0 LFucpa                             
+FUC 'IUPAC CARB SYMBOL'           PDB-CARE 1.0 a-L-Fucp                           
+FUC 'COMMON NAME'                 GMML     1.0 a-L-fucopyranose                   
+FUC 'SNFG CARB SYMBOL'            GMML     1.0 Fuc                                
 # 

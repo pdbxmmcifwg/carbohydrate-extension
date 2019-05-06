@@ -3,7 +3,7 @@ data_2HYV
 _entry.id   2HYV 
 # 
 _audit_conform.dict_name       mmcif_pdbx.dic 
-_audit_conform.dict_version    5.307 
+_audit_conform.dict_version    5.286 
 _audit_conform.dict_location   http://mmcif.pdb.org/dictionaries/ascii/mmcif_pdbx.dic 
 # 
 loop_
@@ -86,10 +86,10 @@ _entity.pdbx_ec
 _entity.pdbx_mutation 
 _entity.pdbx_fragment 
 _entity.details 
-1 polymer     man 'Annexin A2'            35352.344 1   ? ? ? ? 
-2 branched    syn 'Oligosaccharide 5-mer' ?         1   ? ? ? ? 
-3 non-polymer syn 'CALCIUM ION'           40.078    5   ? ? ? ? 
-4 water       nat water                   18.015    518 ? ? ? ? 
+1 polymer     man 'Annexin A2'                                                35352.344 1   ? ? ? ? 
+2 branched    syn '4DGlcpNS[4<R1>,6S]a1-4LIdopA[2S]a1-4DGlcpNS[6S]a1-4LIdopA[2S]a1'                                     ?         1   ? ? ? ?
+3 non-polymer syn 'CALCIUM ION'                                               40.078    5   ? ? ? ? 
+4 water       nat water                                                       18.015    518 ? ? ? ? 
 # 
 _entity_name_com.entity_id   1 
 _entity_name_com.name        
@@ -512,58 +512,57 @@ _chem_comp.id
 _chem_comp.type 
 _chem_comp.mon_nstd_flag 
 _chem_comp.name 
-_chem_comp.pdbx_synonyms 
 _chem_comp.formula 
 _chem_comp.formula_weight 
-ALA 'L-peptide linking' y ALANINE                                                     ?                          'C3 H7 N O2'      
+ALA 'L-peptide linking' y ALANINE                                                                               'C3 H7 N O2'      
 89.093  
-ARG 'L-peptide linking' y ARGININE                                                    ?                          'C6 H15 N4 O2 1'  
+ARG 'L-peptide linking' y ARGININE                                                                              'C6 H15 N4 O2 1'  
 175.209 
-ASN 'L-peptide linking' y ASPARAGINE                                                  ?                          'C4 H8 N2 O3'     
+ASN 'L-peptide linking' y ASPARAGINE                                                                            'C4 H8 N2 O3'     
 132.118 
-ASP 'L-peptide linking' y 'ASPARTIC ACID'                                             ?                          'C4 H7 N O4'      
+ASP 'L-peptide linking' y 'ASPARTIC ACID'                                                                       'C4 H7 N O4'      
 133.103 
-CA  non-polymer         . 'CALCIUM ION'                                               ?                          'Ca 2'            
+CA  non-polymer         . 'CALCIUM ION'                                                                         'Ca 2'            
 40.078  
-CYS 'L-peptide linking' y CYSTEINE                                                    ?                          'C3 H7 N O2 S'    
+CYS 'L-peptide linking' y CYSTEINE                                                                              'C3 H7 N O2 S'    
 121.158 
-GLN 'L-peptide linking' y GLUTAMINE                                                   ?                          'C5 H10 N2 O3'    
+GLN 'L-peptide linking' y GLUTAMINE                                                                             'C5 H10 N2 O3'    
 146.144 
-GLU 'L-peptide linking' y 'GLUTAMIC ACID'                                             ?                          'C5 H9 N O4'      
+GLU 'L-peptide linking' y 'GLUTAMIC ACID'                                                                       'C5 H9 N O4'      
 147.129 
-GLY 'peptide linking'   y GLYCINE                                                     ?                          'C2 H5 N O2'      
+GLY 'peptide linking'   y GLYCINE                                                                               'C2 H5 N O2'      
 75.067  
-HIS 'L-peptide linking' y HISTIDINE                                                   ?                          'C6 H10 N3 O2 1'  
+HIS 'L-peptide linking' y HISTIDINE                                                                             'C6 H10 N3 O2 1'  
 156.162 
-HOH non-polymer         . WATER                                                       ?                          'H2 O'            
+HOH non-polymer         . WATER                                                                                 'H2 O'            
 18.015  
-IDS L-saccharide        . '2-O-sulfo-alpha-L-idopyranuronic acid'                     'O2-SULFO-GLUCURONIC ACID' 'C6 H10 O10 S'    
+IDS L-saccharide          . '2-O-sulfo-alpha-L-idopyranuronic acid'                      'C6 H10 O10 S'    
 274.203 
-ILE 'L-peptide linking' y ISOLEUCINE                                                  ?                          'C6 H13 N O2'     
+ILE 'L-peptide linking' y ISOLEUCINE                                                                            'C6 H13 N O2'     
 131.173 
-LEU 'L-peptide linking' y LEUCINE                                                     ?                          'C6 H13 N O2'     
+LEU 'L-peptide linking' y LEUCINE                                                                               'C6 H13 N O2'     
 131.173 
-LYS 'L-peptide linking' y LYSINE                                                      ?                          'C6 H15 N2 O2 1'  
+LYS 'L-peptide linking' y LYSINE                                                                                'C6 H15 N2 O2 1'  
 147.195 
-MET 'L-peptide linking' y METHIONINE                                                  ?                          'C5 H11 N O2 S'   
+MET 'L-peptide linking' y METHIONINE                                                                            'C5 H11 N O2 S'   
 149.211 
-PHE 'L-peptide linking' y PHENYLALANINE                                               ?                          'C9 H11 N O2'     
+PHE 'L-peptide linking' y PHENYLALANINE                                                                         'C9 H11 N O2'     
 165.189 
-PRO 'L-peptide linking' y PROLINE                                                     ?                          'C5 H9 N O2'      
+PRO 'L-peptide linking' y PROLINE                                                                               'C5 H9 N O2'      
 115.130 
-SER 'L-peptide linking' y SERINE                                                      ?                          'C3 H7 N O3'      
+SER 'L-peptide linking' y SERINE                                                                                'C3 H7 N O3'      
 105.093 
-SGN D-saccharide        . N-sulfo-6-O-sulfo-alpha-D-glucocosamine                     ?                          'C6 H13 N O11 S2' 
+SGN D-saccharide          .  N-sulfo-6-O-sulfo-alpha-D-glucocosamine                                                             'C6 H13 N O11 S2' 
 339.298 
-THR 'L-peptide linking' y THREONINE                                                   ?                          'C4 H9 N O3'      
+THR 'L-peptide linking' y THREONINE                                                                             'C4 H9 N O3'      
 119.119 
-TRP 'L-peptide linking' y TRYPTOPHAN                                                  ?                          'C11 H12 N2 O2'   
+TRP 'L-peptide linking' y TRYPTOPHAN                                                                            'C11 H12 N2 O2'   
 204.225 
-TYR 'L-peptide linking' y TYROSINE                                                    ?                          'C9 H11 N O3'     
+TYR 'L-peptide linking' y TYROSINE                                                                              'C9 H11 N O3'     
 181.189 
-UAP L-saccharide        . '4-deoxy-2-O-sulfo-alpha-L-threo-hex-4-enopyranuronic acid' ?                          'C6 H8 O9 S'      
+UAP L-saccharide         . '4-deoxy-2-O-sulfo-alpha-L-threo-hex-4-enopyranuronic acid'                           'C6 H8 O9 S'      
 256.187 
-VAL 'L-peptide linking' y VALINE                                                      ?                          'C5 H11 N O2'     
+VAL 'L-peptide linking' y VALINE                                                                                'C5 H11 N O2'     
 117.146 
 # 
 _exptl.crystals_number   1 
@@ -881,46 +880,46 @@ _struct_conn.ptnr2_symmetry
 _struct_conn.details 
 _struct_conn.pdbx_dist_value 
 _struct_conn.pdbx_value_order 
-_struct_conn.pdbx_role 
-covale1  covale ? ? B UAP . C1  ? ? ? 1_555 B SGN .   O4  ? ? B UAP 5   B SGN 4   1_555 ? 1.424 ? ? 
-covale2  covale ? ? B SGN . C1  ? ? ? 1_555 B IDS .   O4  ? ? B SGN 4   B IDS 3   1_555 ? 1.425 ? ? 
-covale3  covale ? ? B IDS . C1  ? ? ? 1_555 B SGN .   O4  ? ? B IDS 3   B SGN 2   1_555 ? 1.427 ? ? 
-covale4  covale ? ? B SGN . C1  ? ? ? 1_555 B IDS .   O4  ? ? B SGN 2   B IDS 1   1_555 ? 1.428 ? ? 
-metalc1  metalc ? ? G CA  . CA  ? ? ? 1_555 A GLY 19  O   ? ? A CA  601 A GLY 49  1_555 ? 2.397 ? ? 
-metalc2  metalc ? ? G CA  . CA  ? ? ? 1_555 A VAL 20  O   ? ? A CA  601 A VAL 50  1_555 ? 2.397 ? ? 
-metalc3  metalc ? ? G CA  . CA  ? ? ? 1_555 A GLU 22  OE1 ? ? A CA  601 A GLU 52  1_555 ? 2.496 ? ? 
-metalc4  metalc ? ? G CA  . CA  ? ? ? 1_555 A GLU 22  OE2 ? ? A CA  601 A GLU 52  1_555 ? 2.492 ? ? 
-metalc5  metalc ? ? G CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  601 A HOH 810 1_555 ? 2.396 ? ? 
-metalc6  metalc ? ? G CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  601 A HOH 811 1_555 ? 2.446 ? ? 
-metalc7  metalc ? ? G CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  601 A HOH 812 1_555 ? 2.259 ? ? 
-metalc8  metalc ? ? G CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  601 A HOH 813 1_555 ? 2.472 ? ? 
-metalc9  metalc ? ? H CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  602 A HOH 816 1_555 ? 2.343 ? ? 
-metalc10 metalc ? ? H CA  . CA  ? ? ? 1_555 A LEU 60  O   ? ? A CA  602 A LEU 90  1_555 ? 2.290 ? ? 
-metalc11 metalc ? ? H CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  602 A HOH 814 1_555 ? 2.569 ? ? 
-metalc12 metalc ? ? H CA  . CA  ? ? ? 1_555 A LYS 57  O   ? ? A CA  602 A LYS 87  1_555 ? 2.267 ? ? 
-metalc13 metalc ? ? H CA  . CA  ? ? ? 1_555 A GLU 65  OE2 ? ? A CA  602 A GLU 95  1_555 ? 2.360 ? ? 
-metalc14 metalc ? ? H CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  602 A HOH 815 1_555 ? 2.481 ? ? 
-metalc15 metalc ? ? H CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  602 A HOH 817 1_555 ? 2.352 ? ? 
-metalc16 metalc ? ? I CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  605 A HOH 819 1_555 ? 2.431 ? ? 
-metalc17 metalc ? ? I CA  . CA  ? ? ? 1_555 A GLU 216 OE2 ? ? A CA  605 A GLU 246 1_555 ? 2.513 ? ? 
-metalc18 metalc ? ? I CA  . CA  ? ? ? 1_555 A GLU 216 OE1 ? ? A CA  605 A GLU 246 1_555 ? 2.340 ? ? 
-metalc19 metalc ? ? I CA  . CA  ? ? ? 1_555 A GLY 176 O   ? ? A CA  605 A GLY 206 1_555 ? 2.392 ? ? 
-metalc20 metalc ? ? I CA  . CA  ? ? ? 1_555 A ARG 174 O   ? ? A CA  605 A ARG 204 1_555 ? 2.319 ? ? 
-metalc21 metalc ? ? I CA  . CA  ? ? ? 1_555 A GLY 171 O   ? ? A CA  605 A GLY 201 1_555 ? 2.340 ? ? 
-metalc22 metalc ? ? I CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  605 A HOH 818 1_555 ? 2.463 ? ? 
-metalc23 metalc ? ? J CA  . CA  ? ? ? 1_555 A ASP 291 OD1 ? ? A CA  607 A ASP 321 1_555 ? 2.473 ? ? 
-metalc24 metalc ? ? J CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  607 A HOH 806 1_555 ? 2.489 ? ? 
-metalc25 metalc ? ? J CA  . CA  ? ? ? 1_555 A GLY 249 O   ? ? A CA  607 A GLY 279 1_555 ? 2.362 ? ? 
-metalc26 metalc ? ? J CA  . CA  ? ? ? 1_555 A ASP 291 OD2 ? ? A CA  607 A ASP 321 1_555 ? 2.571 ? ? 
-metalc27 metalc ? ? J CA  . CA  ? ? ? 1_555 A GLY 251 O   ? ? A CA  607 A GLY 281 1_555 ? 2.475 ? ? 
-metalc28 metalc ? ? J CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  607 A HOH 807 1_555 ? 2.333 ? ? 
-metalc29 metalc ? ? J CA  . CA  ? ? ? 1_555 A MET 247 O   ? ? A CA  607 A MET 277 1_555 ? 2.261 ? ? 
-metalc30 metalc ? ? K CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  608 A HOH 809 1_555 ? 2.397 ? ? 
-metalc31 metalc ? ? K CA  . CA  ? ? ? 1_555 A ASP 291 O   ? ? A CA  608 A ASP 321 1_555 ? 2.333 ? ? 
-metalc32 metalc ? ? K CA  . CA  ? ? ? 1_555 A THR 252 OG1 ? ? A CA  608 A THR 282 1_555 ? 2.346 ? ? 
-metalc33 metalc ? ? K CA  . CA  ? ? ? 1_555 B SGN .   O1S ? ? A CA  608 B SGN 4   1_555 ? 2.452 ? ? 
-metalc34 metalc ? ? K CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  608 A HOH 808 1_555 ? 2.479 ? ? 
-metalc35 metalc ? ? B IDS . O1S ? ? ? 1_555 K CA  .   CA  ? ? B IDS 3   A CA  608 1_555 ? 2.471 ? ? 
+_struct_conn.pdbx_role
+covale1  covale ? ? B UAP . C1  ? ? ? 1_555 B SGN .   O4  ? ? B UAP 5   B SGN 4   1_555  ? 1.424 ? ?
+covale2  covale ? ? B SGN . C1  ? ? ? 1_555 B IDS .   O4  ? ? B SGN 4   B IDS 3   1_555  ? 1.425 ? ?
+covale3  covale ? ? B IDS . C1  ? ? ? 1_555 B SGN .   O4  ? ? B IDS 3   B SGN 2   1_555  ? 1.427 ? ?
+covale4  covale ? ? B SGN . C1  ? ? ? 1_555 B IDS .   O4  ? ? B SGN 2   B IDS 1   1_555  ? 1.428 ? ?
+metalc1  metalc ? ? G CA  . CA  ? ? ? 1_555 A GLY 19  O   ? ? A CA  601 A GLY 49  1_555  ? 2.397 ? ?
+metalc2  metalc ? ? G CA  . CA  ? ? ? 1_555 A VAL 20  O   ? ? A CA  601 A VAL 50  1_555  ? 2.397 ? ?
+metalc3  metalc ? ? G CA  . CA  ? ? ? 1_555 A GLU 22  OE1 ? ? A CA  601 A GLU 52  1_555  ? 2.496 ? ?
+metalc4  metalc ? ? G CA  . CA  ? ? ? 1_555 A GLU 22  OE2 ? ? A CA  601 A GLU 52  1_555  ? 2.492 ? ?
+metalc5  metalc ? ? G CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  601 A HOH 810 1_555  ? 2.396 ? ?
+metalc6  metalc ? ? G CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  601 A HOH 811 1_555  ? 2.446 ? ?
+metalc7  metalc ? ? G CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  601 A HOH 812 1_555  ? 2.259 ? ?
+metalc8  metalc ? ? G CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  601 A HOH 813 1_555  ? 2.472 ? ?
+metalc9  metalc ? ? H CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  602 A HOH 816 1_555  ? 2.343 ? ?
+metalc10 metalc ? ? H CA  . CA  ? ? ? 1_555 A LEU 60  O   ? ? A CA  602 A LEU 90  1_555  ? 2.290 ? ?
+metalc11 metalc ? ? H CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  602 A HOH 814 1_555  ? 2.569 ? ?
+metalc12 metalc ? ? H CA  . CA  ? ? ? 1_555 A LYS 57  O   ? ? A CA  602 A LYS 87  1_555  ? 2.267 ? ?
+metalc13 metalc ? ? H CA  . CA  ? ? ? 1_555 A GLU 65  OE2 ? ? A CA  602 A GLU 95  1_555  ? 2.360 ? ?
+metalc14 metalc ? ? H CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  602 A HOH 815 1_555  ? 2.481 ? ?
+metalc15 metalc ? ? H CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  602 A HOH 817 1_555  ? 2.352 ? ?
+metalc16 metalc ? ? I CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  605 A HOH 819 1_555  ? 2.431 ? ?
+metalc17 metalc ? ? I CA  . CA  ? ? ? 1_555 A GLU 216 OE2 ? ? A CA  605 A GLU 246 1_555  ? 2.513 ? ?
+metalc18 metalc ? ? I CA  . CA  ? ? ? 1_555 A GLU 216 OE1 ? ? A CA  605 A GLU 246 1_555  ? 2.340 ? ?
+metalc19 metalc ? ? I CA  . CA  ? ? ? 1_555 A GLY 176 O   ? ? A CA  605 A GLY 206 1_555  ? 2.392 ? ?
+metalc20 metalc ? ? I CA  . CA  ? ? ? 1_555 A ARG 174 O   ? ? A CA  605 A ARG 204 1_555  ? 2.319 ? ?
+metalc21 metalc ? ? I CA  . CA  ? ? ? 1_555 A GLY 171 O   ? ? A CA  605 A GLY 201 1_555  ? 2.340 ? ?
+metalc22 metalc ? ? I CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  605 A HOH 818 1_555  ? 2.463 ? ?
+metalc23 metalc ? ? J CA  . CA  ? ? ? 1_555 A ASP 291 OD1 ? ? A CA  607 A ASP 321 1_555  ? 2.473 ? ?
+metalc24 metalc ? ? J CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  607 A HOH 806 1_555  ? 2.489 ? ?
+metalc25 metalc ? ? J CA  . CA  ? ? ? 1_555 A GLY 249 O   ? ? A CA  607 A GLY 279 1_555  ? 2.362 ? ?
+metalc26 metalc ? ? J CA  . CA  ? ? ? 1_555 A ASP 291 OD2 ? ? A CA  607 A ASP 321 1_555  ? 2.571 ? ?
+metalc27 metalc ? ? J CA  . CA  ? ? ? 1_555 A GLY 251 O   ? ? A CA  607 A GLY 281 1_555  ? 2.475 ? ?
+metalc28 metalc ? ? J CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  607 A HOH 807 1_555  ? 2.333 ? ?
+metalc29 metalc ? ? J CA  . CA  ? ? ? 1_555 A MET 247 O   ? ? A CA  607 A MET 277 1_555  ? 2.261 ? ?
+metalc30 metalc ? ? K CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  608 A HOH 809 1_555  ? 2.397 ? ?
+metalc31 metalc ? ? K CA  . CA  ? ? ? 1_555 A ASP 291 O   ? ? A CA  608 A ASP 321 1_555  ? 2.333 ? ?
+metalc32 metalc ? ? K CA  . CA  ? ? ? 1_555 A THR 252 OG1 ? ? A CA  608 A THR 282 1_555  ? 2.346 ? ?
+metalc33 metalc ? ? K CA  . CA  ? ? ? 1_555 B SGN .   O1S ? ? A CA  608 B SGN   4 1_555  ? 2.452 ? ?
+metalc34 metalc ? ? K CA  . CA  ? ? ? 1_555 L HOH .   O   ? ? A CA  608 A HOH 808 1_555  ? 2.479 ? ?
+metalc35 metalc ? ? B IDS . O1S ? ? ? 1_555 K CA  .   CA  ? ? B IDS   3 A CA  608 1_555  ? 2.471 ? ?
 # 
 loop_
 _struct_conn_type.id 
@@ -3451,91 +3450,91 @@ ATOM   2475 C  CG  . ASP A 1 308 ? 65.476  -4.965  56.895 1.00 25.17 ? 338  ASP 
 ATOM   2476 O  OD1 . ASP A 1 308 ? 64.754  -4.494  57.801 1.00 25.51 ? 338  ASP A OD1 1 
 ATOM   2477 O  OD2 . ASP A 1 308 ? 66.290  -4.277  56.249 1.00 21.87 ? 338  ASP A OD2 1 
 ATOM   2478 O  OXT . ASP A 1 308 ? 64.493  -9.239  57.264 1.00 30.80 ? 338  ASP A OXT 1 
-HETATM 2479 S  S   . UAP B 2 .   ? 87.909  -13.804 43.008 1.00 21.02 ? 5    UAP B S   1 
-HETATM 2480 C  C1  . UAP B 2 .   ? 87.497  -10.321 44.442 1.00 34.38 ? 5    UAP B C1  1 
-HETATM 2481 C  C2  . UAP B 2 .   ? 87.057  -11.760 44.608 1.00 34.89 ? 5    UAP B C2  1 
-HETATM 2482 O  O2  . UAP B 2 .   ? 86.988  -12.340 43.316 1.00 26.12 ? 5    UAP B O2  1 
-HETATM 2483 C  C3  . UAP B 2 .   ? 85.685  -11.848 45.255 1.00 43.38 ? 5    UAP B C3  1 
-HETATM 2484 O  O3  . UAP B 2 .   ? 85.801  -11.742 46.658 1.00 42.16 ? 5    UAP B O3  1 
-HETATM 2485 C  C4  . UAP B 2 .   ? 84.804  -10.818 44.750 1.00 61.50 ? 5    UAP B C4  1 
-HETATM 2486 C  C5  . UAP B 2 .   ? 85.231  -9.771  44.010 1.00 60.83 ? 5    UAP B C5  1 
-HETATM 2487 O  O5  . UAP B 2 .   ? 86.526  -9.611  43.671 1.00 42.08 ? 5    UAP B O5  1 
-HETATM 2488 C  C6  . UAP B 2 .   ? 84.342  -8.862  43.610 1.00 53.31 ? 5    UAP B C6  1 
-HETATM 2489 O  O1S . UAP B 2 .   ? 87.711  -14.185 41.598 1.00 21.65 ? 5    UAP B O1S 1 
-HETATM 2490 O  O2S . UAP B 2 .   ? 87.420  -14.872 43.897 1.00 23.11 ? 5    UAP B O2S 1 
-HETATM 2491 O  O3S . UAP B 2 .   ? 89.336  -13.547 43.269 1.00 23.14 ? 5    UAP B O3S 1 
-HETATM 2492 O  O61 . UAP B 2 .   ? 83.140  -9.001  43.922 1.00 51.56 ? 5    UAP B O61 1 
-HETATM 2493 O  O62 . UAP B 2 .   ? 84.727  -7.884  42.935 1.00 50.85 ? 5    UAP B O62 1 
-HETATM 2494 C  C1  . SGN B 2 .   ? 89.290  -5.881  46.442 1.00 16.84 ? 4    SGN B C1  1 
-HETATM 2495 C  C2  . SGN B 2 .   ? 87.871  -6.005  45.903 1.00 16.03 ? 4    SGN B C2  1 
-HETATM 2496 C  C3  . SGN B 2 .   ? 87.294  -7.376  46.197 1.00 17.21 ? 4    SGN B C3  1 
-HETATM 2497 C  C4  . SGN B 2 .   ? 88.233  -8.394  45.582 1.00 20.09 ? 4    SGN B C4  1 
-HETATM 2498 C  C5  . SGN B 2 .   ? 89.616  -8.246  46.210 1.00 17.08 ? 4    SGN B C5  1 
-HETATM 2499 C  C6  . SGN B 2 .   ? 90.579  -9.279  45.669 1.00 16.61 ? 4    SGN B C6  1 
-HETATM 2500 N  N   . SGN B 2 .   ? 87.049  -5.022  46.555 1.00 16.21 ? 4    SGN B N   1 
-HETATM 2502 O  O3  . SGN B 2 .   ? 86.013  -7.487  45.615 1.00 17.86 ? 4    SGN B O3  1 
-HETATM 2503 O  O4  . SGN B 2 .   ? 87.718  -9.713  45.711 1.00 21.65 ? 4    SGN B O4  1 
-HETATM 2504 O  O5  . SGN B 2 .   ? 90.108  -6.933  45.914 1.00 16.22 ? 4    SGN B O5  1 
-HETATM 2505 O  O6  . SGN B 2 .   ? 90.660  -9.111  44.260 1.00 18.45 ? 4    SGN B O6  1 
-HETATM 2506 S  S1  . SGN B 2 .   ? 86.822  -3.504  45.716 1.00 15.48 ? 4    SGN B S1  1 
-HETATM 2507 O  O1S . SGN B 2 .   ? 85.818  -2.705  46.449 1.00 16.63 ? 4    SGN B O1S 1 
-HETATM 2508 O  O2S . SGN B 2 .   ? 86.350  -3.788  44.346 1.00 17.16 ? 4    SGN B O2S 1 
-HETATM 2509 O  O3S . SGN B 2 .   ? 88.098  -2.781  45.659 1.00 16.22 ? 4    SGN B O3S 1 
-HETATM 2510 S  S2  . SGN B 2 .   ? 92.148  -9.582  43.467 1.00 18.13 ? 4    SGN B S2  1 
-HETATM 2511 O  O4S . SGN B 2 .   ? 93.214  -8.633  43.828 1.00 19.46 ? 4    SGN B O4S 1 
-HETATM 2512 O  O5S . SGN B 2 .   ? 91.932  -9.560  42.009 1.00 18.23 ? 4    SGN B O5S 1 
-HETATM 2513 O  O6S . SGN B 2 .   ? 92.515  -10.938 43.918 1.00 21.99 ? 4    SGN B O6S 1 
-HETATM 2501 O  O4  . IDS B 2 .   ? 89.288  -5.873  47.864 1.00 16.87 ? 3    IDS B O4  1 
-HETATM 2514 C  C1  . IDS B 2 .   ? 89.693  -4.474  51.095 1.00 17.88 ? 3    IDS B C1  1 
-HETATM 2515 C  C2  . IDS B 2 .   ? 89.179  -3.672  49.900 1.00 17.02 ? 3    IDS B C2  1 
-HETATM 2516 C  C3  . IDS B 2 .   ? 90.144  -3.759  48.725 1.00 16.82 ? 3    IDS B C3  1 
-HETATM 2517 C  C4  . IDS B 2 .   ? 90.436  -5.223  48.402 1.00 16.72 ? 3    IDS B C4  1 
-HETATM 2518 C  C5  . IDS B 2 .   ? 90.913  -5.951  49.655 1.00 17.30 ? 3    IDS B C5  1 
-HETATM 2519 C  C6  . IDS B 2 .   ? 91.100  -7.428  49.353 1.00 17.39 ? 3    IDS B C6  1 
-HETATM 2520 O  O2  . IDS B 2 .   ? 87.888  -4.123  49.520 1.00 15.77 ? 3    IDS B O2  1 
-HETATM 2521 O  O3  . IDS B 2 .   ? 91.314  -3.009  48.947 1.00 18.67 ? 3    IDS B O3  1 
-HETATM 2522 O  O5  . IDS B 2 .   ? 89.920  -5.830  50.684 1.00 17.94 ? 3    IDS B O5  1 
-HETATM 2523 O  O61 . IDS B 2 .   ? 91.999  -7.756  48.551 1.00 19.65 ? 3    IDS B O61 1 
-HETATM 2524 O  O62 . IDS B 2 .   ? 90.383  -8.260  49.950 1.00 17.39 ? 3    IDS B O62 1 
-HETATM 2525 S  S   . IDS B 2 .   ? 86.501  -3.233  50.127 1.00 15.62 ? 3    IDS B S   1 
-HETATM 2526 O  O1S . IDS B 2 .   ? 85.277  -3.845  49.575 1.00 15.39 ? 3    IDS B O1S 1 
-HETATM 2527 O  O2S . IDS B 2 .   ? 86.619  -1.828  49.706 1.00 15.07 ? 3    IDS B O2S 1 
-HETATM 2528 O  O3S . IDS B 2 .   ? 86.496  -3.326  51.599 1.00 17.53 ? 3    IDS B O3S 1 
-HETATM 2529 C  C1  . SGN B 2 .   ? 92.500  -3.109  55.311 1.00 28.43 ? 2    SGN B C1  1 
-HETATM 2530 C  C2  . SGN B 2 .   ? 91.344  -4.104  55.255 1.00 26.82 ? 2    SGN B C2  1 
-HETATM 2531 C  C3  . SGN B 2 .   ? 91.181  -4.629  53.837 1.00 24.19 ? 2    SGN B C3  1 
-HETATM 2532 C  C4  . SGN B 2 .   ? 90.947  -3.451  52.898 1.00 21.84 ? 2    SGN B C4  1 
-HETATM 2533 C  C5  . SGN B 2 .   ? 92.121  -2.482  53.025 1.00 22.63 ? 2    SGN B C5  1 
-HETATM 2534 C  C6  . SGN B 2 .   ? 91.919  -1.270  52.137 1.00 21.86 ? 2    SGN B C6  1 
-HETATM 2535 N  N   . SGN B 2 .   ? 91.604  -5.213  56.148 1.00 30.63 ? 2    SGN B N   1 
-HETATM 2537 O  O3  . SGN B 2 .   ? 90.085  -5.517  53.798 1.00 23.45 ? 2    SGN B O3  1 
-HETATM 2538 O  O4  . SGN B 2 .   ? 90.923  -3.909  51.546 1.00 19.16 ? 2    SGN B O4  1 
-HETATM 2539 O  O5  . SGN B 2 .   ? 92.246  -2.046  54.385 1.00 24.44 ? 2    SGN B O5  1 
-HETATM 2540 O  O6  . SGN B 2 .   ? 90.699  -0.644  52.515 1.00 22.68 ? 2    SGN B O6  1 
-HETATM 2541 S  S1  . SGN B 2 .   ? 91.278  -5.034  57.873 1.00 35.71 ? 2    SGN B S1  1 
-HETATM 2542 O  O1S . SGN B 2 .   ? 91.576  -6.304  58.565 1.00 34.56 ? 2    SGN B O1S 1 
-HETATM 2543 O  O2S . SGN B 2 .   ? 89.859  -4.685  58.073 1.00 33.86 ? 2    SGN B O2S 1 
-HETATM 2544 O  O3S . SGN B 2 .   ? 92.132  -3.962  58.418 1.00 35.45 ? 2    SGN B O3S 1 
-HETATM 2545 S  S2  . SGN B 2 .   ? 89.991  0.554   51.443 1.00 22.66 ? 2    SGN B S2  1 
-HETATM 2546 O  O4S . SGN B 2 .   ? 89.608  -0.092  50.172 1.00 23.29 ? 2    SGN B O4S 1 
-HETATM 2547 O  O5S . SGN B 2 .   ? 90.990  1.607   51.187 1.00 24.43 ? 2    SGN B O5S 1 
-HETATM 2548 O  O6S . SGN B 2 .   ? 88.800  1.126   52.093 1.00 23.88 ? 2    SGN B O6S 1 
-HETATM 2536 O  O4  . IDS B 2 .   ? 93.731  -3.767  55.005 1.00 32.20 ? 1    IDS B O4  1 
-HETATM 2549 C  C1  . IDS B 2 .   ? 96.974  -5.010  55.494 1.00 43.57 ? 1    IDS B C1  1 
-HETATM 2550 C  C2  . IDS B 2 .   ? 95.925  -4.910  56.598 1.00 43.87 ? 1    IDS B C2  1 
-HETATM 2551 C  C3  . IDS B 2 .   ? 95.439  -3.467  56.705 1.00 41.69 ? 1    IDS B C3  1 
-HETATM 2552 C  C4  . IDS B 2 .   ? 94.892  -3.012  55.355 1.00 38.67 ? 1    IDS B C4  1 
-HETATM 2553 C  C5  . IDS B 2 .   ? 95.977  -3.174  54.292 1.00 39.93 ? 1    IDS B C5  1 
-HETATM 2554 C  C6  . IDS B 2 .   ? 95.398  -2.844  52.924 1.00 40.39 ? 1    IDS B C6  1 
-HETATM 2555 O  O2  . IDS B 2 .   ? 94.837  -5.793  56.323 1.00 47.53 ? 1    IDS B O2  1 
-HETATM 2556 O  O3  . IDS B 2 .   ? 96.499  -2.625  57.108 1.00 42.62 ? 1    IDS B O3  1 
-HETATM 2557 O  O5  . IDS B 2 .   ? 96.413  -4.541  54.258 1.00 41.88 ? 1    IDS B O5  1 
-HETATM 2558 O  O61 . IDS B 2 .   ? 95.320  -1.645  52.579 1.00 41.37 ? 1    IDS B O61 1 
-HETATM 2559 O  O62 . IDS B 2 .   ? 95.045  -3.783  52.181 1.00 39.40 ? 1    IDS B O62 1 
-HETATM 2560 S  S   . IDS B 2 .   ? 94.690  -7.316  57.213 1.00 51.02 ? 1    IDS B S   1 
-HETATM 2561 O  O1S . IDS B 2 .   ? 94.716  -7.041  58.663 1.00 50.13 ? 1    IDS B O1S 1 
-HETATM 2562 O  O2S . IDS B 2 .   ? 95.814  -8.205  56.861 1.00 50.75 ? 1    IDS B O2S 1 
-HETATM 2563 O  O3S . IDS B 2 .   ? 93.417  -7.974  56.861 1.00 50.54 ? 1    IDS B O3S 1 
+HETATM 2479 S  S   . UAP B 2 .   ? 87.909  -13.804 43.008 1.00 21.02 ?   5  UAP B S   1 
+HETATM 2480 C  C1  . UAP B 2 .   ? 87.497  -10.321 44.442 1.00 34.38 ?   5  UAP B C1  1 
+HETATM 2481 C  C2  . UAP B 2 .   ? 87.057  -11.760 44.608 1.00 34.89 ?   5  UAP B C2  1 
+HETATM 2482 O  O2  . UAP B 2 .   ? 86.988  -12.340 43.316 1.00 26.12 ?   5  UAP B O2  1 
+HETATM 2483 C  C3  . UAP B 2 .   ? 85.685  -11.848 45.255 1.00 43.38 ?   5  UAP B C3  1 
+HETATM 2484 O  O3  . UAP B 2 .   ? 85.801  -11.742 46.658 1.00 42.16 ?   5  UAP B O3  1 
+HETATM 2485 C  C4  . UAP B 2 .   ? 84.804  -10.818 44.750 1.00 61.50 ?   5  UAP B C4  1 
+HETATM 2486 C  C5  . UAP B 2 .   ? 85.231  -9.771  44.010 1.00 60.83 ?   5  UAP B C5  1 
+HETATM 2487 O  O5  . UAP B 2 .   ? 86.526  -9.611  43.671 1.00 42.08 ?   5  UAP B O5  1 
+HETATM 2488 C  C6  . UAP B 2 .   ? 84.342  -8.862  43.610 1.00 53.31 ?   5  UAP B C6  1 
+HETATM 2489 O  O1S . UAP B 2 .   ? 87.711  -14.185 41.598 1.00 21.65 ?   5  UAP B O1S 1 
+HETATM 2490 O  O2S . UAP B 2 .   ? 87.420  -14.872 43.897 1.00 23.11 ?   5  UAP B O2S 1 
+HETATM 2491 O  O3S . UAP B 2 .   ? 89.336  -13.547 43.269 1.00 23.14 ?   5  UAP B O3S 1 
+HETATM 2492 O  O62 . UAP B 2 .   ? 83.140  -9.001  43.922 1.00 51.56 ?   5  UAP B O62 1 
+HETATM 2493 O  O61 . UAP B 2 .   ? 84.727  -7.884  42.935 1.00 50.85 ?   5  UAP B O61 1 
+HETATM 2494 C  C1  . SGN B 2 .   ? 89.290  -5.881  46.442 1.00 16.84 ?   4  SGN B C1  1 
+HETATM 2495 C  C2  . SGN B 2 .   ? 87.871  -6.005  45.903 1.00 16.03 ?   4  SGN B C2  1 
+HETATM 2496 C  C3  . SGN B 2 .   ? 87.294  -7.376  46.197 1.00 17.21 ?   4  SGN B C3  1 
+HETATM 2497 C  C4  . SGN B 2 .   ? 88.233  -8.394  45.582 1.00 20.09 ?   4  SGN B C4  1 
+HETATM 2498 C  C5  . SGN B 2 .   ? 89.616  -8.246  46.210 1.00 17.08 ?   4  SGN B C5  1 
+HETATM 2499 C  C6  . SGN B 2 .   ? 90.579  -9.279  45.669 1.00 16.61 ?   4  SGN B C6  1 
+HETATM 2500 N  N2   . SGN B 2 .   ? 87.049  -5.022  46.555 1.00 16.21 ?   4  SGN B N2   1 
+HETATM 2502 O  O3  . SGN B 2 .   ? 86.013  -7.487  45.615 1.00 17.86 ?   4  SGN B O3  1 
+HETATM 2503 O  O4  . SGN B 2 .   ? 87.718  -9.713  45.711 1.00 21.65 ?   4  SGN B O4  1 
+HETATM 2504 O  O5  . SGN B 2 .   ? 90.108  -6.933  45.914 1.00 16.22 ?   4  SGN B O5  1 
+HETATM 2505 O  O6  . SGN B 2 .   ? 90.660  -9.111  44.260 1.00 18.45 ?   4  SGN B O6  1 
+HETATM 2506 S  S1  . SGN B 2 .   ? 86.822  -3.504  45.716 1.00 15.48 ?   4  SGN B S1  1 
+HETATM 2507 O  O1S . SGN B 2 .   ? 85.818  -2.705  46.449 1.00 16.63 ?   4  SGN B O1S 1 
+HETATM 2508 O  O2S . SGN B 2 .   ? 86.350  -3.788  44.346 1.00 17.16 ?   4  SGN B O2S 1 
+HETATM 2509 O  O3S . SGN B 2 .   ? 88.098  -2.781  45.659 1.00 16.22 ?   4  SGN B O3S 1 
+HETATM 2510 S  S2  . SGN B 2 .   ? 92.148  -9.582  43.467 1.00 18.13 ?   4  SGN B S2  1 
+HETATM 2511 O  O4S . SGN B 2 .   ? 93.214  -8.633  43.828 1.00 19.46 ?   4  SGN B O4S 1 
+HETATM 2512 O  O5S . SGN B 2 .   ? 91.932  -9.560  42.009 1.00 18.23 ?   4  SGN B O5S 1 
+HETATM 2513 O  O6S . SGN B 2 .   ? 92.515  -10.938 43.918 1.00 21.99 ?   4  SGN B O6S 1 
+HETATM 2501 O  O4  . IDS B 2 .   ? 89.288  -5.873  47.864 1.00 16.87 ?   3  IDS B O4  1 
+HETATM 2514 C  C1  . IDS B 2 .   ? 89.693  -4.474  51.095 1.00 17.88 ?   3  IDS B C1  1 
+HETATM 2515 C  C2  . IDS B 2 .   ? 89.179  -3.672  49.900 1.00 17.02 ?   3  IDS B C2  1 
+HETATM 2516 C  C3  . IDS B 2 .   ? 90.144  -3.759  48.725 1.00 16.82 ?   3  IDS B C3  1 
+HETATM 2517 C  C4  . IDS B 2 .   ? 90.436  -5.223  48.402 1.00 16.72 ?   3  IDS B C4  1 
+HETATM 2518 C  C5  . IDS B 2 .   ? 90.913  -5.951  49.655 1.00 17.30 ?   3  IDS B C5  1 
+HETATM 2519 C  C6  . IDS B 2 .   ? 91.100  -7.428  49.353 1.00 17.39 ?   3  IDS B C6  1 
+HETATM 2520 O  O2  . IDS B 2 .   ? 87.888  -4.123  49.520 1.00 15.77 ?   3  IDS B O2  1 
+HETATM 2521 O  O3  . IDS B 2 .   ? 91.314  -3.009  48.947 1.00 18.67 ?   3  IDS B O3  1 
+HETATM 2522 O  O5  . IDS B 2 .   ? 89.920  -5.830  50.684 1.00 17.94 ?   3  IDS B O5  1 
+HETATM 2523 O  O61 . IDS B 2 .   ? 91.999  -7.756  48.551 1.00 19.65 ?   3  IDS B O61 1 
+HETATM 2524 O  O62 . IDS B 2 .   ? 90.383  -8.260  49.950 1.00 17.39 ?   3  IDS B O62 1 
+HETATM 2525 S  S   . IDS B 2 .   ? 86.501  -3.233  50.127 1.00 15.62 ?   3  IDS B S   1 
+HETATM 2526 O  O1S . IDS B 2 .   ? 85.277  -3.845  49.575 1.00 15.39 ?   3  IDS B O1S 1 
+HETATM 2527 O  O2S . IDS B 2 .   ? 86.619  -1.828  49.706 1.00 15.07 ?   3  IDS B O2S 1 
+HETATM 2528 O  O3S . IDS B 2 .   ? 86.496  -3.326  51.599 1.00 17.53 ?   3  IDS B O3S 1 
+HETATM 2529 C  C1  . SGN B 2 .   ? 92.500  -3.109  55.311 1.00 28.43 ?   2  SGN B C1  1 
+HETATM 2530 C  C2  . SGN B 2 .   ? 91.344  -4.104  55.255 1.00 26.82 ?   2  SGN B C2  1 
+HETATM 2531 C  C3  . SGN B 2 .   ? 91.181  -4.629  53.837 1.00 24.19 ?   2  SGN B C3  1 
+HETATM 2532 C  C4  . SGN B 2 .   ? 90.947  -3.451  52.898 1.00 21.84 ?   2  SGN B C4  1 
+HETATM 2533 C  C5  . SGN B 2 .   ? 92.121  -2.482  53.025 1.00 22.63 ?   2  SGN B C5  1 
+HETATM 2534 C  C6  . SGN B 2 .   ? 91.919  -1.270  52.137 1.00 21.86 ?   2  SGN B C6  1 
+HETATM 2535 N  N2   . SGN B 2 .   ? 91.604  -5.213  56.148 1.00 30.63 ?   2  SGN B N2   1 
+HETATM 2537 O  O3  . SGN B 2 .   ? 90.085  -5.517  53.798 1.00 23.45 ?   2  SGN B O3  1 
+HETATM 2538 O  O4  . SGN B 2 .   ? 90.923  -3.909  51.546 1.00 19.16 ?   2  SGN B O4  1 
+HETATM 2539 O  O5  . SGN B 2 .   ? 92.246  -2.046  54.385 1.00 24.44 ?   2  SGN B O5  1 
+HETATM 2540 O  O6  . SGN B 2 .   ? 90.699  -0.644  52.515 1.00 22.68 ?   2  SGN B O6  1 
+HETATM 2541 S  S1  . SGN B 2 .   ? 91.278  -5.034  57.873 1.00 35.71 ?   2  SGN B S1  1 
+HETATM 2542 O  O1S . SGN B 2 .   ? 91.576  -6.304  58.565 1.00 34.56 ?   2  SGN B O1S 1 
+HETATM 2543 O  O2S . SGN B 2 .   ? 89.859  -4.685  58.073 1.00 33.86 ?   2  SGN B O2S 1 
+HETATM 2544 O  O3S . SGN B 2 .   ? 92.132  -3.962  58.418 1.00 35.45 ?   2  SGN B O3S 1 
+HETATM 2545 S  S2  . SGN B 2 .   ? 89.991  0.554   51.443 1.00 22.66 ?   2  SGN B S2  1 
+HETATM 2546 O  O4S . SGN B 2 .   ? 89.608  -0.092  50.172 1.00 23.29 ?   2  SGN B O4S 1 
+HETATM 2547 O  O5S . SGN B 2 .   ? 90.990  1.607   51.187 1.00 24.43 ?   2  SGN B O5S 1 
+HETATM 2548 O  O6S . SGN B 2 .   ? 88.800  1.126   52.093 1.00 23.88 ?   2  SGN B O6S 1 
+HETATM 2536 O  O4  . IDS B 2 .   ? 93.731  -3.767  55.005 1.00 32.20 ?   1  IDS B O4  1 
+HETATM 2549 C  C1  . IDS B 2 .   ? 96.974  -5.010  55.494 1.00 43.57 ?   1  IDS B C1  1 
+HETATM 2550 C  C2  . IDS B 2 .   ? 95.925  -4.910  56.598 1.00 43.87 ?   1  IDS B C2  1 
+HETATM 2551 C  C3  . IDS B 2 .   ? 95.439  -3.467  56.705 1.00 41.69 ?   1  IDS B C3  1 
+HETATM 2552 C  C4  . IDS B 2 .   ? 94.892  -3.012  55.355 1.00 38.67 ?   1  IDS B C4  1 
+HETATM 2553 C  C5  . IDS B 2 .   ? 95.977  -3.174  54.292 1.00 39.93 ?   1  IDS B C5  1 
+HETATM 2554 C  C6  . IDS B 2 .   ? 95.398  -2.844  52.924 1.00 40.39 ?   1  IDS B C6  1 
+HETATM 2555 O  O2  . IDS B 2 .   ? 94.837  -5.793  56.323 1.00 47.53 ?   1  IDS B O2  1 
+HETATM 2556 O  O3  . IDS B 2 .   ? 96.499  -2.625  57.108 1.00 42.62 ?   1  IDS B O3  1 
+HETATM 2557 O  O5  . IDS B 2 .   ? 96.413  -4.541  54.258 1.00 41.88 ?   1  IDS B O5  1 
+HETATM 2558 O  O61 . IDS B 2 .   ? 95.320  -1.645  52.579 1.00 41.37 ?   1  IDS B O61 1 
+HETATM 2559 O  O62 . IDS B 2 .   ? 95.045  -3.783  52.181 1.00 39.40 ?   1  IDS B O62 1 
+HETATM 2560 S  S   . IDS B 2 .   ? 94.690  -7.316  57.213 1.00 51.02 ?   1  IDS B S   1 
+HETATM 2561 O  O1S . IDS B 2 .   ? 94.716  -7.041  58.663 1.00 50.13 ?   1  IDS B O1S 1 
+HETATM 2562 O  O2S . IDS B 2 .   ? 95.814  -8.205  56.861 1.00 50.75 ?   1  IDS B O2S 1 
+HETATM 2563 O  O3S . IDS B 2 .   ? 93.417  -7.974  56.861 1.00 50.54 ?   1  IDS B O3S 1 
 HETATM 2564 CA CA  . CA  G 3 .   ? 94.430  1.259   63.449 1.00 19.46 ? 601  CA  A CA  1 
 HETATM 2565 CA CA  . CA  H 3 .   ? 93.991  10.245  55.409 1.00 20.97 ? 602  CA  A CA  1 
 HETATM 2566 CA CA  . CA  I 3 .   ? 57.028  11.300  20.236 1.00 23.37 ? 605  CA  A CA  1 
@@ -4925,7 +4924,7 @@ _pdbx_struct_assembly.oligomeric_count     1
 # 
 _pdbx_struct_assembly_gen.assembly_id       1 
 _pdbx_struct_assembly_gen.oper_expression   1 
-_pdbx_struct_assembly_gen.asym_id_list      A,B,C,D,E,F,G,H,I,J,K,L 
+_pdbx_struct_assembly_gen.asym_id_list      A,B,G,H,I,J,K,L 
 # 
 _pdbx_struct_oper_list.id                   1 
 _pdbx_struct_oper_list.type                 'identity operation' 
@@ -5044,7 +5043,7 @@ _pdbx_unobs_or_zero_occ_atoms.auth_seq_id      1
 _pdbx_unobs_or_zero_occ_atoms.PDB_ins_code     ? 
 _pdbx_unobs_or_zero_occ_atoms.auth_atom_id     O1 
 _pdbx_unobs_or_zero_occ_atoms.label_alt_id     ? 
-_pdbx_unobs_or_zero_occ_atoms.label_asym_id    B 
+_pdbx_unobs_or_zero_occ_atoms.label_asym_id    B
 _pdbx_unobs_or_zero_occ_atoms.label_comp_id    IDS 
 _pdbx_unobs_or_zero_occ_atoms.label_seq_id     1 
 _pdbx_unobs_or_zero_occ_atoms.label_atom_id    O1 
@@ -5053,48 +5052,48 @@ loop_
 _pdbx_entity_nonpoly.entity_id 
 _pdbx_entity_nonpoly.name 
 _pdbx_entity_nonpoly.comp_id 
-3 'CALCIUM ION' CA  
-4 water         HOH 
+3 'CALCIUM ION'                                               CA  
+4 water                                                       HOH 
 # 
-_pdbx_entity_branch.entity_id   2 
-_pdbx_entity_branch.type        oligosaccharide 
-# 
+_pdbx_entity_branch.entity_id	      2
+_pdbx_entity_branch.type	      oligosaccharide
+#
 loop_
-_pdbx_entity_branch_list.entity_id 
-_pdbx_entity_branch_list.comp_id 
-_pdbx_entity_branch_list.num 
-_pdbx_entity_branch_list.hetero 
-2 IDS 1 n 
-2 SGN 2 n 
-2 IDS 3 n 
-2 SGN 4 n 
-2 UAP 5 n 
-# 
+_pdbx_entity_branch_list.entity_id
+_pdbx_entity_branch_list.comp_id
+_pdbx_entity_branch_list.num
+_pdbx_entity_branch_list.hetero
+2 IDS 1   n
+2 SGN 2   n
+2 IDS 3   n
+2 SGN 4   n
+2 UAP 5   n
+#
 loop_
-_pdbx_entity_branch_link.link_id 
-_pdbx_entity_branch_link.entity_id 
-_pdbx_entity_branch_link.entity_branch_list_num_1 
-_pdbx_entity_branch_link.comp_id_1 
-_pdbx_entity_branch_link.atom_id_1 
-_pdbx_entity_branch_link.leaving_atom_id_1 
-_pdbx_entity_branch_link.atom_stereo_config_1 
-_pdbx_entity_branch_link.entity_branch_list_num_2 
-_pdbx_entity_branch_link.comp_id_2 
-_pdbx_entity_branch_link.atom_id_2 
-_pdbx_entity_branch_link.leaving_atom_id_2 
-_pdbx_entity_branch_link.atom_stereo_config_2 
-_pdbx_entity_branch_link.value_order 
-_pdbx_entity_branch_link.details 
-1 2 1 IDS O4 HO4 ? 2 SGN C1 O1 S SING ? 
-2 2 2 SGN O4 HO4 ? 3 IDS C1 O1 R SING ? 
-3 2 3 IDS O4 HO4 ? 4 SGN C1 O1 S SING ? 
-4 2 4 SGN O4 HO4 ? 5 UAP C1 O1 R SING ? 
-# 
+_pdbx_entity_branch_link.link_id
+_pdbx_entity_branch_link.entity_id
+_pdbx_entity_branch_link.entity_branch_list_num_1
+_pdbx_entity_branch_link.comp_id_1
+_pdbx_entity_branch_link.atom_id_1
+_pdbx_entity_branch_link.leaving_atom_id_1
+_pdbx_entity_branch_link.atom_stereo_config_1
+_pdbx_entity_branch_link.entity_branch_list_num_2
+_pdbx_entity_branch_link.comp_id_2
+_pdbx_entity_branch_link.atom_id_2
+_pdbx_entity_branch_link.leaving_atom_id_2
+_pdbx_entity_branch_link.atom_stereo_config_2
+_pdbx_entity_branch_link.value_order
+_pdbx_entity_branch_link.details
+1  2 1 IDS O4 HO4 ? 2 SGN C1 O1 S SING ?
+2  2 2 SGN O4 HO4 ? 3 IDS C1 O1 R SING ?
+3  2 3 IDS O4 HO4 ? 4 SGN C1 O1 S SING ?
+4  2 4 SGN O4 HO4 ? 5 UAP C1 O1 R SING ?
+#
 loop_
 _pdbx_branch_scheme.asym_id 
 _pdbx_branch_scheme.entity_id 
 _pdbx_branch_scheme.mon_id 
-_pdbx_branch_scheme.num 
+_pdbx_branch_scheme.num
 _pdbx_branch_scheme.pdb_asym_id 
 _pdbx_branch_scheme.pdb_mon_id 
 _pdbx_branch_scheme.pdb_seq_num 
@@ -5102,33 +5101,51 @@ _pdbx_branch_scheme.auth_mon_id
 _pdbx_branch_scheme.auth_asym_id 
 _pdbx_branch_scheme.auth_seq_num 
 _pdbx_branch_scheme.hetero 
-B 2 IDS 1 B IDS 1 IDS A 805 n 
-B 2 SGN 2 B SGN 2 SGN A 804 n 
-B 2 IDS 3 B IDS 3 IDS A 803 n 
-B 2 SGN 4 B SGN 4 SGN A 802 n 
-B 2 UAP 5 B UAP 5 UAP A 801 n 
-# 
-_pdbx_entity_descriptor.ordinal           1 
-_pdbx_entity_descriptor.entity_id         2 
-_pdbx_entity_descriptor.descriptor        X-4DGlcpa1-4LIdopa1-4DGlcpa1-4LIdopa1 
-_pdbx_entity_descriptor.type              'Glycam Condensed Core Sequence' 
-_pdbx_entity_descriptor.program           Gems 
-_pdbx_entity_descriptor.program_version   1.0 
-# 
+B  2 IDS 1 B IDS 1 IDS A 805 n
+B  2 SGN 2 B SGN 2 SGN A 804 n
+B  2 IDS 3 B IDS 3 IDS A 803 n
+B  2 SGN 4 B SGN 4 SGN A 802 n
+B  2 UAP 5 B UAP 5 UAP A 801 n
+#
 loop_
-_pdbx_chem_comp_identifier.ordinal 
-_pdbx_chem_comp_identifier.comp_id 
-_pdbx_chem_comp_identifier.type 
-_pdbx_chem_comp_identifier.program 
-_pdbx_chem_comp_identifier.program_version 
-_pdbx_chem_comp_identifier.identifier 
-1 IDS 'IUPAC CARB SYMBOL' PDB-CARE 1.0 a-L-IdopA2SO3    
-2 IDS 'SNFG CARB SYMBOL'  Gems     1.0 IdoA             
-3 SGN 'IUPAC CARB SYMBOL' PDB-CARE 1.0 a-D-GlcpNSO36SO3 
-4 SGN 'SNFG CARB SYMBOL'  Gems     1.0 GlcN             
-# 
-_pdbx_chem_comp_related.comp_id             SGN 
-_pdbx_chem_comp_related.related_comp_id     GLC 
-_pdbx_chem_comp_related.relationship_type   'Carbohydrate core' 
-_pdbx_chem_comp_related.details             ? 
-# 
+_pdbx_entity_descriptor.ordinal
+_pdbx_entity_descriptor.entity_id
+_pdbx_entity_descriptor.descriptor
+_pdbx_entity_descriptor.type
+_pdbx_entity_descriptor.program
+_pdbx_entity_descriptor.program_version
+1 2 4DGlcpNS[4<R1>,6S]a1-4LIdopA[2S]a1-4DGlcpNS[6S]a1-4LIdopA[2S]a1
+      "Glycam Condensed Sequence" GMML 1.0
+#
+loop_
+_pdbx_chem_comp_identifier.comp_id
+_pdbx_chem_comp_identifier.type
+_pdbx_chem_comp_identifier.program
+_pdbx_chem_comp_identifier.program_version
+_pdbx_chem_comp_identifier.identifier
+IDS "IUPAC CARB SYMBOL"           PDB-CARE	      1.0   a-L-IdopA2SO3
+IDS "SNFG CARB SYMBOL"            GMML	      1.0   IdoA
+SGN "IUPAC CARB SYMBOL"           PDB-CARE	      1.0   a-D-GlcpNSO36SO3
+SGN "SNFG CARB SYMBOL"            GMML	      1.0   GlcN
+#
+#
+loop_      
+_pdbx_chem_comp_related.comp_id	
+_pdbx_chem_comp_related.related_comp_id
+_pdbx_chem_comp_related.relationship_type
+_pdbx_chem_comp_related.details		 
+SGN PA1  'Carbohydrate core' ?    
+IDS IDR  'Carbohydrate core' ? 
+#
+loop_
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+SGN N-sulfo-6-O-sulfo-alpha-D-glucocosamine PDB Preferred
+SGN N,O6-DISULFO-GLUCOSAMINE PDB ?
+IDS "2-O-sulfo-alpha-L-idopyranuronic acid" PDB Preferred
+IDS "O2-SULFO-IDURONIC ACID" PDB ?
+UAP "4-deoxy-2-O-sulfo-alpha-L-threo-hex-4-enopyranuronic acid" PDB Preferred
+#
+      
