@@ -8489,6 +8489,103 @@ AA 7 HOH 64  1514 1514 HOH HOH D .
 AA 7 HOH 65  1518 1518 HOH HOH D . 
 AA 7 HOH 66  1521 1521 HOH HOH D . 
 # 
+#
+loop_
+_pdbx_entity_branch.entity_id
+_pdbx_entity_branch.type
+3 oligosaccharide
+4 oligosaccharide
+5 oligosaccharide
+6 oligosaccharide
+#
+loop_
+_pdbx_entity_branch_list.entity_id
+_pdbx_entity_branch_list.comp_id
+_pdbx_entity_branch_list.num
+_pdbx_entity_branch_list.hetero
+3 NAG 1   n
+3 NAG 2   n
+3 BMA 3   n
+3 MAN 4   n
+3 FUC 5   n
+4 NAG 1   n
+4 NAG 2   n
+4 BMA 3   n
+4 FUC 4   n
+5 NAG 1   n
+5 NAG 2   n
+5 BMA 3   n
+5 MAN 4   n
+5 FUC 5   n
+5 MAN 6   n
+6 NAG 1   n
+6 NAG 2   n
+6 MAN 3   n
+6 FUC 4   n
+#
+loop_
+_pdbx_entity_branch_link.link_id
+_pdbx_entity_branch_link.entity_id
+_pdbx_entity_branch_link.entity_branch_list_num_1
+_pdbx_entity_branch_link.comp_id_1
+_pdbx_entity_branch_link.atom_id_1
+_pdbx_entity_branch_link.leaving_atom_id_1
+_pdbx_entity_branch_link.atom_stereo_config_1
+_pdbx_entity_branch_link.entity_branch_list_num_2
+_pdbx_entity_branch_link.comp_id_2
+_pdbx_entity_branch_link.atom_id_2
+_pdbx_entity_branch_link.leaving_atom_id_2
+_pdbx_entity_branch_link.atom_stereo_config_2
+_pdbx_entity_branch_link.value_order
+_pdbx_entity_branch_link.details
+1  3 1 NAG O4 HO4 ? 2 NAG C1 O1 R SING ?
+2  3 2 NAG O4 HO4 ? 3 BMA C1 O1 R SING ?
+3  3 3 BMA O3 HO3 ? 4 MAN C1 O1 S SING ?
+4  3 1 NAG O3 HO3 ? 5 FUC C1 O1 R SING ?
+5  4 1 NAG O4 HO4 ? 2 NAG C1 O1 R SING ?
+6  4 2 NAG O4 HO4 ? 3 BMA C1 O1 R SING ?
+7  4 1 NAG O3 HO3 ? 4 FUC C1 O1 R SING ?
+8  5 1 NAG O4 HO4 ? 2 NAG C1 O1 R SING ?
+9  5 2 NAG O4 HO4 ? 3 BMA C1 O1 R SING ?
+10 5 3 BMA O3 HO3 ? 4 MAN C1 O1 S SING ?
+11 5 1 NAG O3 HO3 ? 5 FUC C1 O1 R SING ?
+12 5 3 BMA O6 HO6 ? 6 MAN C1 O1 S SING ?
+13 6 1 NAG O4 HO4 ? 2 NAG C1 O1 R SING ?
+14 6 2 NAG O4 HO4 ? 3 MAN C1 O1 S SING ?
+15 6 1 NAG O3 HO3 ? 4 FUC C1 O1 R SING ?
+#
+loop_
+_pdbx_branch_scheme.asym_id
+_pdbx_branch_scheme.entity_id
+_pdbx_branch_scheme.mon_id
+_pdbx_branch_scheme.num
+_pdbx_branch_scheme.pdb_asym_id
+_pdbx_branch_scheme.pdb_mon_id
+_pdbx_branch_scheme.pdb_seq_num
+_pdbx_branch_scheme.auth_mon_id
+_pdbx_branch_scheme.auth_asym_id
+_pdbx_branch_scheme.auth_seq_num
+_pdbx_branch_scheme.hetero
+E  3 NAG 1 E NAG 1  NAG A 401 n
+E  3 NAG 2 E NAG 2  NAG A 403 n
+E  3 BMA 3 E BMA 3  MAN A 404 n
+E  3 MAN 4 E MAN 4  MAN A 405 n
+E  3 FUC 5 E FUC 5  FUC A 402 n
+F  4 NAG 1 F NAG 1  NAG B 501 n
+F  4 NAG 2 F NAG 2  NAG B 503 n
+F  4 BMA 3 F BMA 3  MAN B 504 n
+F  4 FUC 4 F FUC 4  FUC B 502 n
+G  5 NAG 1 G NAG 1  NAG C 401 n
+G  5 NAG 2 G NAG 2  NAG C 403 n
+G  5 BMA 3 G BMA 3  MAN C 404 n
+G  5 MAN 4 G MAN 4  MAN C 405 n
+G  5 FUC 5 G FUC 5  FUC C 402 n
+G  5 MAN 6 G MAN 6  MAN C 406 n
+H  6 NAG 1 H NAG 1  NAG D 501 n
+H  6 NAG 2 H NAG 2  NAG D 503 n
+H  6 MAN 3 H MAN 3  MAN D 504 n
+H  6 FUC 4 H FUC 4  FUC D 502 n
+#
 loop_
 _pdbx_entity_descriptor.ordinal 
 _pdbx_entity_descriptor.entity_id 
@@ -8536,3 +8633,21 @@ FUC 'IUPAC CARB SYMBOL'           PDB-CARE 1.0 a-L-Fucp
 FUC 'COMMON NAME'                 GMML     1.0 a-L-fucopyranose                   
 FUC 'SNFG CARB SYMBOL'            GMML     1.0 Fuc                                
 # 
+loop_
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+NAG N-acetyl-beta-D-glucosamine PDB Preferred
+NAG N-acetyl-D-glucosamine PDB  ? 
+NAG N-acetyl-b-D-glucopyranose-osamine PDB ?
+BMA beta-D-mannopyranose PDB Preferred
+BMA beta-D-mannose PDB ?
+BMA b-D-mannopyranose PDB ?
+MAN alpha-D-mannopyranose PDB Preferred
+MAN alpha-D-mannose PDB ?
+MAN a-D-mannopyranose PDB ?
+FUC alpha-L-fucopyranose PDB Preferred
+FUC alpha-L-fucose PDB ?
+FUC a-L-fucopyranose PDB ?
+#
