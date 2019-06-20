@@ -8402,12 +8402,12 @@ C  3 NAG 2 C NAG 2  NAG G 103 n
 C  3 SIA 3 C SIA 3  SIA G 102 n
 #
 loop_
-_pdbx_entity_descriptor.ordinal
-_pdbx_entity_descriptor.entity_id
-_pdbx_entity_descriptor.descriptor
-_pdbx_entity_descriptor.type
-_pdbx_entity_descriptor.program
-_pdbx_entity_descriptor.program_version
+_pdbx_entity_branch_descriptor.ordinal
+_pdbx_entity_branch_descriptor.entity_id
+_pdbx_entity_branch_descriptor.descriptor
+_pdbx_entity_branch_descriptor.type
+_pdbx_entity_branch_descriptor.program
+_pdbx_entity_branch_descriptor.program_version
 1 3 DNeup5Aca2-6[DGlcpNAcb1-3]DGalpNAca1-
       "Glycam Condensed Sequence" GMML 1.0
 2 3 []{[(3+1)][a-D-GalpNAc]{[(3+1)][b-D-GlcpNAc]{}[(6+2)][a-D-Neup5Ac]{}}}

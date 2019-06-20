@@ -5108,12 +5108,12 @@ B  2 SGN 4 B SGN 4 SGN A 802 n
 B  2 UAP 5 B UAP 5 UAP A 801 n
 #
 loop_
-_pdbx_entity_descriptor.ordinal
-_pdbx_entity_descriptor.entity_id
-_pdbx_entity_descriptor.descriptor
-_pdbx_entity_descriptor.type
-_pdbx_entity_descriptor.program
-_pdbx_entity_descriptor.program_version
+_pdbx_entity_branch_descriptor.ordinal
+_pdbx_entity_branch_descriptor.entity_id
+_pdbx_entity_branch_descriptor.descriptor
+_pdbx_entity_branch_descriptor.type
+_pdbx_entity_branch_descriptor.program
+_pdbx_entity_branch_descriptor.program_version
 1 2 4DGlcpNS[4<R1>,6S]a1-4LIdopA[2S]a1-4DGlcpNS[6S]a1-4LIdopA[2S]a1
       "Glycam Condensed Sequence" GMML 1.0
 #

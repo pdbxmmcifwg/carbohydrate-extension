@@ -7473,12 +7473,12 @@ B  2 FUC 3 B FUC 3  FUC A 1590 n
 B  2 FUC 4 B FUC 4  FUC A 1593 n
 #
 loop_
-_pdbx_entity_descriptor.ordinal
-_pdbx_entity_descriptor.entity_id
-_pdbx_entity_descriptor.descriptor
-_pdbx_entity_descriptor.type
-_pdbx_entity_descriptor.program
-_pdbx_entity_descriptor.program_version
+_pdbx_entity_branch_descriptor.ordinal
+_pdbx_entity_branch_descriptor.entity_id
+_pdbx_entity_branch_descriptor.descriptor
+_pdbx_entity_branch_descriptor.type
+_pdbx_entity_branch_descriptor.program
+_pdbx_entity_branch_descriptor.program_version
 1 2 LFucpa1-2DGalpb1-4[LFucpa1-3]DGlcpNAcb1
       "Glycam Condensed Sequence" GMML 1.0      
 2 2 [b-D-GlcpNAc]{[(3+1)][a-L-Fucp]{}[(4+1)][b-D-Galp]{[(2+1)][a-L-Fucp]{}}}
