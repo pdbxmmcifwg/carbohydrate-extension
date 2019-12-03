@@ -223,7 +223,7 @@
 
 ```
      
-         Example 1 -
+         Example 1 - based on PDB entry 2WMG
      
          loop_
          _pdbx_entity_branch_link.link_id 
@@ -240,9 +240,9 @@
          _pdbx_entity_branch_link.atom_stereo_config_2
          _pdbx_entity_branch_link.value_order
          _pdbx_entity_branch_link.details
-         1 2 1 NAG O4 O1 R 2 GAL C1 O1 R sing ?
-         2 2 2 GAL O2 O1 R 3 FUC C1 O1 R sing ?
-         3 2 1 NAG O3 O1 R 4 FUC C1 O1 R sing ?
+         1 2 1 NAG O4 HO4 ? 2 GAL C1 O1 R sing ?
+         2 2 2 GAL O2 HO2 ? 3 FUC C1 O1 R sing ?
+         3 2 1 NAG O3 HO3 ? 4 FUC C1 O1 R sing ?
 ```
 
 
