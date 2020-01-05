@@ -206,11 +206,12 @@
      
          loop_
          _pdbx_chem_comp_synonyms.comp_id
+         _pdbx_chem_comp_synonyms.ordinal
          _pdbx_chem_comp_synonyms.name 
          _pdbx_chem_comp_synonyms.provenance
-         ROC  Fortovase       DRUGBANK
-         ROC  SAQUINAVIR      DRUGBANK
-         ROC  "RO 31-8959"    ?
+         ROC  1  Fortovase       DRUGBANK
+         ROC  2  SAQUINAVIR      DRUGBANK
+         ROC  3  "RO 31-8959"    ?
 ```
 
 
@@ -218,6 +219,7 @@
 
 | Attribute | Key | Required | Type | Units | Enumerated | Bounded |
 | --------- | --- | -------- | ---- | ----- | ---------- | ------- |
+| ordinal | no | no | int | no | no | no |
 | comp_id | yes | yes | ucode | None | no | no |
 | name | yes | yes | text | None | no | no |
 | provenance | no | no | line | None | yes | no |
@@ -235,6 +237,13 @@
 
 
  The synonym of this particular chemical component.
+
+
+
+#### _pdbx_chem_comp_synonyms.ordinal
+
+
+ An ordinal index for this category
 
 
 
