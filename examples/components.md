@@ -18,4 +18,4 @@ The following sample chemical component definition files show how parental compo
 
 Or you may download [these components](components/all-components.tar.gz) as a compressed tar file.
 
-In addition, you may download definitions for [322 components](components/CCD_monosaccharide_definition.tar.gz) which will during the remediation. This list is not yet complete,
+In addition, you may download definitions for [322 components](components/CCD_monosaccharide_definition.tar.gz) which will be used during remediation. This list is not yet complete.
