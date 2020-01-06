@@ -1,6 +1,6 @@
 ## Chemical Component Definitions
 
-The following sample chemical component definition files show how parental components are referenced and mapped to the current definition, added nomenclature, and audit revision history.
+The following sample chemical component definition files show how parental components are referenced and mapped to the current definition with added nomenclature.
 
 - [A2G](components/A2G-rev.cif) (N-acetyl-alpha-D-galactosamine)
 - [BGC](components/BGC-rev.cif) (beta-D-glucopyranose)
@@ -16,4 +16,6 @@ The following sample chemical component definition files show how parental compo
 - [SIA](components/SIA-rev.cif) (N-acetyl-alpha-neuraminic acid)
 - [UAP](components/UAP-rev.cif) (4-deoxy-2-O-sulfo-alpha-L-threo-hex-4-enopyranuronic acid)
 
-Or you may download [all components](components/all-components.tar.gz)
+Or you may download [these components](components/all-components.tar.gz) as a compressed tar file.
+
+In addition, you may download definitions for [322 components](components/CCD_monosaccharide_definition.tar.gz) which will during the remediation. This list is not yet complete,
