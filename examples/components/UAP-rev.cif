@@ -26,6 +26,7 @@ _chem_comp.pdbx_subcomponent_list               ?
 _chem_comp.pdbx_processing_site                 RCSB
 #
 _pdbx_chem_comp_synonyms.comp_id     UAP
+_pdbx_chem_comp_synonyms.ordinal     1
 _pdbx_chem_comp_synonyms.name        "4-deoxy-2-O-sulfo-alpha-L-threo-hex-4-enopyranuronic acid"
 _pdbx_chem_comp_synonyms.provenance  PDB
 _pdbx_chem_comp_synonyms.type        Preferred
