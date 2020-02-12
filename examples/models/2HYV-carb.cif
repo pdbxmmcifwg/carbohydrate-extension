@@ -1531,140 +1531,6 @@ HELX_P HELX_P18 18 ASP A 268 ? GLY A 281 ? ASP A 298 GLY A 311 1 ? 14
 HELX_P HELX_P19 19 SER A 283 ? THR A 292 ? SER A 313 THR A 322 1 ? 10 
 HELX_P HELX_P20 20 LYS A 293 ? GLY A 305 ? LYS A 323 GLY A 335 1 ? 13 
 # 
-loop_
-_struct_site.id 
-_struct_site.pdbx_evidence_code 
-_struct_site.pdbx_auth_asym_id 
-_struct_site.pdbx_auth_comp_id 
-_struct_site.pdbx_auth_seq_id 
-_struct_site.pdbx_auth_ins_code 
-_struct_site.pdbx_num_residues 
-_struct_site.details 
-AC1 Software ? ? ? ? 12 "BINDING SITE FOR RESIDUE UAP A 801" 
-AC2 Software ? ? ? ? 21 "BINDING SITE FOR RESIDUE SGN A 802" 
-AC3 Software ? ? ? ? 16 "BINDING SITE FOR RESIDUE IDS A 803" 
-AC4 Software ? ? ? ? 13 "BINDING SITE FOR RESIDUE SGN A 804" 
-AC5 Software ? ? ? ? 4  "BINDING SITE FOR RESIDUE IDS A 805" 
-AC6 Software ? ? ? ? 7  "BINDING SITE FOR RESIDUE CA A 601"  
-AC7 Software ? ? ? ? 7  "BINDING SITE FOR RESIDUE CA A 602"  
-AC8 Software ? ? ? ? 6  "BINDING SITE FOR RESIDUE CA A 605"  
-AC9 Software ? ? ? ? 6  "BINDING SITE FOR RESIDUE CA A 607"  
-BC1 Software ? ? ? ? 6  "BINDING SITE FOR RESIDUE CA A 608"  
-# 
-loop_
-_struct_site_gen.id 
-_struct_site_gen.site_id 
-_struct_site_gen.pdbx_num_res 
-_struct_site_gen.label_comp_id 
-_struct_site_gen.label_asym_id 
-_struct_site_gen.label_seq_id 
-_struct_site_gen.pdbx_auth_ins_code 
-_struct_site_gen.auth_comp_id 
-_struct_site_gen.auth_asym_id 
-_struct_site_gen.auth_seq_id 
-_struct_site_gen.label_atom_id 
-_struct_site_gen.label_alt_id 
-_struct_site_gen.symmetry 
-_struct_site_gen.details 
-1  AC1 12 SER A 133 ? SER A 163  . ? 3_646 ? 
-2  AC1 12 GLY A 219 ? GLY A 249  . ? 3_646 ? 
-3  AC1 12 ASP A 220 ? ASP A 250  . ? 3_646 ? 
-4  AC1 12 LYS A 250 ? LYS A 280  . ? 1_555 ? 
-5  AC1 12 GLY A 251 ? GLY A 281  . ? 1_555 ? 
-6  AC1 12 SGN B .   ? SGN B 4    . ? 1_555 ? 
-7  AC1 12 HOH I .   ? HOH A 807  . ? 1_555 ? 
-8  AC1 12 HOH I .   ? HOH A 858  . ? 1_555 ? 
-9  AC1 12 HOH I .   ? HOH A 878  . ? 1_555 ? 
-10 AC1 12 HOH I .   ? HOH A 963  . ? 1_555 ? 
-11 AC1 12 HOH I .   ? HOH A 1265 . ? 1_555 ? 
-12 AC1 12 HOH I .   ? HOH A 1277 . ? 1_555 ? 
-13 AC2 21 SER A 133 ? SER A 163  . ? 3_646 ? 
-14 AC2 21 GLY A 134 ? GLY A 164  . ? 3_646 ? 
-15 AC2 21 ASP A 135 ? ASP A 165  . ? 3_646 ? 
-16 AC2 21 PHE A 136 ? PHE A 166  . ? 3_646 ? 
-17 AC2 21 LEU A 221 ? LEU A 251  . ? 3_646 ? 
-18 AC2 21 GLY A 251 ? GLY A 281  . ? 1_555 ? 
-19 AC2 21 LYS A 293 ? LYS A 323  . ? 1_555 ? 
-20 AC2 21 CA  H .   ? CA  A 608  . ? 1_555 ? 
-21 AC2 21 UAP C .   ? UAP A 801  . ? 1_555 ? 
-22 AC2 21 IDS B .   ? IDS B 3    . ? 1_555 ? 
-23 AC2 21 HOH I .   ? HOH A 808  . ? 1_555 ? 
-24 AC2 21 HOH I .   ? HOH A 809  . ? 1_555 ? 
-25 AC2 21 HOH I .   ? HOH A 821  . ? 1_555 ? 
-26 AC2 21 HOH I .   ? HOH A 858  . ? 1_555 ? 
-27 AC2 21 HOH I .   ? HOH A 863  . ? 3_646 ? 
-28 AC2 21 HOH I .   ? HOH A 878  . ? 1_555 ? 
-29 AC2 21 HOH I .   ? HOH A 931  . ? 3_646 ? 
-30 AC2 21 HOH I .   ? HOH A 934  . ? 1_555 ? 
-31 AC2 21 HOH I .   ? HOH A 1013 . ? 1_555 ? 
-32 AC2 21 HOH I .   ? HOH A 1192 . ? 1_555 ? 
-33 AC2 21 HOH I .   ? HOH A 1193 . ? 1_555 ? 
-34 AC3 16 HIS A 63  ? HIS A 93   . ? 1_555 ? 
-35 AC3 16 ASP A 291 ? ASP A 321  . ? 1_555 ? 
-36 AC3 16 THR A 292 ? THR A 322  . ? 1_555 ? 
-37 AC3 16 LYS A 293 ? LYS A 323  . ? 1_555 ? 
-38 AC3 16 CA  H .   ? CA  A 608  . ? 1_555 ? 
-39 AC3 16 SGN B .   ? SGN B 4    . ? 1_555 ? 
-40 AC3 16 SGN B .   ? SGN B 2    . ? 1_555 ? 
-41 AC3 16 HOH I .   ? HOH A 809  . ? 1_555 ? 
-42 AC3 16 HOH I .   ? HOH A 853  . ? 1_555 ? 
-43 AC3 16 HOH I .   ? HOH A 854  . ? 1_555 ? 
-44 AC3 16 HOH I .   ? HOH A 865  . ? 1_555 ? 
-45 AC3 16 HOH I .   ? HOH A 910  . ? 1_555 ? 
-46 AC3 16 HOH I .   ? HOH A 969  . ? 1_555 ? 
-47 AC3 16 HOH I .   ? HOH A 1166 . ? 1_555 ? 
-48 AC3 16 HOH I .   ? HOH A 1193 . ? 1_555 ? 
-49 AC3 16 HOH I .   ? HOH A 1212 . ? 1_555 ? 
-50 AC4 13 GLY A 62  ? GLY A 92   . ? 1_555 ? 
-51 AC4 13 HIS A 63  ? HIS A 93   . ? 1_555 ? 
-52 AC4 13 LYS A 293 ? LYS A 323  . ? 1_555 ? 
-53 AC4 13 GLY A 294 ? GLY A 324  . ? 1_555 ? 
-54 AC4 13 IDS B .   ? IDS B 3    . ? 1_555 ? 
-55 AC4 13 IDS B .   ? IDS B 1    . ? 1_555 ? 
-56 AC4 13 HOH I .   ? HOH A 844  . ? 1_555 ? 
-57 AC4 13 HOH I .   ? HOH A 853  . ? 1_555 ? 
-58 AC4 13 HOH I .   ? HOH A 910  . ? 1_555 ? 
-59 AC4 13 HOH I .   ? HOH A 1017 . ? 1_555 ? 
-60 AC4 13 HOH I .   ? HOH A 1193 . ? 1_555 ? 
-61 AC4 13 HOH I .   ? HOH A 1200 . ? 1_555 ? 
-62 AC4 13 HOH I .   ? HOH A 1229 . ? 1_555 ? 
-63 AC5 4  SGN B .   ? SGN B 2    . ? 1_555 ? 
-64 AC5 4  HOH I .   ? HOH A 951  . ? 1_555 ? 
-65 AC5 4  HOH I .   ? HOH A 969  . ? 1_555 ? 
-66 AC5 4  HOH I .   ? HOH A 1008 . ? 1_555 ? 
-67 AC6 7  GLY A 19  ? GLY A 49   . ? 1_555 ? 
-68 AC6 7  VAL A 20  ? VAL A 50   . ? 1_555 ? 
-69 AC6 7  GLU A 22  ? GLU A 52   . ? 1_555 ? 
-70 AC6 7  HOH I .   ? HOH A 810  . ? 1_555 ? 
-71 AC6 7  HOH I .   ? HOH A 811  . ? 1_555 ? 
-72 AC6 7  HOH I .   ? HOH A 812  . ? 1_555 ? 
-73 AC6 7  HOH I .   ? HOH A 813  . ? 1_555 ? 
-74 AC7 7  LYS A 57  ? LYS A 87   . ? 1_555 ? 
-75 AC7 7  LEU A 60  ? LEU A 90   . ? 1_555 ? 
-76 AC7 7  GLU A 65  ? GLU A 95   . ? 1_555 ? 
-77 AC7 7  HOH I .   ? HOH A 814  . ? 1_555 ? 
-78 AC7 7  HOH I .   ? HOH A 815  . ? 1_555 ? 
-79 AC7 7  HOH I .   ? HOH A 816  . ? 1_555 ? 
-80 AC7 7  HOH I .   ? HOH A 817  . ? 1_555 ? 
-81 AC8 6  GLY A 171 ? GLY A 201  . ? 1_555 ? 
-82 AC8 6  ARG A 174 ? ARG A 204  . ? 1_555 ? 
-83 AC8 6  GLY A 176 ? GLY A 206  . ? 1_555 ? 
-84 AC8 6  GLU A 216 ? GLU A 246  . ? 1_555 ? 
-85 AC8 6  HOH I .   ? HOH A 818  . ? 1_555 ? 
-86 AC8 6  HOH I .   ? HOH A 819  . ? 1_555 ? 
-87 AC9 6  MET A 247 ? MET A 277  . ? 1_555 ? 
-88 AC9 6  GLY A 249 ? GLY A 279  . ? 1_555 ? 
-89 AC9 6  GLY A 251 ? GLY A 281  . ? 1_555 ? 
-90 AC9 6  ASP A 291 ? ASP A 321  . ? 1_555 ? 
-91 AC9 6  HOH I .   ? HOH A 806  . ? 1_555 ? 
-92 AC9 6  HOH I .   ? HOH A 807  . ? 1_555 ? 
-93 BC1 6  THR A 252 ? THR A 282  . ? 1_555 ? 
-94 BC1 6  ASP A 291 ? ASP A 321  . ? 1_555 ? 
-95 BC1 6  SGN B .   ? SGN B 4    . ? 1_555 ? 
-96 BC1 6  IDS B .   ? IDS B 3    . ? 1_555 ? 
-97 BC1 6  HOH I .   ? HOH A 808  . ? 1_555 ? 
-98 BC1 6  HOH I .   ? HOH A 809  . ? 1_555 ? 
-# 
 _struct_biol.id                    1 
 _struct_biol.details               ? 
 _struct_biol.pdbx_parent_biol_id   ? 
@@ -1677,7 +1543,7 @@ _pdbx_struct_assembly.oligomeric_count     1
 # 
 _pdbx_struct_assembly_gen.assembly_id       1 
 _pdbx_struct_assembly_gen.oper_expression   1 
-_pdbx_struct_assembly_gen.asym_id_list      A,C,D,E,F,G,H,I 
+_pdbx_struct_assembly_gen.asym_id_list      A,B,C,D,E,F,G,H,I 
 # 
 _pdbx_struct_oper_list.id                   1 
 _pdbx_struct_oper_list.type                 "identity operation" 
@@ -2237,22 +2103,6 @@ IDS "IUPAC CARBOHYDRATE SYMBOL"           PDB-CARE 1.0 a-L-IdopA2SO3
 SGN "CONDENSED IUPAC CARBOHYDRATE SYMBOL" GMML     1.0 "DGlcpNS[6S]a"                    
 SGN "COMMON NAME"                         GMML     1.0 N-sulfo-6-sulfo-a-D-glucopyranose 
 SGN "IUPAC CARBOHYDRATE SYMBOL"           PDB-CARE 1.0 a-D-GlcpNSO36SO3                  
-# 
-loop_
-_pdbx_chem_comp_synonyms.comp_id 
-_pdbx_chem_comp_synonyms.name 
-_pdbx_chem_comp_synonyms.provenance 
-_pdbx_chem_comp_synonyms.type 
-IDS "2-O-sulfo-alpha-L-idopyranuronic acid"                  PDB Preferred 
-IDS "2-O-sulfo-alpha-L-iduronic acid"                        PDB ?         
-IDS "2-O-sulfo-L-iduronic acid"                              PDB ?         
-IDS "2-O-sulfo-iduronic acid"                                PDB ?         
-SGN "2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucopyranose" PDB Preferred 
-SGN N,O6-DISULFO-GLUCOSAMINE                                 PDB ?         
-SGN 6-O-sulfo-N-sulfo-alpha-D-glucosamine                    PDB ?         
-SGN "2-deoxy-6-O-sulfo-2-(sulfoamino)-alpha-D-glucose"       PDB ?         
-SGN "2-deoxy-6-O-sulfo-2-(sulfoamino)-D-glucose"             PDB ?         
-SGN "2-deoxy-6-O-sulfo-2-(sulfoamino)-glucose"               PDB ?         
 # 
 _pdbx_entity_branch.entity_id   2 
 _pdbx_entity_branch.type        oligosaccharide 

@@ -1998,64 +1998,6 @@ AE 4  LEU A 477 ? ASN A 482 ? LEU A 485 ASN A 490
 AE 5  MET A 576 ? ILE A 581 ? MET A 584 ILE A 589 
 AE 6  ASN A 546 ? GLY A 549 ? ASN A 554 GLY A 557 
 # 
-loop_
-_struct_site.id 
-_struct_site.pdbx_evidence_code 
-_struct_site.pdbx_auth_asym_id 
-_struct_site.pdbx_auth_comp_id 
-_struct_site.pdbx_auth_seq_id 
-_struct_site.pdbx_auth_ins_code 
-_struct_site.pdbx_num_residues 
-_struct_site.details 
-AC1 Software ? ? ? ? 7 "BINDING SITE FOR RESIDUE FUC A 1590" 
-AC2 Software ? ? ? ? 8 "BINDING SITE FOR RESIDUE GAL A 1591" 
-AC3 Software ? ? ? ? 6 "BINDING SITE FOR RESIDUE NAG A 1592" 
-AC4 Software ? ? ? ? 7 "BINDING SITE FOR RESIDUE FUC A 1593" 
-# 
-loop_
-_struct_site_gen.id 
-_struct_site_gen.site_id 
-_struct_site_gen.pdbx_num_res 
-_struct_site_gen.label_comp_id 
-_struct_site_gen.label_asym_id 
-_struct_site_gen.label_seq_id 
-_struct_site_gen.pdbx_auth_ins_code 
-_struct_site_gen.auth_comp_id 
-_struct_site_gen.auth_asym_id 
-_struct_site_gen.auth_seq_id 
-_struct_site_gen.label_atom_id 
-_struct_site_gen.label_alt_id 
-_struct_site_gen.symmetry 
-_struct_site_gen.details 
-1  AC1 7 TYR A 45  ? TYR A 53   . ? 1_555 ? 
-2  AC1 7 HIS A 79  ? HIS A 87   . ? 1_555 ? 
-3  AC1 7 SER A 121 ? SER A 129  . ? 1_555 ? 
-4  AC1 7 ILE A 149 ? ILE A 157  . ? 1_555 ? 
-5  AC1 7 GLU A 293 ? GLU A 301  . ? 1_555 ? 
-6  AC1 7 GAL B .   ? GAL B 2    . ? 1_555 ? 
-7  AC1 7 FUC B .   ? FUC B 4    . ? 1_555 ? 
-8  AC2 8 THR A 214 ? THR A 222  . ? 1_555 ? 
-9  AC2 8 TRP A 245 ? TRP A 253  . ? 1_555 ? 
-10 AC2 8 GLU A 249 ? GLU A 257  . ? 1_555 ? 
-11 AC2 8 FUC B .   ? FUC B 3    . ? 1_555 ? 
-12 AC2 8 NAG B .   ? NAG B 1    . ? 1_555 ? 
-13 AC2 8 FUC B .   ? FUC B 4    . ? 1_555 ? 
-14 AC2 8 HOH C .   ? HOH A 2332 . ? 1_555 ? 
-15 AC2 8 HOH C .   ? HOH A 2334 . ? 1_555 ? 
-16 AC3 6 TYR A 152 ? TYR A 160  . ? 1_555 ? 
-17 AC3 6 TRP A 153 ? TRP A 161  . ? 1_555 ? 
-18 AC3 6 THR A 214 ? THR A 222  . ? 1_555 ? 
-19 AC3 6 GAL B .   ? GAL B 2    . ? 1_555 ? 
-20 AC3 6 FUC B .   ? FUC B 4    . ? 1_555 ? 
-21 AC3 6 HOH C .   ? HOH A 2069 . ? 1_555 ? 
-22 AC4 7 SER A 88  ? SER A 96   . ? 1_555 ? 
-23 AC4 7 ILE A 90  ? ILE A 98   . ? 1_555 ? 
-24 AC4 7 TRP A 504 ? TRP A 512  . ? 1_555 ? 
-25 AC4 7 FUC B .   ? FUC B 3    . ? 1_555 ? 
-26 AC4 7 GAL B .   ? GAL B 2    . ? 1_555 ? 
-27 AC4 7 NAG B .   ? NAG B 1    . ? 1_555 ? 
-28 AC4 7 HOH C .   ? HOH A 2334 . ? 1_555 ? 
-# 
 _struct_biol.id   1 
 # 
 _pdbx_struct_assembly.id                   1 
@@ -2066,7 +2008,7 @@ _pdbx_struct_assembly.oligomeric_count     1
 # 
 _pdbx_struct_assembly_gen.assembly_id       1 
 _pdbx_struct_assembly_gen.oper_expression   1 
-_pdbx_struct_assembly_gen.asym_id_list      A,C 
+_pdbx_struct_assembly_gen.asym_id_list      A,B,C 
 # 
 _pdbx_struct_oper_list.id                   1 
 _pdbx_struct_oper_list.type                 "identity operation" 
@@ -2526,27 +2468,6 @@ NAG "CONDENSED IUPAC CARBOHYDRATE SYMBOL" GMML     1.0 DGlcpNAcb
 NAG "COMMON NAME"                         GMML     1.0 N-acetyl-b-D-glucopyranosamine 
 NAG "IUPAC CARBOHYDRATE SYMBOL"           PDB-CARE 1.0 b-D-GlcpNAc                    
 NAG "SNFG CARBOHYDRATE SYMBOL"            GMML     1.0 GlcNAc                         
-# 
-loop_
-_pdbx_chem_comp_synonyms.comp_id 
-_pdbx_chem_comp_synonyms.name 
-_pdbx_chem_comp_synonyms.provenance 
-_pdbx_chem_comp_synonyms.type 
-FUC alpha-L-fucopyranose                     PDB Preferred 
-FUC alpha-L-fucose                           PDB ?         
-FUC 6-deoxy-alpha-L-galactopyranose          PDB ?         
-FUC L-fucose                                 PDB ?         
-FUC fucose                                   PDB ?         
-GAL beta-D-galactopyranose                   PDB Preferred 
-GAL beta-D-galactose                         PDB ?         
-GAL D-galactose                              PDB ?         
-GAL galactose                                PDB ?         
-NAG 2-acetamido-2-deoxy-beta-D-glucopyranose PDB Preferred 
-NAG N-acetyl-beta-D-glucosamine              PDB ?         
-NAG N-ACETYL-D-GLUCOSAMINE                   PDB ?         
-NAG 2-acetamido-2-deoxy-beta-D-glucose       PDB ?         
-NAG 2-acetamido-2-deoxy-D-glucose            PDB ?         
-NAG 2-acetamido-2-deoxy-glucose              PDB ?         
 # 
 _pdbx_entity_branch.entity_id   2 
 _pdbx_entity_branch.type        oligosaccharide 

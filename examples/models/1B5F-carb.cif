@@ -2086,31 +2086,12 @@ _struct_site.pdbx_auth_seq_id
 _struct_site.pdbx_auth_ins_code 
 _struct_site.pdbx_num_residues 
 _struct_site.details 
-1   Author   ? ? ? ? 2  "ASPARTIC PROTEINASE CATALYTIC SITE WATER 1014 ASSOCIATED TO CHAIN A CATALYTIC SITE WATER 1035 ASSOCIATED TO CHAIN C CATALYTIC SITE"    
-2   Author   ? ? ? ? 1  "N-GLYCOSYLATION SITE ON CHAIN A, ASN67: (A1->3)-MAN405 | ASN67-NAG401-(B1->4)-NAG403-(B1->4)-MAN404 | (A1->3)FUC402"                   
-3   Author   ? ? ? ? 1  "N-GLYCOSYLATION SITE ON CHAIN B, ASN257: ASN257-NAG501-(B1->4)-NAG503-(B1->4)-MAN504 | (A1->3)-FUC502"                                 
-4   Author   ? ? ? ? 2  "N-GLYCOSYLATION SITE ON CHAIN C, ASN67: (A1->3)-MAN405 | ASN67-NAG401-(B1->4)-NAG403-(B1->4)-MAN404 | | (A1->3)-FUC402 (A1->6)-MAN406" 
-5   Author   ? ? ? ? 1  "N-GLYCOSYLATION SITE ON CHAIN D, ASN257: ASN257-NAG501-(B1->4)-NAG503-(B1->4)-MAN504 | (A1->3)-FUC502"                                 
-6   Author   ? ? ? ? 1  ?                                                                                                                                       
-AC1 Software ? ? ? ? 6  "BINDING SITE FOR RESIDUE NAG A 401"                                                                                                    
-AC2 Software ? ? ? ? 2  "BINDING SITE FOR RESIDUE FUC A 402"                                                                                                    
-AC3 Software ? ? ? ? 6  "BINDING SITE FOR RESIDUE NAG A 403"                                                                                                    
-AC4 Software ? ? ? ? 5  "BINDING SITE FOR RESIDUE BMA A 404"                                                                                                    
-AC5 Software ? ? ? ? 3  "BINDING SITE FOR RESIDUE MAN A 405"                                                                                                    
-AC6 Software ? ? ? ? 7  "BINDING SITE FOR RESIDUE NAG B 501"                                                                                                    
-AC7 Software ? ? ? ? 2  "BINDING SITE FOR RESIDUE FUC B 502"                                                                                                    
-AC8 Software ? ? ? ? 3  "BINDING SITE FOR RESIDUE NAG B 503"                                                                                                    
-AC9 Software ? ? ? ? 1  "BINDING SITE FOR RESIDUE BMA B 504"                                                                                                    
-BC1 Software ? ? ? ? 7  "BINDING SITE FOR RESIDUE NAG C 401"                                                                                                    
-BC2 Software ? ? ? ? 2  "BINDING SITE FOR RESIDUE FUC C 402"                                                                                                    
-BC3 Software ? ? ? ? 6  "BINDING SITE FOR RESIDUE NAG C 403"                                                                                                    
-BC4 Software ? ? ? ? 5  "BINDING SITE FOR RESIDUE BMA C 404"                                                                                                    
-BC5 Software ? ? ? ? 11 "BINDING SITE FOR RESIDUE MAN C 405"                                                                                                    
-BC6 Software ? ? ? ? 3  "BINDING SITE FOR RESIDUE MAN C 406"                                                                                                    
-BC7 Software ? ? ? ? 4  "BINDING SITE FOR RESIDUE NAG D 501"                                                                                                    
-BC8 Software ? ? ? ? 3  "BINDING SITE FOR RESIDUE FUC D 502"                                                                                                    
-BC9 Software ? ? ? ? 3  "BINDING SITE FOR RESIDUE NAG D 503"                                                                                                    
-CC1 Software ? ? ? ? 1  "BINDING SITE FOR RESIDUE MAN D 504"                                                                                                    
+1 Author ? ? ? ? 2 "ASPARTIC PROTEINASE CATALYTIC SITE WATER 1014 ASSOCIATED TO CHAIN A CATALYTIC SITE WATER 1035 ASSOCIATED TO CHAIN C CATALYTIC SITE"    
+2 Author ? ? ? ? 1 "N-GLYCOSYLATION SITE ON CHAIN A, ASN67: (A1->3)-MAN405 | ASN67-NAG401-(B1->4)-NAG403-(B1->4)-MAN404 | (A1->3)FUC402"                   
+3 Author ? ? ? ? 1 "N-GLYCOSYLATION SITE ON CHAIN B, ASN257: ASN257-NAG501-(B1->4)-NAG503-(B1->4)-MAN504 | (A1->3)-FUC502"                                 
+4 Author ? ? ? ? 2 "N-GLYCOSYLATION SITE ON CHAIN C, ASN67: (A1->3)-MAN405 | ASN67-NAG401-(B1->4)-NAG403-(B1->4)-MAN404 | | (A1->3)-FUC402 (A1->6)-MAN406" 
+5 Author ? ? ? ? 1 "N-GLYCOSYLATION SITE ON CHAIN D, ASN257: ASN257-NAG501-(B1->4)-NAG503-(B1->4)-MAN504 | (A1->3)-FUC502"                                 
+6 Author ? ? ? ? 1 ?                                                                                                                                       
 # 
 loop_
 _struct_site_gen.id 
@@ -2127,94 +2108,14 @@ _struct_site_gen.label_atom_id
 _struct_site_gen.label_alt_id 
 _struct_site_gen.symmetry 
 _struct_site_gen.details 
-1  1   2  ASP A 33  ? ASP A 32   . ? 1_555 ? 
-2  1   2  ASP A 216 ? ASP A 215  . ? 1_555 ? 
-3  2   1  ASN A 69  ? ASN A 67   . ? 1_555 ? 
-4  3   1  ASN B 15  ? ASN B 257  . ? 1_555 ? 
-5  4   2  ASP C 33  ? ASP C 32   . ? 1_555 ? 
-6  4   2  ASP C 216 ? ASP C 215  . ? 1_555 ? 
-7  5   1  ASN C 69  ? ASN C 67   . ? 1_555 ? 
-8  6   1  ASN D 15  ? ASN D 257  . ? 1_555 ? 
-9  AC1 6  ASN A 69  ? ASN A 67   . ? 1_555 ? 
-10 AC1 6  ASP A 102 ? ASP A 100  . ? 1_555 ? 
-11 AC1 6  ILE A 130 ? ILE A 132  . ? 1_555 ? 
-12 AC1 6  SER A 131 ? SER A 133  . ? 1_555 ? 
-13 AC1 6  FUC E .   ? FUC E 5    . ? 1_555 ? 
-14 AC1 6  NAG E .   ? NAG E 2    . ? 1_555 ? 
-15 AC2 2  NAG E .   ? NAG E 1    . ? 1_555 ? 
-16 AC2 2  NAG E .   ? NAG E 2    . ? 1_555 ? 
-17 AC3 6  GLN A 128 ? GLN A 126  . ? 1_555 ? 
-18 AC3 6  ILE A 130 ? ILE A 132  . ? 1_555 ? 
-19 AC3 6  NAG E .   ? NAG E 1    . ? 1_555 ? 
-20 AC3 6  FUC E .   ? FUC E 5    . ? 1_555 ? 
-21 AC3 6  BMA E .   ? BMA E 3    . ? 1_555 ? 
-22 AC3 6  HOH I .   ? HOH A 1080 . ? 1_555 ? 
-23 AC4 5  GLN A 128 ? GLN A 126  . ? 1_555 ? 
-24 AC4 5  NAG E .   ? NAG E 2    . ? 1_555 ? 
-25 AC4 5  MAN E .   ? MAN E 4    . ? 1_555 ? 
-26 AC4 5  HOH I .   ? HOH A 1066 . ? 1_555 ? 
-27 AC4 5  HOH I .   ? HOH A 1427 . ? 1_555 ? 
-28 AC5 3  BMA E .   ? BMA E 3    . ? 1_555 ? 
-29 AC5 3  HOH I .   ? HOH A 1066 . ? 1_555 ? 
-30 AC5 3  HOH I .   ? HOH A 1339 . ? 1_555 ? 
-31 AC6 7  ASN B 15  ? ASN B 257  . ? 1_555 ? 
-32 AC6 7  THR B 28  ? THR B 270  . ? 1_555 ? 
-33 AC6 7  FUC F .   ? FUC F 4    . ? 1_555 ? 
-34 AC6 7  NAG F .   ? NAG F 2    . ? 1_555 ? 
-35 AC6 7  HOH J .   ? HOH B 1106 . ? 1_555 ? 
-36 AC6 7  HOH J .   ? HOH B 1166 . ? 1_555 ? 
-37 AC6 7  HOH J .   ? HOH B 1502 . ? 1_555 ? 
-38 AC7 2  NAG F .   ? NAG F 1    . ? 1_555 ? 
-39 AC7 2  FUC H .   ? FUC H 4    . ? 1_545 ? 
-40 AC8 3  NAG F .   ? NAG F 1    . ? 1_555 ? 
-41 AC8 3  BMA F .   ? BMA F 3    . ? 1_555 ? 
-42 AC8 3  HOH J .   ? HOH B 1517 . ? 1_555 ? 
-43 AC9 1  NAG F .   ? NAG F 2    . ? 1_555 ? 
-44 BC1 7  ASN C 69  ? ASN C 67   . ? 1_555 ? 
-45 BC1 7  THR C 71  ? THR C 69   . ? 1_555 ? 
-46 BC1 7  ASP C 102 ? ASP C 100  . ? 1_555 ? 
-47 BC1 7  SER C 131 ? SER C 133  . ? 1_555 ? 
-48 BC1 7  FUC G .   ? FUC G 5    . ? 1_555 ? 
-49 BC1 7  NAG G .   ? NAG G 2    . ? 1_555 ? 
-50 BC1 7  HOH K .   ? HOH C 1366 . ? 1_555 ? 
-51 BC2 2  NAG G .   ? NAG G 1    . ? 1_555 ? 
-52 BC2 2  NAG G .   ? NAG G 2    . ? 1_555 ? 
-53 BC3 6  ILE C 130 ? ILE C 132  . ? 1_555 ? 
-54 BC3 6  VAL C 132 ? VAL C 134  . ? 1_555 ? 
-55 BC3 6  NAG G .   ? NAG G 1    . ? 1_555 ? 
-56 BC3 6  FUC G .   ? FUC G 5    . ? 1_555 ? 
-57 BC3 6  BMA G .   ? BMA G 3    . ? 1_555 ? 
-58 BC3 6  HOH K .   ? HOH C 1151 . ? 1_555 ? 
-59 BC4 5  GLN C 128 ? GLN C 126  . ? 1_555 ? 
-60 BC4 5  NAG G .   ? NAG G 2    . ? 1_555 ? 
-61 BC4 5  MAN G .   ? MAN G 4    . ? 1_555 ? 
-62 BC4 5  MAN G .   ? MAN G 6    . ? 1_555 ? 
-63 BC4 5  HOH K .   ? HOH C 1081 . ? 1_555 ? 
-64 BC5 11 LEU C 139 ? LEU C 141  . ? 2_556 ? 
-65 BC5 11 ASN C 140 ? ASN C 142  . ? 1_555 ? 
-66 BC5 11 ASN C 140 ? ASN C 142  . ? 2_556 ? 
-67 BC5 11 GLY C 142 ? GLY C 144  . ? 2_556 ? 
-68 BC5 11 BMA G .   ? BMA G 3    . ? 1_555 ? 
-69 BC5 11 HOH K .   ? HOH C 1081 . ? 1_555 ? 
-70 BC5 11 HOH K .   ? HOH C 1093 . ? 1_555 ? 
-71 BC5 11 HOH K .   ? HOH C 1148 . ? 1_555 ? 
-72 BC5 11 HOH K .   ? HOH C 1188 . ? 1_555 ? 
-73 BC5 11 HOH K .   ? HOH C 1214 . ? 1_555 ? 
-74 BC5 11 HOH K .   ? HOH C 1365 . ? 1_555 ? 
-75 BC6 3  LYS C 145 ? LYS C 147  . ? 2_556 ? 
-76 BC6 3  BMA G .   ? BMA G 3    . ? 1_555 ? 
-77 BC6 3  HOH K .   ? HOH C 1364 . ? 1_555 ? 
-78 BC7 4  ASN D 15  ? ASN D 257  . ? 1_555 ? 
-79 BC7 4  FUC H .   ? FUC H 4    . ? 1_555 ? 
-80 BC7 4  NAG H .   ? NAG H 2    . ? 1_555 ? 
-81 BC7 4  HOH L .   ? HOH D 1332 . ? 1_555 ? 
-82 BC8 3  FUC F .   ? FUC F 4    . ? 1_565 ? 
-83 BC8 3  NAG H .   ? NAG H 1    . ? 1_555 ? 
-84 BC8 3  NAG H .   ? NAG H 2    . ? 1_555 ? 
-85 BC9 3  NAG H .   ? NAG H 1    . ? 1_555 ? 
-86 BC9 3  FUC H .   ? FUC H 4    . ? 1_555 ? 
-87 BC9 3  MAN H .   ? MAN H 3    . ? 1_555 ? 
-88 CC1 1  NAG H .   ? NAG H 2    . ? 1_555 ? 
+1 1 2 ASP A 33  ? ASP A 32  . ? 1_555 ? 
+2 1 2 ASP A 216 ? ASP A 215 . ? 1_555 ? 
+3 2 1 ASN A 69  ? ASN A 67  . ? 1_555 ? 
+4 3 1 ASN B 15  ? ASN B 257 . ? 1_555 ? 
+5 4 2 ASP C 33  ? ASP C 32  . ? 1_555 ? 
+6 4 2 ASP C 216 ? ASP C 215 . ? 1_555 ? 
+7 5 1 ASN C 69  ? ASN C 67  . ? 1_555 ? 
+8 6 1 ASN D 15  ? ASN D 257 . ? 1_555 ? 
 # 
 _struct_biol.id        1 
 _struct_biol.details   ? 
@@ -2233,9 +2134,9 @@ loop_
 _pdbx_struct_assembly_gen.assembly_id 
 _pdbx_struct_assembly_gen.oper_expression 
 _pdbx_struct_assembly_gen.asym_id_list 
-1 1 A,B,C,D,I,J,K,L 
-2 1 A,B,I,J         
-3 1 C,D,K,L         
+1 1 A,B,C,D,E,F,G,H,I,J,K,L 
+2 1 A,B,E,F,I,J             
+3 1 C,D,G,H,K,L             
 # 
 loop_
 _pdbx_struct_assembly_prop.biol_id 
@@ -2759,31 +2660,6 @@ NAG "CONDENSED IUPAC CARBOHYDRATE SYMBOL" GMML     1.0 DGlcpNAcb
 NAG "COMMON NAME"                         GMML     1.0 N-acetyl-b-D-glucopyranosamine 
 NAG "IUPAC CARBOHYDRATE SYMBOL"           PDB-CARE 1.0 b-D-GlcpNAc                    
 NAG "SNFG CARBOHYDRATE SYMBOL"            GMML     1.0 GlcNAc                         
-# 
-loop_
-_pdbx_chem_comp_synonyms.comp_id 
-_pdbx_chem_comp_synonyms.name 
-_pdbx_chem_comp_synonyms.provenance 
-_pdbx_chem_comp_synonyms.type 
-BMA beta-D-mannopyranose                     PDB Preferred 
-BMA beta-D-mannose                           PDB ?         
-BMA D-mannose                                PDB ?         
-BMA mannose                                  PDB ?         
-FUC alpha-L-fucopyranose                     PDB Preferred 
-FUC alpha-L-fucose                           PDB ?         
-FUC 6-deoxy-alpha-L-galactopyranose          PDB ?         
-FUC L-fucose                                 PDB ?         
-FUC fucose                                   PDB ?         
-MAN alpha-D-mannopyranose                    PDB Preferred 
-MAN alpha-D-mannose                          PDB ?         
-MAN D-mannose                                PDB ?         
-MAN mannose                                  PDB ?         
-NAG 2-acetamido-2-deoxy-beta-D-glucopyranose PDB Preferred 
-NAG N-acetyl-beta-D-glucosamine              PDB ?         
-NAG N-ACETYL-D-GLUCOSAMINE                   PDB ?         
-NAG 2-acetamido-2-deoxy-beta-D-glucose       PDB ?         
-NAG 2-acetamido-2-deoxy-D-glucose            PDB ?         
-NAG 2-acetamido-2-deoxy-glucose              PDB ?         
 # 
 loop_
 _pdbx_entity_branch.entity_id 

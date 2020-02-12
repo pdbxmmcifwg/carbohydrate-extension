@@ -2469,108 +2469,6 @@ AA6 2 ILE B 479 ? ARG B 486 ? ILE A 952  ARG A 959
 AA6 3 TYR B 512 ? ASP B 518 ? TYR A 985  ASP A 991  
 AA6 4 ILE B 527 ? GLU B 528 ? ILE A 1000 GLU A 1001 
 # 
-loop_
-_struct_site.id 
-_struct_site.pdbx_evidence_code 
-_struct_site.pdbx_auth_asym_id 
-_struct_site.pdbx_auth_comp_id 
-_struct_site.pdbx_auth_seq_id 
-_struct_site.pdbx_auth_ins_code 
-_struct_site.pdbx_num_residues 
-_struct_site.details 
-AC1 Software A ZN  1101 ? 5  "binding site for residue ZN A 1101"                                                     
-AC2 Software A TLA 1102 ? 12 "binding site for residue TLA A 1102"                                                    
-AC3 Software A EPE 1103 ? 5  "binding site for residue EPE A 1103"                                                    
-AC4 Software A EDO 1104 ? 5  "binding site for residue EDO A 1104"                                                    
-AC5 Software A EDO 1105 ? 4  "binding site for residue EDO A 1105"                                                    
-AC6 Software A EDO 1106 ? 4  "binding site for residue EDO A 1106"                                                    
-AC7 Software A EDO 1107 ? 7  "binding site for residue EDO A 1107"                                                    
-AC8 Software A EDO 1108 ? 5  "binding site for residue EDO A 1108"                                                    
-AC9 Software G THR 4    ? 20 "binding site for Poly-Saccharide residues A2G G 101 through NAG G 103 bound to THR G 4" 
-# 
-loop_
-_struct_site_gen.id 
-_struct_site_gen.site_id 
-_struct_site_gen.pdbx_num_res 
-_struct_site_gen.label_comp_id 
-_struct_site_gen.label_asym_id 
-_struct_site_gen.label_seq_id 
-_struct_site_gen.pdbx_auth_ins_code 
-_struct_site_gen.auth_comp_id 
-_struct_site_gen.auth_asym_id 
-_struct_site_gen.auth_seq_id 
-_struct_site_gen.label_atom_id 
-_struct_site_gen.label_alt_id 
-_struct_site_gen.symmetry 
-_struct_site_gen.details 
-1  AC1 5  HIS B 283 ? HIS A 756  . ? 1_555 ? 
-2  AC1 5  HIS B 287 ? HIS A 760  . ? 1_555 ? 
-3  AC1 5  GLU B 298 ? GLU A 771  . ? 1_555 ? 
-4  AC1 5  TLA E .   ? TLA A 1102 . ? 1_555 ? 
-5  AC1 5  HOH M .   ? HOH A 1222 . ? 1_555 ? 
-6  AC2 12 MET B 255 ? MET A 728  . ? 1_555 ? 
-7  AC2 12 HIS B 283 ? HIS A 756  . ? 1_555 ? 
-8  AC2 12 HIS B 287 ? HIS A 760  . ? 1_555 ? 
-9  AC2 12 GLU B 298 ? GLU A 771  . ? 1_555 ? 
-10 AC2 12 ZN  D .   ? ZN  A 1101 . ? 1_555 ? 
-11 AC2 12 HOH M .   ? HOH A 1222 . ? 1_555 ? 
-12 AC2 12 HOH M .   ? HOH A 1400 . ? 1_555 ? 
-13 AC2 12 HOH M .   ? HOH A 1402 . ? 1_555 ? 
-14 AC2 12 HOH M .   ? HOH A 1705 . ? 1_555 ? 
-15 AC2 12 THR A 1   ? THR G 4    . ? 1_555 ? 
-16 AC2 12 ALA A 2   ? ALA G 5    . ? 1_555 ? 
-17 AC2 12 HOH L .   ? HOH G 205  . ? 1_555 ? 
-18 AC3 5  ASN B 205 ? ASN A 678  . ? 1_555 ? 
-19 AC3 5  LYS B 206 ? LYS A 679  . ? 1_555 ? 
-20 AC3 5  THR B 207 ? THR A 680  . ? 1_555 ? 
-21 AC3 5  TYR B 210 ? TYR A 683  . ? 1_555 ? 
-22 AC3 5  HOH M .   ? HOH A 1338 . ? 1_555 ? 
-23 AC4 5  ALA B 22  ? ALA A 495  . ? 1_555 ? 
-24 AC4 5  SER B 23  ? SER A 496  . ? 1_555 ? 
-25 AC4 5  VAL B 138 ? VAL A 611  . ? 1_555 ? 
-26 AC4 5  ARG B 139 ? ARG A 612  . ? 1_555 ? 
-27 AC4 5  ILE B 140 ? ILE A 613  . ? 1_555 ? 
-28 AC5 4  GLY B 96  ? GLY A 569  . ? 1_555 ? 
-29 AC5 4  LYS B 97  ? LYS A 570  . ? 1_555 ? 
-30 AC5 4  SER B 459 ? SER A 932  . ? 2_455 ? 
-31 AC5 4  LEU B 506 ? LEU A 979  . ? 2_455 ? 
-32 AC6 4  TYR B 64  ? TYR A 537  . ? 1_555 ? 
-33 AC6 4  LYS B 137 ? LYS A 610  . ? 1_555 ? 
-34 AC6 4  ARG B 139 ? ARG A 612  . ? 1_555 ? 
-35 AC6 4  LEU B 506 ? LEU A 979  . ? 2_455 ? 
-36 AC7 7  PRO B 113 ? PRO A 586  . ? 1_555 ? 
-37 AC7 7  ASP B 115 ? ASP A 588  . ? 1_555 ? 
-38 AC7 7  VAL B 116 ? VAL A 589  . ? 1_555 ? 
-39 AC7 7  GLN B 193 ? GLN A 666  . ? 1_555 ? 
-40 AC7 7  PRO B 266 ? PRO A 739  . ? 1_555 ? 
-41 AC7 7  HOH M .   ? HOH A 1268 . ? 1_555 ? 
-42 AC7 7  HOH M .   ? HOH A 1360 . ? 1_555 ? 
-43 AC8 5  ASP B 115 ? ASP A 588  . ? 1_555 ? 
-44 AC8 5  PRO B 174 ? PRO A 647  . ? 1_555 ? 
-45 AC8 5  HOH M .   ? HOH A 1611 . ? 1_555 ? 
-46 AC8 5  HOH M .   ? HOH A 1653 . ? 1_555 ? 
-47 AC8 5  HOH M .   ? HOH A 1931 . ? 1_555 ? 
-48 AC9 20 PHE B 254 ? PHE A 727  . ? 1_555 ? 
-49 AC9 20 ASN B 276 ? ASN A 749  . ? 1_555 ? 
-50 AC9 20 GLY B 278 ? GLY A 751  . ? 1_555 ? 
-51 AC9 20 TRP B 279 ? TRP A 752  . ? 1_555 ? 
-52 AC9 20 GLY B 280 ? GLY A 753  . ? 1_555 ? 
-53 AC9 20 VAL B 281 ? VAL A 754  . ? 1_555 ? 
-54 AC9 20 HIS B 283 ? HIS A 756  . ? 1_555 ? 
-55 AC9 20 ASN B 302 ? ASN A 775  . ? 1_555 ? 
-56 AC9 20 ARG B 317 ? ARG A 790  . ? 1_555 ? 
-57 AC9 20 GLN B 321 ? GLN A 794  . ? 1_555 ? 
-58 AC9 20 HOH M .   ? HOH A 1315 . ? 1_555 ? 
-59 AC9 20 THR A 1   ? THR G 4    . ? 1_555 ? 
-60 AC9 20 PRO A 3   ? PRO G 6    . ? 1_555 ? 
-61 AC9 20 GLY A 4   ? GLY G 7    . ? 1_555 ? 
-62 AC9 20 GLY A 5   ? GLY G 8    . ? 1_555 ? 
-63 AC9 20 HOH L .   ? HOH G 201  . ? 1_555 ? 
-64 AC9 20 HOH L .   ? HOH G 202  . ? 1_555 ? 
-65 AC9 20 HOH L .   ? HOH G 203  . ? 1_555 ? 
-66 AC9 20 HOH L .   ? HOH G 204  . ? 1_555 ? 
-67 AC9 20 HOH L .   ? HOH G 205  . ? 1_555 ? 
-# 
 _pdbx_struct_assembly.id                   1 
 _pdbx_struct_assembly.details              author_and_software_defined_assembly 
 _pdbx_struct_assembly.method_details       PISA 
@@ -2579,7 +2477,7 @@ _pdbx_struct_assembly.oligomeric_count     2
 # 
 _pdbx_struct_assembly_gen.assembly_id       1 
 _pdbx_struct_assembly_gen.oper_expression   1 
-_pdbx_struct_assembly_gen.asym_id_list      A,B,D,E,F,G,H,I,J,K,L,M 
+_pdbx_struct_assembly_gen.asym_id_list      A,B,C,D,E,F,G,H,I,J,K,L,M 
 # 
 loop_
 _pdbx_struct_assembly_prop.biol_id 
@@ -3343,26 +3241,6 @@ SIA "CONDENSED IUPAC CARBOHYDRATE SYMBOL" GMML     1.0 DNeup5Aca
 SIA "COMMON NAME"                         GMML     1.0 "N-acetyl-a-D-neuraminic acid"   
 SIA "IUPAC CARBOHYDRATE SYMBOL"           PDB-CARE 1.0 a-D-Neup5Ac                      
 SIA "SNFG CARBOHYDRATE SYMBOL"            GMML     1.0 Neu5Ac                           
-# 
-loop_
-_pdbx_chem_comp_synonyms.comp_id 
-_pdbx_chem_comp_synonyms.name 
-_pdbx_chem_comp_synonyms.provenance 
-_pdbx_chem_comp_synonyms.type 
-A2G 2-acetamido-2-deoxy-alpha-D-galactopyranose PDB Preferred 
-A2G N-acetyl-alpha-D-galactosamine              PDB ?         
-A2G N-ACETYL-2-DEOXY-2-AMINO-GALACTOSE          PDB ?         
-A2G 2-acetamido-2-deoxy-alpha-D-galactose       PDB ?         
-A2G 2-acetamido-2-deoxy-D-galactose             PDB ?         
-A2G 2-acetamido-2-deoxy-galactose               PDB ?         
-NAG 2-acetamido-2-deoxy-beta-D-glucopyranose    PDB Preferred 
-NAG N-acetyl-beta-D-glucosamine                 PDB ?         
-NAG N-ACETYL-D-GLUCOSAMINE                      PDB ?         
-NAG 2-acetamido-2-deoxy-beta-D-glucose          PDB ?         
-NAG 2-acetamido-2-deoxy-D-glucose               PDB ?         
-NAG 2-acetamido-2-deoxy-glucose                 PDB ?         
-SIA "N-acetyl-alpha-neuraminic acid"            PDB Preferred 
-SIA "O-SIALIC ACID"                             PDB ?         
 # 
 _pdbx_entity_branch.entity_id   3 
 _pdbx_entity_branch.type        oligosaccharide 
