@@ -1,15 +1,16 @@
 data_SIA
 #
+#
 _chem_comp.id                                  SIA
 _chem_comp.name                                "N-acetyl-alpha-neuraminic acid"
 _chem_comp.type                                "D-saccharide, alpha linking"
 _chem_comp.pdbx_type                           ATOMS
 _chem_comp.formula                             "C11 H19 N O9"
 _chem_comp.mon_nstd_parent_comp_id             ?
-_chem_comp.pdbx_synonyms                       "O-SIALIC ACID"
+_chem_comp.pdbx_synonyms                       "N-acetylneuraminic acid; sialic acid; alpha-sialic acid; O-SIALIC ACID"
 _chem_comp.pdbx_formal_charge                  0
 _chem_comp.pdbx_initial_date                   1999-07-08
-_chem_comp.pdbx_modified_date                  2020-01-03
+_chem_comp.pdbx_modified_date                  2020-07-29
 _chem_comp.pdbx_ambiguous_flag                 N
 _chem_comp.pdbx_release_status                 REL
 _chem_comp.pdbx_replaced_by                    ?
@@ -25,12 +26,16 @@ _chem_comp.pdbx_model_coordinates_db_code      ?
 _chem_comp.pdbx_subcomponent_list              ?
 _chem_comp.pdbx_processing_site                EBI
 #
-#
-_pdbx_chem_comp_synonyms.ordinal    1
-_pdbx_chem_comp_synonyms.comp_id    SIA
-_pdbx_chem_comp_synonyms.name       "O-SIALIC ACID"
-_pdbx_chem_comp_synonyms.provenance PDB
-_pdbx_chem_comp_synonyms.type       ?
+loop_
+_pdbx_chem_comp_synonyms.ordinal
+_pdbx_chem_comp_synonyms.comp_id
+_pdbx_chem_comp_synonyms.name
+_pdbx_chem_comp_synonyms.provenance
+_pdbx_chem_comp_synonyms.type
+1 SIA "N-acetylneuraminic acid" PDB ?
+2 SIA "sialic acid"             PDB ?
+3 SIA "alpha-sialic acid"       PDB ?
+4 SIA "O-SIALIC ACID"           PDB ?
 #
 #
 loop_
@@ -64,8 +69,8 @@ SIA C9   C9   C 0 1 N N N -6.601 58.674 -10.381 1.650  0.229  -3.721 C9   SIA 9
 SIA C10  C10  C 0 1 N N N -1.897 55.374 -11.759 2.632  -0.329 2.226  C10  SIA 10
 SIA C11  C11  C 0 1 N N N -2.200 54.057 -12.454 3.763  -1.292 2.478  C11  SIA 11
 SIA N5   N5   N 0 1 N N N -2.202 55.444 -10.478 1.629  -0.671 1.394  N5   SIA 12
-SIA O11  O1A  O 0 1 N N N -1.289 58.815 -5.130  -2.191 -1.408 -0.841 O11  SIA 13
-SIA O12  O1B  O 0 1 N N N -3.210 59.504 -5.631  -3.141 -1.493 1.152  O12  SIA 14
+SIA O1A  O1A  O 0 1 N N N -1.289 58.815 -5.130  -2.191 -1.408 -0.841 O1A  SIA 13
+SIA O1B  O1B  O 0 1 N N N -3.210 59.504 -5.631  -3.141 -1.493 1.152  O1B  SIA 14
 SIA O2   O2   O 0 1 N Y N -1.768 59.214 -7.992  -3.312 1.416  -0.003 O2   SIA 15
 SIA O4   O4   O 0 1 N N N 0.072  55.523 -8.986  -0.123 0.370  3.478  O4   SIA 16
 SIA O6   O6   O 0 1 N N N -3.149 57.908 -7.847  -1.082 0.968  -0.513 O6   SIA 17
@@ -86,7 +91,7 @@ SIA H111 H111 H 0 0 N N N -3.215 53.728 -12.207 4.474  -0.844 3.172  H111 SIA 31
 SIA H113 H112 H 0 0 N N N -1.550 53.279 -12.033 3.368  -2.213 2.907  H113 SIA 32
 SIA H112 H113 H 0 0 N N N -2.005 54.041 -13.531 4.266  -1.516 1.537  H112 SIA 33
 SIA HN5  HN5  H 0 1 N N N -2.566 54.658 -10.003 1.635  -1.538 0.957  HN5  SIA 34
-SIA HO12 HOB1 H 0 0 N N N -3.412 60.032 -4.867  -3.353 -2.430 1.044  HO12 SIA 35
+SIA HO1B HOB1 H 0 0 N N N -3.412 60.032 -4.867  -3.353 -2.430 1.044  HO1B SIA 35
 SIA HO2  HO2  H 0 1 N Y N -0.905 59.113 -8.438  -3.519 1.217  -0.926 HO2  SIA 36
 SIA HO4  HO4  H 0 1 N Y N 0.427  54.801 -8.430  -0.854 0.203  4.087  HO4  SIA 37
 SIA HO7  HO7  H 0 1 N Y N -3.109 58.884 -9.548  0.844  2.177  -1.360 HO7  SIA 38
@@ -103,8 +108,8 @@ _chem_comp_bond.pdbx_aromatic_flag
 _chem_comp_bond.pdbx_stereo_config
 _chem_comp_bond.pdbx_ordinal
 SIA C1  C2   SING N N 1 
-SIA C1  O11  DOUB N N 2 
-SIA C1  O12  SING N N 3 
+SIA C1  O1A  DOUB N N 2 
+SIA C1  O1B  SING N N 3 
 SIA C2  C3   SING N N 4 
 SIA C2  O2   SING N N 5 
 SIA C2  O6   SING N N 6 
@@ -136,7 +141,7 @@ SIA C11 H111 SING N N 31
 SIA C11 H113 SING N N 32
 SIA C11 H112 SING N N 33
 SIA N5  HN5  SING N N 34
-SIA O12 HO12 SING N N 35
+SIA O1B HO1B SING N N 35
 SIA O2  HO2  SING N N 36
 SIA O4  HO4  SING N N 37
 SIA O7  HO7  SING N N 38
@@ -159,6 +164,7 @@ SIA InChIKey         InChI                1.03  SQVRNKJHWKZAKO-YRMXFSIDSA-N
 # 
 #
 #
+#
 loop_
 _pdbx_chem_comp_identifier.comp_id
 _pdbx_chem_comp_identifier.type
@@ -178,15 +184,17 @@ a-D-Neup5Ac
 SIA "SNFG CARBOHYDRATE SYMBOL"            GMML                 1.0  
 Neu5Ac                                                                                             
 #
+#
 loop_
 _pdbx_chem_comp_feature.comp_id
 _pdbx_chem_comp_feature.type
 _pdbx_chem_comp_feature.value
 _pdbx_chem_comp_feature.source
 _pdbx_chem_comp_feature.support
-SIA "CARBOHYDRATE ISOMER" D        PDB ?
-SIA "CARBOHYDRATE RING"   pyranose PDB ?
-SIA "CARBOHYDRATE ANOMER" alpha    PDB ?
+SIA "CARBOHYDRATE ISOMER"                 D        PDB ?
+SIA "CARBOHYDRATE RING"                   pyranose PDB ?
+SIA "CARBOHYDRATE ANOMER"                 alpha    PDB ?
+SIA "CARBOHYDRATE PRIMARY CARBONYL GROUP" ketose   PDB ?
 #
 #
 #
@@ -199,11 +207,12 @@ SIA "Create component"         1999-07-08 EBI
 SIA "Modify descriptor"        2011-06-04 RCSB
 SIA "Other modification"       2019-08-12 RCSB
 SIA "Other modification"       2019-12-19 RCSB
-SIA "Modify atom id"           2020-06-14 RCSB
-SIA "Modify component atom id" 2020-06-14 RCSB
-SIA "Modify identifier"        2020-06-14 RCSB
-SIA "Modify linking type"      2020-06-14 RCSB
-SIA "Modify leaving atom flag" 2020-06-14 RCSB
-SIA "Modify name"              2020-06-14 RCSB
-SIA "Modify synonyms"          2020-06-14 RCSB
+SIA "Other modification"       2020-06-03 RCSB
+SIA "Modify atom id"           2020-07-29 RCSB
+SIA "Modify component atom id" 2020-07-29 RCSB
+SIA "Modify identifier"        2020-07-29 RCSB
+SIA "Modify linking type"      2020-07-29 RCSB
+SIA "Modify leaving atom flag" 2020-07-29 RCSB
+SIA "Modify name"              2020-07-29 RCSB
+SIA "Modify synonyms"          2020-07-29 RCSB
 #

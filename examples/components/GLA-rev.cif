@@ -1,15 +1,16 @@
 data_GLA
 #
+#
 _chem_comp.id                                  GLA
 _chem_comp.name                                alpha-D-galactopyranose
 _chem_comp.type                                "D-saccharide, alpha linking"
 _chem_comp.pdbx_type                           ATOMS
 _chem_comp.formula                             "C6 H12 O6"
 _chem_comp.mon_nstd_parent_comp_id             ?
-_chem_comp.pdbx_synonyms                       "alpha-D-galactose; ALPHA D-GALACTOSE; D-galactose; galactose"
+_chem_comp.pdbx_synonyms                       "alpha-D-galactose; D-galactose; galactose; ALPHA D-GALACTOSE"
 _chem_comp.pdbx_formal_charge                  0
 _chem_comp.pdbx_initial_date                   1999-07-08
-_chem_comp.pdbx_modified_date                  2020-01-03
+_chem_comp.pdbx_modified_date                  2020-07-29
 _chem_comp.pdbx_ambiguous_flag                 N
 _chem_comp.pdbx_release_status                 REL
 _chem_comp.pdbx_replaced_by                    ?
@@ -25,7 +26,6 @@ _chem_comp.pdbx_model_coordinates_db_code      8ABP
 _chem_comp.pdbx_subcomponent_list              ?
 _chem_comp.pdbx_processing_site                EBI
 #
-#
 loop_
 _pdbx_chem_comp_synonyms.ordinal
 _pdbx_chem_comp_synonyms.comp_id
@@ -33,9 +33,9 @@ _pdbx_chem_comp_synonyms.name
 _pdbx_chem_comp_synonyms.provenance
 _pdbx_chem_comp_synonyms.type
 1 GLA alpha-D-galactose   PDB ?
-2 GLA "ALPHA D-GALACTOSE" PDB ?
-3 GLA D-galactose         PDB ?
-4 GLA galactose           PDB ?
+2 GLA D-galactose         PDB ?
+3 GLA galactose           PDB ?
+4 GLA "ALPHA D-GALACTOSE" PDB ?
 #
 #
 loop_
@@ -132,6 +132,7 @@ GLA InChIKey         InChI                1.03  WQZGKKKJIJFFOK-PHYPRBDBSA-N
 # 
 #
 #
+#
 loop_
 _pdbx_chem_comp_identifier.comp_id
 _pdbx_chem_comp_identifier.type
@@ -151,15 +152,17 @@ a-D-Galp
 GLA "SNFG CARBOHYDRATE SYMBOL"            GMML                 1.0  
 Gal                                                   
 #
+#
 loop_
 _pdbx_chem_comp_feature.comp_id
 _pdbx_chem_comp_feature.type
 _pdbx_chem_comp_feature.value
 _pdbx_chem_comp_feature.source
 _pdbx_chem_comp_feature.support
-GLA "CARBOHYDRATE ISOMER" D        PDB ?
-GLA "CARBOHYDRATE RING"   pyranose PDB ?
-GLA "CARBOHYDRATE ANOMER" alpha    PDB ?
+GLA "CARBOHYDRATE ISOMER"                 D        PDB ?
+GLA "CARBOHYDRATE RING"                   pyranose PDB ?
+GLA "CARBOHYDRATE ANOMER"                 alpha    PDB ?
+GLA "CARBOHYDRATE PRIMARY CARBONYL GROUP" aldose   PDB ?
 #
 #
 #
@@ -172,11 +175,12 @@ GLA "Create component"         1999-07-08 EBI
 GLA "Modify descriptor"        2011-06-04 RCSB
 GLA "Other modification"       2019-08-12 RCSB
 GLA "Other modification"       2019-12-19 RCSB
-GLA "Modify atom id"           2020-06-14 RCSB
-GLA "Modify component atom id" 2020-06-14 RCSB
-GLA "Modify identifier"        2020-06-14 RCSB
-GLA "Modify linking type"      2020-06-14 RCSB
-GLA "Modify leaving atom flag" 2020-06-14 RCSB
-GLA "Modify name"              2020-06-14 RCSB
-GLA "Modify synonyms"          2020-06-14 RCSB
+GLA "Other modification"       2020-06-03 RCSB
+GLA "Modify atom id"           2020-07-29 RCSB
+GLA "Modify component atom id" 2020-07-29 RCSB
+GLA "Modify identifier"        2020-07-29 RCSB
+GLA "Modify linking type"      2020-07-29 RCSB
+GLA "Modify leaving atom flag" 2020-07-29 RCSB
+GLA "Modify name"              2020-07-29 RCSB
+GLA "Modify synonyms"          2020-07-29 RCSB
 #

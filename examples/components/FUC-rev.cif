@@ -1,5 +1,6 @@
 data_FUC
 #
+#
 _chem_comp.id                                  FUC
 _chem_comp.name                                alpha-L-fucopyranose
 _chem_comp.type                                "L-saccharide, alpha linking"
@@ -9,7 +10,7 @@ _chem_comp.mon_nstd_parent_comp_id             ?
 _chem_comp.pdbx_synonyms                       "alpha-L-fucose; 6-deoxy-alpha-L-galactopyranose; L-fucose; fucose"
 _chem_comp.pdbx_formal_charge                  0
 _chem_comp.pdbx_initial_date                   1999-07-08
-_chem_comp.pdbx_modified_date                  2020-01-03
+_chem_comp.pdbx_modified_date                  2020-07-29
 _chem_comp.pdbx_ambiguous_flag                 N
 _chem_comp.pdbx_release_status                 REL
 _chem_comp.pdbx_replaced_by                    ?
@@ -24,7 +25,6 @@ _chem_comp.pdbx_ideal_coordinates_missing_flag N
 _chem_comp.pdbx_model_coordinates_db_code      1AX0
 _chem_comp.pdbx_subcomponent_list              ?
 _chem_comp.pdbx_processing_site                PDBJ
-#
 #
 loop_
 _pdbx_chem_comp_synonyms.ordinal
@@ -130,6 +130,7 @@ FUC InChIKey         InChI                1.03  SHZGCJCMOBCMKK-SXUWKVJYSA-N
 # 
 #
 #
+#
 loop_
 _pdbx_chem_comp_identifier.comp_id
 _pdbx_chem_comp_identifier.type
@@ -143,15 +144,17 @@ FUC "COMMON NAME"                         GMML                 1.0   a-L-fucopyr
 FUC "IUPAC CARBOHYDRATE SYMBOL"           PDB-CARE             1.0   a-L-Fucp                                     
 FUC "SNFG CARBOHYDRATE SYMBOL"            GMML                 1.0   Fuc                                          
 #
+#
 loop_
 _pdbx_chem_comp_feature.comp_id
 _pdbx_chem_comp_feature.type
 _pdbx_chem_comp_feature.value
 _pdbx_chem_comp_feature.source
 _pdbx_chem_comp_feature.support
-FUC "CARBOHYDRATE ISOMER" L        PDB ?
-FUC "CARBOHYDRATE RING"   pyranose PDB ?
-FUC "CARBOHYDRATE ANOMER" alpha    PDB ?
+FUC "CARBOHYDRATE ISOMER"                 L        PDB ?
+FUC "CARBOHYDRATE RING"                   pyranose PDB ?
+FUC "CARBOHYDRATE ANOMER"                 alpha    PDB ?
+FUC "CARBOHYDRATE PRIMARY CARBONYL GROUP" aldose   PDB ?
 #
 #
 #
@@ -164,11 +167,12 @@ FUC "Create component"         1999-07-08 PDBJ
 FUC "Modify descriptor"        2011-06-04 RCSB
 FUC "Other modification"       2019-08-12 RCSB
 FUC "Other modification"       2019-12-19 RCSB
-FUC "Modify atom id"           2020-06-14 RCSB
-FUC "Modify component atom id" 2020-06-14 RCSB
-FUC "Modify identifier"        2020-06-14 RCSB
-FUC "Modify linking type"      2020-06-14 RCSB
-FUC "Modify leaving atom flag" 2020-06-14 RCSB
-FUC "Modify name"              2020-06-14 RCSB
-FUC "Modify synonyms"          2020-06-14 RCSB
+FUC "Other modification"       2020-06-03 RCSB
+FUC "Modify atom id"           2020-07-29 RCSB
+FUC "Modify component atom id" 2020-07-29 RCSB
+FUC "Modify identifier"        2020-07-29 RCSB
+FUC "Modify linking type"      2020-07-29 RCSB
+FUC "Modify leaving atom flag" 2020-07-29 RCSB
+FUC "Modify name"              2020-07-29 RCSB
+FUC "Modify synonyms"          2020-07-29 RCSB
 #

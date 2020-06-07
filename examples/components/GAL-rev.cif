@@ -1,5 +1,6 @@
 data_GAL
 #
+#
 _chem_comp.id                                  GAL
 _chem_comp.name                                beta-D-galactopyranose
 _chem_comp.type                                "D-saccharide, beta linking"
@@ -9,7 +10,7 @@ _chem_comp.mon_nstd_parent_comp_id             ?
 _chem_comp.pdbx_synonyms                       "beta-D-galactose; D-galactose; galactose"
 _chem_comp.pdbx_formal_charge                  0
 _chem_comp.pdbx_initial_date                   1999-07-08
-_chem_comp.pdbx_modified_date                  2020-01-03
+_chem_comp.pdbx_modified_date                  2020-07-29
 _chem_comp.pdbx_ambiguous_flag                 N
 _chem_comp.pdbx_release_status                 REL
 _chem_comp.pdbx_replaced_by                    ?
@@ -24,7 +25,6 @@ _chem_comp.pdbx_ideal_coordinates_missing_flag N
 _chem_comp.pdbx_model_coordinates_db_code      2SBA
 _chem_comp.pdbx_subcomponent_list              ?
 _chem_comp.pdbx_processing_site                EBI
-#
 #
 loop_
 _pdbx_chem_comp_synonyms.ordinal
@@ -131,6 +131,7 @@ GAL InChIKey         InChI                1.03  WQZGKKKJIJFFOK-FPRJBGLDSA-N
 # 
 #
 #
+#
 loop_
 _pdbx_chem_comp_identifier.comp_id
 _pdbx_chem_comp_identifier.type
@@ -150,15 +151,17 @@ b-D-Galp
 GAL "SNFG CARBOHYDRATE SYMBOL"            GMML                 1.0  
 Gal                                                   
 #
+#
 loop_
 _pdbx_chem_comp_feature.comp_id
 _pdbx_chem_comp_feature.type
 _pdbx_chem_comp_feature.value
 _pdbx_chem_comp_feature.source
 _pdbx_chem_comp_feature.support
-GAL "CARBOHYDRATE ISOMER" D        PDB ?
-GAL "CARBOHYDRATE RING"   pyranose PDB ?
-GAL "CARBOHYDRATE ANOMER" beta     PDB ?
+GAL "CARBOHYDRATE ISOMER"                 D        PDB ?
+GAL "CARBOHYDRATE RING"                   pyranose PDB ?
+GAL "CARBOHYDRATE ANOMER"                 beta     PDB ?
+GAL "CARBOHYDRATE PRIMARY CARBONYL GROUP" aldose   PDB ?
 #
 #
 #
@@ -172,11 +175,12 @@ GAL "Modify leaving atom flag" 2011-05-10 RCSB
 GAL "Modify descriptor"        2011-06-04 RCSB
 GAL "Other modification"       2019-08-12 RCSB
 GAL "Other modification"       2019-12-19 RCSB
-GAL "Modify atom id"           2020-06-14 RCSB
-GAL "Modify component atom id" 2020-06-14 RCSB
-GAL "Modify identifier"        2020-06-14 RCSB
-GAL "Modify linking type"      2020-06-14 RCSB
-GAL "Modify leaving atom flag" 2020-06-14 RCSB
-GAL "Modify name"              2020-06-14 RCSB
-GAL "Modify synonyms"          2020-06-14 RCSB
+GAL "Other modification"       2020-06-03 RCSB
+GAL "Modify atom id"           2020-07-29 RCSB
+GAL "Modify component atom id" 2020-07-29 RCSB
+GAL "Modify identifier"        2020-07-29 RCSB
+GAL "Modify linking type"      2020-07-29 RCSB
+GAL "Modify leaving atom flag" 2020-07-29 RCSB
+GAL "Modify name"              2020-07-29 RCSB
+GAL "Modify synonyms"          2020-07-29 RCSB
 #

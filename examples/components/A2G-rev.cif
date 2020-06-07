@@ -1,5 +1,6 @@
 data_A2G
 #
+#
 _chem_comp.id                                  A2G
 _chem_comp.name                                2-acetamido-2-deoxy-alpha-D-galactopyranose
 _chem_comp.type                                "D-saccharide, alpha linking"
@@ -7,12 +8,12 @@ _chem_comp.pdbx_type                           ATOMS
 _chem_comp.formula                             "C8 H15 N O6"
 _chem_comp.mon_nstd_parent_comp_id             ?
 _chem_comp.pdbx_synonyms                      
-;N-acetyl-alpha-D-galactosamine; N-ACETYL-2-DEOXY-2-AMINO-GALACTOSE; 2-acetamido-2-deoxy-alpha-D-galactose;
-2-acetamido-2-deoxy-D-galactose; 2-acetamido-2-deoxy-galactose
+;N-acetyl-alpha-D-galactosamine; 2-acetamido-2-deoxy-alpha-D-galactose; 2-acetamido-2-deoxy-D-galactose;
+2-acetamido-2-deoxy-galactose; N-ACETYL-2-DEOXY-2-AMINO-GALACTOSE
 ;
 _chem_comp.pdbx_formal_charge                  0
 _chem_comp.pdbx_initial_date                   1999-07-08
-_chem_comp.pdbx_modified_date                  2020-01-03
+_chem_comp.pdbx_modified_date                  2020-07-29
 _chem_comp.pdbx_ambiguous_flag                 N
 _chem_comp.pdbx_release_status                 REL
 _chem_comp.pdbx_replaced_by                    ?
@@ -28,7 +29,6 @@ _chem_comp.pdbx_model_coordinates_db_code      1D0H
 _chem_comp.pdbx_subcomponent_list              ?
 _chem_comp.pdbx_processing_site                RCSB
 #
-#
 loop_
 _pdbx_chem_comp_synonyms.ordinal
 _pdbx_chem_comp_synonyms.comp_id
@@ -36,10 +36,10 @@ _pdbx_chem_comp_synonyms.name
 _pdbx_chem_comp_synonyms.provenance
 _pdbx_chem_comp_synonyms.type
 1 A2G N-acetyl-alpha-D-galactosamine        PDB ?
-2 A2G N-ACETYL-2-DEOXY-2-AMINO-GALACTOSE    PDB ?
-3 A2G 2-acetamido-2-deoxy-alpha-D-galactose PDB ?
-4 A2G 2-acetamido-2-deoxy-D-galactose       PDB ?
-5 A2G 2-acetamido-2-deoxy-galactose         PDB ?
+2 A2G 2-acetamido-2-deoxy-alpha-D-galactose PDB ?
+3 A2G 2-acetamido-2-deoxy-D-galactose       PDB ?
+4 A2G 2-acetamido-2-deoxy-galactose         PDB ?
+5 A2G N-ACETYL-2-DEOXY-2-AMINO-GALACTOSE    PDB ?
 #
 #
 loop_
@@ -148,6 +148,7 @@ A2G InChIKey         InChI                1.03  OVRNDRQMDRJTHS-CBQIKETKSA-N
 # 
 #
 #
+#
 loop_
 _pdbx_chem_comp_identifier.comp_id
 _pdbx_chem_comp_identifier.type
@@ -167,15 +168,17 @@ a-D-GalpNAc
 A2G "SNFG CARBOHYDRATE SYMBOL"            GMML                 1.0  
 GalNAc                                                                    
 #
+#
 loop_
 _pdbx_chem_comp_feature.comp_id
 _pdbx_chem_comp_feature.type
 _pdbx_chem_comp_feature.value
 _pdbx_chem_comp_feature.source
 _pdbx_chem_comp_feature.support
-A2G "CARBOHYDRATE ISOMER" D        PDB ?
-A2G "CARBOHYDRATE RING"   pyranose PDB ?
-A2G "CARBOHYDRATE ANOMER" alpha    PDB ?
+A2G "CARBOHYDRATE ISOMER"                 D        PDB ?
+A2G "CARBOHYDRATE RING"                   pyranose PDB ?
+A2G "CARBOHYDRATE ANOMER"                 alpha    PDB ?
+A2G "CARBOHYDRATE PRIMARY CARBONYL GROUP" aldose   PDB ?
 #
 #
 #
@@ -188,11 +191,12 @@ A2G "Create component"         1999-07-08 RCSB
 A2G "Modify descriptor"        2011-06-04 RCSB
 A2G "Other modification"       2019-08-12 RCSB
 A2G "Other modification"       2019-12-19 RCSB
-A2G "Modify atom id"           2020-06-14 RCSB
-A2G "Modify component atom id" 2020-06-14 RCSB
-A2G "Modify identifier"        2020-06-14 RCSB
-A2G "Modify linking type"      2020-06-14 RCSB
-A2G "Modify leaving atom flag" 2020-06-14 RCSB
-A2G "Modify name"              2020-06-14 RCSB
-A2G "Modify synonyms"          2020-06-14 RCSB
+A2G "Other modification"       2020-06-03 RCSB
+A2G "Modify atom id"           2020-07-29 RCSB
+A2G "Modify component atom id" 2020-07-29 RCSB
+A2G "Modify identifier"        2020-07-29 RCSB
+A2G "Modify linking type"      2020-07-29 RCSB
+A2G "Modify leaving atom flag" 2020-07-29 RCSB
+A2G "Modify name"              2020-07-29 RCSB
+A2G "Modify synonyms"          2020-07-29 RCSB
 #
