@@ -18,4 +18,6 @@ The following sample chemical component definition files show how parental compo
 
 Or you may download [these components](components/all-components.tar.gz) as a compressed tar file.
 
-In addition, you may download definitions for [322 components](components/CCD_monosaccharide_definition.tar.gz) which will be used during remediation. This list is not yet complete.
+In addition, you may download definitions for [756 components](components/CCD.tar.gz) which will be used during remediation. This is a subset of the full list.
+
+The Biologically Interesting Molecule Reference Dictionary (BIRD) definitions [84 PRD definitions](components/PRD.tar.gz) and their support files [PRDCC](components/PRDCC.tar.gz) are also available.
