@@ -26,8 +26,8 @@
           _pdbx_branch_scheme.pdb_asym_id 
           _pdbx_branch_scheme.pdb_mon_id 
           _pdbx_branch_scheme.pdb_seq_num 
-          _pdbx_branch_scheme.auth_asym_id 
           _pdbx_branch_scheme.auth_mon_id 
+          _pdbx_branch_scheme.auth_asym_id 
           _pdbx_branch_scheme.auth_seq_num 
           _pdbx_branch_scheme.hetero 
           B  2 NAG 1 B NAG 1  NAG A 1592 n
@@ -50,6 +50,7 @@
 | mon_id | yes | yes | ucode | None | no | no |
 | num | yes | yes | int | None | no | yes |
 | pdb_asym_id | no | yes | code | None | no | no |
+| pdb_ins_code | no | no | code | None | no | no |
 | pdb_mon_id | no | yes | code | None | no | no |
 | pdb_seq_num | no | yes | code | None | no | no |
 
@@ -144,6 +145,14 @@
 
 
 
+#### _pdbx_branch_scheme.pdb_ins_code
+
+
+               This data item is a pointer to _atom_site.pdbx_PDB_ins_code in the
+               ATOM_SITE category.
+
+
+
 #### _pdbx_branch_scheme.pdb_mon_id (required)
 
 
@@ -209,7 +218,102 @@
 
 | Allowed Values | Detail |
 | -------------- | ------ |
-| oligosaccharide | . |
+| oligosaccharide |   |
+
+
+## Category pdbx_entity_branch_descriptor
+
+
+               Data items in the PDBX_ENTITY_BRANCH_DESCRIPTOR category provide
+               string descriptors of entity chemical structure.
+
+---
+
+
+```
+     
+         Example 1 -
+     
+         loop_
+         _pdbx_entity_branch_descriptor.ordinal
+         _pdbx_entity_branch_descriptor.entity_id
+         _pdbx_entity_branch_descriptor.descriptor
+         _pdbx_entity_branch_descriptor.type
+         _pdbx_entity_branch_descriptor.program
+         _pdbx_entity_branch_descriptor.program_version
+     	1     1       
+          '[][Asn]{[(4+1)][b-D-GlcpNAc]{[(4+1)][b-D-GlcpNAc]{[(4+1)][b-D-Manp]{[(3+1)][a-D-Manp]{[(2+1)][a-D-Manp]{[(2+1)][a-D-Manp]{}}}[(6+1)][a-D-Manp]{[(3+1)][a-D-Manp]{[(2+1)][a-D-Manp]{}}[(6+1)][a-D-Manp]{[(2+1)][a-D-Manp]{}}}}}}}'
+                LINUCS           PDB-CARE Beta
+```
+
+
+---
+
+| Attribute | Key | Required | Type | Units | Enumerated | Bounded |
+| --------- | --- | -------- | ---- | ----- | ---------- | ------- |
+| descriptor | no | yes | text | None | no | no |
+| entity_id | no | yes | code | None | no | no |
+| ordinal | yes | yes | int | None | no | no |
+| program | no | no | line | None | no | no |
+| program_version | no | no | line | None | no | no |
+| type | no | yes | uline | None | yes | no |
+
+---
+
+#### _pdbx_entity_branch_descriptor.descriptor (required)
+
+
+               This data item contains the descriptor value for this 
+               entity.
+
+
+
+#### _pdbx_entity_branch_descriptor.entity_id (required)
+
+
+               This data item is a pointer to _entity_poly.entity_id in the ENTITY
+               category.
+
+
+
+#### _pdbx_entity_branch_descriptor.ordinal (key)
+
+
+               Ordinal index for this category.
+
+
+
+#### _pdbx_entity_branch_descriptor.program
+
+
+               This data item contains the name of the program
+               or library used to compute the descriptor.
+
+
+
+#### _pdbx_entity_branch_descriptor.program_version
+
+
+               This data item contains the version of the program
+               or library used to compute the descriptor.
+
+
+
+#### _pdbx_entity_branch_descriptor.type (required)
+
+
+               This data item contains the descriptor type.
+
+
+
+---
+
+| Allowed Values | Detail |
+| -------------- | ------ |
+| Glycam Condensed Core Sequence | Linear Notation for Unique description of oligosaccharide core structure |
+| Glycam Condensed Sequence | Linear Notation for unique description of an oligosaccharide entity |
+| LINUCS | Linear Notation for unique description of an oligosaccharide entity |
+| WURCS | Linear Notation for Web3 Unique Representation of Carbohydrate Structures |
 
 
 ## Category pdbx_entity_branch_link
@@ -223,7 +327,7 @@
 
 ```
      
-         Example 1 - based on PDB entry 2WMG
+         Example 1 - base on PDB entry 2WMG
      
          loop_
          _pdbx_entity_branch_link.link_id 
@@ -507,7 +611,6 @@
 | Minimum&nbsp;Value | Maximum&nbsp;Value |
 | ------------- | ------ |
 | 1 | <h3>+&infin;</h3> |
-
 
 ## Category pdbx_entity_descriptor
 
@@ -806,7 +909,6 @@
 | quad | quadruple bond |
 | sing | single bond |
 | trip | triple bond |
-
 
 ## Category struct_conn
 
