@@ -691,14 +691,15 @@ _entity.pdbx_ec
 _entity.pdbx_mutation 
 _entity.pdbx_fragment 
 _entity.details 
-1 polymer     nat "alpha2,6-sialylated core-3 pentapeptide"             401.415   1   ? ? ?                       "Glycopeptide fragment derived from bovine submaxillary mucin" 
-2 polymer     man "F5/8 type C domain protein"                          60080.852 1   ? ? "UNP residues 497-1003" "In complex with a BSM fragment."                              
-3 branched    man "DGlcpNAcb1-3[DNeup5Aca2-6]DGalpNAca1-"               715.656   1   ? ? ?                       ?                                                              
-4 non-polymer syn "ZINC ION"                                            65.409    1   ? ? ?                       ?                                                              
-5 non-polymer syn "L(+)-TARTARIC ACID"                                  150.087   1   ? ? ?                       ?                                                              
-6 non-polymer syn "4-(2-HYDROXYETHYL)-1-PIPERAZINE ETHANESULFONIC ACID" 238.305   1   ? ? ?                       ?                                                              
-7 non-polymer syn 1,2-ETHANEDIOL                                        62.068    5   ? ? ?                       ?                                                              
-8 water       nat water                                                 18.015    794 ? ? ?                       ?                                                              
+1 polymer     nat "alpha2,6-sialylated core-3 pentapeptide"                                                                                          401.415   1   ? ? ?                       
+"Glycopeptide fragment derived from bovine submaxillary mucin" 
+2 polymer     man "F5/8 type C domain protein"                                                                                                       60080.852 1   ? ? "UNP residues 497-1003" "In complex with a BSM fragment." 
+3 branched    man "2-acetamido-2-deoxy-beta-D-glucopyranose-(1-3)-[N-acetyl-alpha-neuraminic acid-(2-6)]2-acetamido-2-deoxy-alpha-D-galactopyranose" 715.656   1   ? ? ?                       ? 
+4 non-polymer syn "ZINC ION"                                                                                                                         65.409    1   ? ? ?                       ? 
+5 non-polymer syn "L(+)-TARTARIC ACID"                                                                                                               150.087   1   ? ? ?                       ? 
+6 non-polymer syn "4-(2-HYDROXYETHYL)-1-PIPERAZINE ETHANESULFONIC ACID"                                                                              238.305   1   ? ? ?                       ? 
+7 non-polymer syn 1,2-ETHANEDIOL                                                                                                                     62.068    5   ? ? ?                       ? 
+8 water       nat water                                                                                                                              18.015    794 ? ? ?                       ? 
 # 
 _entity_src_nat.entity_id                  1 
 _entity_src_nat.pdbx_src_id                1 
@@ -2297,11 +2298,11 @@ _struct_conn.pdbx_dist_value
 _struct_conn.pdbx_value_order 
 _struct_conn.pdbx_role 
 covale1 covale one ? A THR 1   OG1 ? ? ? 1_555 C A2G . C1  ? ? G THR 4    B A2G 1    1_555 ? ? ? ? ? ? ? 1.541 ? O-Glycosylation 
+covale2 covale one ? C A2G .   O3  ? ? ? 1_555 C NAG . C1  ? ? B A2G 1    B NAG 2    1_555 ? ? ? ? ? ? ? 1.431 ? ?               
+covale3 covale one ? C A2G .   O6  ? ? ? 1_555 C SIA . C2  ? ? B A2G 1    B SIA 3    1_555 ? ? ? ? ? ? ? 1.545 ? ?               
 metalc1 metalc ?   ? B HIS 283 NE2 ? ? ? 1_555 D ZN  . ZN  ? ? A HIS 756  A ZN  1101 1_555 ? ? ? ? ? ? ? 2.161 ? ?               
 metalc2 metalc ?   ? B HIS 287 NE2 ? ? ? 1_555 D ZN  . ZN  ? ? A HIS 760  A ZN  1101 1_555 ? ? ? ? ? ? ? 2.134 ? ?               
 metalc3 metalc ?   ? B GLU 298 OE1 ? ? ? 1_555 D ZN  . ZN  ? ? A GLU 771  A ZN  1101 1_555 ? ? ? ? ? ? ? 2.110 ? ?               
-covale2 covale one ? C A2G .   O3  ? ? ? 1_555 C NAG . C1  ? ? B A2G 1    B NAG 3    1_555 ? ? ? ? ? ? ? 1.431 ? ?               
-covale3 covale one ? C A2G .   O6  ? ? ? 1_555 C SIA . C2  ? ? B A2G 1    B SIA 2    1_555 ? ? ? ? ? ? ? 1.545 ? ?               
 metalc4 metalc ?   ? D ZN  .   ZN  ? ? ? 1_555 E TLA . O11 ? ? A ZN  1101 A TLA 1102 1_555 ? ? ? ? ? ? ? 1.993 ? ?               
 metalc5 metalc ?   ? D ZN  .   ZN  ? ? ? 1_555 E TLA . O2  ? ? A ZN  1101 A TLA 1102 1_555 ? ? ? ? ? ? ? 2.188 ? ?               
 metalc6 metalc ?   ? D ZN  .   ZN  ? ? ? 1_555 M HOH . O   ? ? A ZN  1101 A HOH 1222 1_555 ? ? ? ? ? ? ? 2.231 ? ?               
@@ -3084,8 +3085,8 @@ _pdbx_validate_close_contact.PDB_ins_code_2
 _pdbx_validate_close_contact.label_alt_id_2 
 _pdbx_validate_close_contact.dist 
 1 1 O  A HOH 1213 ? ? O  A HOH 1793 ? ? 2.07 
-2 1 O7 B SIA 2    ? ? O  G HOH 201  ? ? 2.17 
-3 1 O3 B A2G 1    ? ? O5 B NAG 3    ? ? 2.18 
+2 1 O7 B SIA 3    ? ? O  G HOH 201  ? ? 2.17 
+3 1 O3 B A2G 1    ? ? O5 B NAG 2    ? ? 2.18 
 # 
 loop_
 _pdbx_validate_rmsd_angle.id 
@@ -3220,8 +3221,8 @@ _pdbx_branch_scheme.auth_mon_id
 _pdbx_branch_scheme.auth_seq_num 
 _pdbx_branch_scheme.hetero 
 C 3 A2G 1 B A2G 1 G A2G 101 n 
-C 3 SIA 2 B SIA 2 G SIA 102 n 
-C 3 NAG 3 B NAG 3 G NAG 103 n 
+C 3 NAG 2 B NAG 2 G NAG 103 n 
+C 3 SIA 3 B SIA 3 G SIA 102 n 
 # 
 loop_
 _pdbx_chem_comp_identifier.comp_id 
@@ -3252,8 +3253,9 @@ _pdbx_entity_branch_descriptor.descriptor
 _pdbx_entity_branch_descriptor.type 
 _pdbx_entity_branch_descriptor.program 
 _pdbx_entity_branch_descriptor.program_version 
-1 3 "DGlcpNAcb1-3[DNeup5Aca2-6]DGalpNAca1-"                                  "Glycam Condensed Sequence" GMML     1.0 
-2 3 "[]{[(3+1)][a-D-GalpNAc]{[(3+1)][b-D-GlcpNAc]{}[(6+2)][a-D-Neup5Ac]{}}}" LINUCS                      PDB-CARE ?   
+1 3 "DGlcpNAcb1-3[DNeup5Aca2-6]DGalpNAca1-"                                                                            "Glycam Condensed Sequence" GMML       1.0    
+2 3 "WURCS=2.0/3,3,2/[a2112h-1a_1-5_2*NCC/3=O][a2122h-1b_1-5_2*NCC/3=O][Aad21122h-2a_2-6_5*NCC/3=O]/1-2-3/a3-b1_a6-c2" WURCS                       PDB2Glycan 0.19.0 
+3 3 "[]{[(3+1)][a-D-GalpNAc]{[(3+1)][b-D-GlcpNAc]{}[(6+2)][a-D-Neup5Ac]{}}}"                                           LINUCS                      PDB-CARE   ?      
 # 
 loop_
 _pdbx_entity_branch_link.link_id 
@@ -3268,8 +3270,8 @@ _pdbx_entity_branch_link.atom_id_2
 _pdbx_entity_branch_link.leaving_atom_id_2 
 _pdbx_entity_branch_link.value_order 
 _pdbx_entity_branch_link.details 
-1 3 2 SIA C2 O2 1 A2G O6 HO6 sing ? 
-2 3 3 NAG C1 O1 1 A2G O3 HO3 sing ? 
+1 3 2 NAG C1 O1 1 A2G O3 HO3 sing ? 
+2 3 3 SIA C2 O2 1 A2G O6 HO6 sing ? 
 # 
 loop_
 _pdbx_entity_branch_list.entity_id 
@@ -3277,8 +3279,8 @@ _pdbx_entity_branch_list.comp_id
 _pdbx_entity_branch_list.num 
 _pdbx_entity_branch_list.hetero 
 3 A2G 1 n 
-3 SIA 2 n 
-3 NAG 3 n 
+3 NAG 2 n 
+3 SIA 3 n 
 # 
 loop_
 _pdbx_entity_nonpoly.entity_id 
@@ -7526,40 +7528,40 @@ HETATM 4165 O  O6  . A2G C 3 .   ? -8.435  1.034   -24.041 1.00 24.20 ? 1    A2G
 HETATM 4166 C  C7  . A2G C 3 .   ? -12.964 -4.603  -22.349 1.00 19.91 ? 1    A2G B C7  1 
 HETATM 4167 O  O7  . A2G C 3 .   ? -13.961 -3.895  -22.515 1.00 19.40 ? 1    A2G B O7  1 
 HETATM 4168 C  C8  . A2G C 3 .   ? -13.094 -6.100  -22.066 1.00 20.25 ? 1    A2G B C8  1 
-HETATM 4169 C  C1  . SIA C 3 .   ? -9.792  2.643   -25.471 1.00 30.95 ? 2    SIA B C1  1 
-HETATM 4170 C  C2  . SIA C 3 .   ? -8.461  2.401   -24.761 1.00 25.62 ? 2    SIA B C2  1 
-HETATM 4171 C  C3  . SIA C 3 .   ? -7.200  2.488   -25.651 1.00 27.01 ? 2    SIA B C3  1 
-HETATM 4172 C  C4  . SIA C 3 .   ? -6.995  3.928   -26.085 1.00 28.49 ? 2    SIA B C4  1 
-HETATM 4173 C  C5  . SIA C 3 .   ? -6.891  4.846   -24.874 1.00 26.71 ? 2    SIA B C5  1 
-HETATM 4174 C  C6  . SIA C 3 .   ? -8.191  4.667   -24.064 1.00 24.11 ? 2    SIA B C6  1 
-HETATM 4175 C  C7  . SIA C 3 .   ? -8.309  5.553   -22.832 1.00 24.30 ? 2    SIA B C7  1 
-HETATM 4176 C  C8  . SIA C 3 .   ? -9.437  5.080   -21.937 1.00 23.49 ? 2    SIA B C8  1 
-HETATM 4177 C  C9  . SIA C 3 .   ? -9.711  6.183   -20.926 1.00 22.37 ? 2    SIA B C9  1 
-HETATM 4178 C  C10 . SIA C 3 .   ? -5.843  7.103   -25.047 1.00 34.58 ? 2    SIA B C10 1 
-HETATM 4179 C  C11 . SIA C 3 .   ? -5.961  8.457   -25.719 1.00 37.25 ? 2    SIA B C11 1 
-HETATM 4180 N  N5  . SIA C 3 .   ? -6.770  6.210   -25.392 1.00 30.77 ? 2    SIA B N5  1 
-HETATM 4181 O  O11 . SIA C 3 .   ? -9.933  2.165   -26.635 1.00 37.24 ? 2    SIA B O11 1 
-HETATM 4182 O  O12 . SIA C 3 .   ? -10.697 3.279   -24.857 1.00 27.93 ? 2    SIA B O12 1 
-HETATM 4183 O  O4  . SIA C 3 .   ? -5.761  4.004   -26.809 1.00 32.09 ? 2    SIA B O4  1 
-HETATM 4184 O  O6  . SIA C 3 .   ? -8.297  3.294   -23.642 1.00 23.83 ? 2    SIA B O6  1 
-HETATM 4185 O  O7  . SIA C 3 .   ? -7.121  5.555   -22.009 1.00 25.12 ? 2    SIA B O7  1 
-HETATM 4186 O  O8  . SIA C 3 .   ? -10.621 4.808   -22.722 1.00 22.45 ? 2    SIA B O8  1 
-HETATM 4187 O  O9  . SIA C 3 .   ? -10.787 5.756   -20.068 1.00 19.92 ? 2    SIA B O9  1 
-HETATM 4188 O  O10 . SIA C 3 .   ? -4.971  6.834   -24.241 1.00 37.64 ? 2    SIA B O10 1 
-HETATM 4189 C  C1  . NAG C 3 .   ? -10.609 -4.209  -25.887 1.00 34.81 ? 3    NAG B C1  1 
-HETATM 4190 C  C2  . NAG C 3 .   ? -11.720 -4.555  -26.893 1.00 36.59 ? 3    NAG B C2  1 
-HETATM 4191 C  C3  . NAG C 3 .   ? -11.124 -5.511  -27.926 1.00 41.50 ? 3    NAG B C3  1 
-HETATM 4192 C  C4  . NAG C 3 .   ? -9.874  -4.922  -28.576 1.00 47.90 ? 3    NAG B C4  1 
-HETATM 4193 C  C5  . NAG C 3 .   ? -8.951  -4.177  -27.608 1.00 49.47 ? 3    NAG B C5  1 
-HETATM 4194 C  C6  . NAG C 3 .   ? -8.090  -3.235  -28.439 1.00 49.63 ? 3    NAG B C6  1 
-HETATM 4195 C  C7  . NAG C 3 .   ? -14.102 -4.686  -26.309 1.00 31.28 ? 3    NAG B C7  1 
-HETATM 4196 C  C8  . NAG C 3 .   ? -15.162 -5.444  -25.563 1.00 28.55 ? 3    NAG B C8  1 
-HETATM 4197 N  N2  . NAG C 3 .   ? -12.861 -5.173  -26.238 1.00 32.81 ? 3    NAG B N2  1 
-HETATM 4198 O  O3  . NAG C 3 .   ? -12.091 -5.723  -28.920 1.00 44.78 ? 3    NAG B O3  1 
-HETATM 4199 O  O4  . NAG C 3 .   ? -9.114  -5.965  -29.158 1.00 55.85 ? 3    NAG B O4  1 
-HETATM 4200 O  O5  . NAG C 3 .   ? -9.624  -3.444  -26.581 1.00 42.28 ? 3    NAG B O5  1 
-HETATM 4201 O  O6  . NAG C 3 .   ? -6.779  -3.362  -27.954 1.00 49.57 ? 3    NAG B O6  1 
-HETATM 4202 O  O7  . NAG C 3 .   ? -14.385 -3.675  -26.940 1.00 32.98 ? 3    NAG B O7  1 
+HETATM 4169 C  C1  . NAG C 3 .   ? -10.609 -4.209  -25.887 1.00 34.81 ? 2    NAG B C1  1 
+HETATM 4170 C  C2  . NAG C 3 .   ? -11.720 -4.555  -26.893 1.00 36.59 ? 2    NAG B C2  1 
+HETATM 4171 C  C3  . NAG C 3 .   ? -11.124 -5.511  -27.926 1.00 41.50 ? 2    NAG B C3  1 
+HETATM 4172 C  C4  . NAG C 3 .   ? -9.874  -4.922  -28.576 1.00 47.90 ? 2    NAG B C4  1 
+HETATM 4173 C  C5  . NAG C 3 .   ? -8.951  -4.177  -27.608 1.00 49.47 ? 2    NAG B C5  1 
+HETATM 4174 C  C6  . NAG C 3 .   ? -8.090  -3.235  -28.439 1.00 49.63 ? 2    NAG B C6  1 
+HETATM 4175 C  C7  . NAG C 3 .   ? -14.102 -4.686  -26.309 1.00 31.28 ? 2    NAG B C7  1 
+HETATM 4176 C  C8  . NAG C 3 .   ? -15.162 -5.444  -25.563 1.00 28.55 ? 2    NAG B C8  1 
+HETATM 4177 N  N2  . NAG C 3 .   ? -12.861 -5.173  -26.238 1.00 32.81 ? 2    NAG B N2  1 
+HETATM 4178 O  O3  . NAG C 3 .   ? -12.091 -5.723  -28.920 1.00 44.78 ? 2    NAG B O3  1 
+HETATM 4179 O  O4  . NAG C 3 .   ? -9.114  -5.965  -29.158 1.00 55.85 ? 2    NAG B O4  1 
+HETATM 4180 O  O5  . NAG C 3 .   ? -9.624  -3.444  -26.581 1.00 42.28 ? 2    NAG B O5  1 
+HETATM 4181 O  O6  . NAG C 3 .   ? -6.779  -3.362  -27.954 1.00 49.57 ? 2    NAG B O6  1 
+HETATM 4182 O  O7  . NAG C 3 .   ? -14.385 -3.675  -26.940 1.00 32.98 ? 2    NAG B O7  1 
+HETATM 4183 C  C1  . SIA C 3 .   ? -9.792  2.643   -25.471 1.00 30.95 ? 3    SIA B C1  1 
+HETATM 4184 C  C2  . SIA C 3 .   ? -8.461  2.401   -24.761 1.00 25.62 ? 3    SIA B C2  1 
+HETATM 4185 C  C3  . SIA C 3 .   ? -7.200  2.488   -25.651 1.00 27.01 ? 3    SIA B C3  1 
+HETATM 4186 C  C4  . SIA C 3 .   ? -6.995  3.928   -26.085 1.00 28.49 ? 3    SIA B C4  1 
+HETATM 4187 C  C5  . SIA C 3 .   ? -6.891  4.846   -24.874 1.00 26.71 ? 3    SIA B C5  1 
+HETATM 4188 C  C6  . SIA C 3 .   ? -8.191  4.667   -24.064 1.00 24.11 ? 3    SIA B C6  1 
+HETATM 4189 C  C7  . SIA C 3 .   ? -8.309  5.553   -22.832 1.00 24.30 ? 3    SIA B C7  1 
+HETATM 4190 C  C8  . SIA C 3 .   ? -9.437  5.080   -21.937 1.00 23.49 ? 3    SIA B C8  1 
+HETATM 4191 C  C9  . SIA C 3 .   ? -9.711  6.183   -20.926 1.00 22.37 ? 3    SIA B C9  1 
+HETATM 4192 C  C10 . SIA C 3 .   ? -5.843  7.103   -25.047 1.00 34.58 ? 3    SIA B C10 1 
+HETATM 4193 C  C11 . SIA C 3 .   ? -5.961  8.457   -25.719 1.00 37.25 ? 3    SIA B C11 1 
+HETATM 4194 N  N5  . SIA C 3 .   ? -6.770  6.210   -25.392 1.00 30.77 ? 3    SIA B N5  1 
+HETATM 4195 O  O1A . SIA C 3 .   ? -9.933  2.165   -26.635 1.00 37.24 ? 3    SIA B O1A 1 
+HETATM 4196 O  O1B . SIA C 3 .   ? -10.697 3.279   -24.857 1.00 27.93 ? 3    SIA B O1B 1 
+HETATM 4197 O  O4  . SIA C 3 .   ? -5.761  4.004   -26.809 1.00 32.09 ? 3    SIA B O4  1 
+HETATM 4198 O  O6  . SIA C 3 .   ? -8.297  3.294   -23.642 1.00 23.83 ? 3    SIA B O6  1 
+HETATM 4199 O  O7  . SIA C 3 .   ? -7.121  5.555   -22.009 1.00 25.12 ? 3    SIA B O7  1 
+HETATM 4200 O  O8  . SIA C 3 .   ? -10.621 4.808   -22.722 1.00 22.45 ? 3    SIA B O8  1 
+HETATM 4201 O  O9  . SIA C 3 .   ? -10.787 5.756   -20.068 1.00 19.92 ? 3    SIA B O9  1 
+HETATM 4202 O  O10 . SIA C 3 .   ? -4.971  6.834   -24.241 1.00 37.64 ? 3    SIA B O10 1 
 HETATM 4203 ZN ZN  . ZN  D 4 .   ? -11.310 -5.877  -17.063 1.00 25.36 ? 1101 ZN  A ZN  1 
 HETATM 4204 O  O1  . TLA E 5 .   ? -8.737  -7.365  -19.764 1.00 30.66 ? 1102 TLA A O1  1 
 HETATM 4205 O  O11 . TLA E 5 .   ? -10.152 -6.083  -18.672 1.00 26.65 ? 1102 TLA A O11 1 

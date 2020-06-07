@@ -469,7 +469,7 @@ _entity.pdbx_ec
 _entity.pdbx_mutation 
 _entity.pdbx_fragment 
 _entity.details 
-1 polymer  nat "PROTEIN (CARDOSIN A)"                                            26042.812 2   3.4.23.- ? ? 
+1 polymer  nat "PROTEIN (CARDOSIN A)"                                                                                                                                                                                    26042.812 2   3.4.23.- ? ? 
 ;RESIDUE NAMES ACCORDING TO PEPSIN NUMBERING AFTER A.R.SIELECKI, A.A.FEDOROV, A.BOODHOO, N.S.ANDREEVA, AND M.N.G.JAMES (1990).J.MOL.BIOL. 214, 143-170. NATIVE CARDOSIN A SEQUENCE DIFFERS FROM THAT DEDUCED FROM CDNA THROUGH EXCISION OF THE PSI DOMAIN.
 MATURE CARDOSIN A IS FOUND IN A TWO CHAIN FORM DUE TO A POST-TRANSLATIONAL CLEAVAGE EVENT. A FIRST, 35 KD CHAIN
 COMPRISES RESIDUES 0/1 - 238 AND THE SECOND 15 KD CHAIN COMPRISES RESIDUES 243 - 326. THE ASYMMETRIC UNIT
@@ -478,7 +478,7 @@ HAVE BEEN ASSIGNED CHAIN INDICATORS *C* AND *D*. MOLECULE 1 COMPOSED BY CHAINS A
 MOLECULE 2 COMPOSED BY CHAINS C(1-238) AND D (243-326). N-LINKED CARBOHYDRATES (RESIDUES 401-405 A AND
 401-406 C) ATTACHED TO ASN 67. N-LINKED CARBOHYDRATES (RESIDUES 501-504 B AND 501-504 D) ATTACHED TO ASN 257.
 ;
-2 polymer  nat "PROTEIN (CARDOSIN A)"                                            9441.812  2   3.4.23.- ? ? 
+2 polymer  nat "PROTEIN (CARDOSIN A)"                                                                                                                                                                                    9441.812  2   3.4.23.- ? ? 
 ;RESIDUE NAMES ACCORDING TO PEPSIN NUMBERING AFTER A.R.SIELECKI, A.A.FEDOROV, A.BOODHOO, N.S.ANDREEVA, AND M.N.G.JAMES (1990).J.MOL.BIOL. 214, 143-170. NATIVE CARDOSIN A SEQUENCE DIFFERS FROM THAT DEDUCED FROM CDNA THROUGH EXCISION OF THE PSI DOMAIN.
 MATURE CARDOSIN A IS FOUND IN A TWO CHAIN FORM DUE TO A POST-TRANSLATIONAL CLEAVAGE EVENT. A FIRST, 35 KD CHAIN
 COMPRISES RESIDUES 0/1 - 238 AND THE SECOND 15 KD CHAIN COMPRISES RESIDUES 243 - 326. THE ASYMMETRIC UNIT
@@ -487,11 +487,11 @@ HAVE BEEN ASSIGNED CHAIN INDICATORS *C* AND *D*. MOLECULE 1 COMPOSED BY CHAINS A
 MOLECULE 2 COMPOSED BY CHAINS C(1-238) AND D (243-326). N-LINKED CARBOHYDRATES (RESIDUES 401-405 A AND
 401-406 C) ATTACHED TO ASN 67. N-LINKED CARBOHYDRATES (RESIDUES 501-504 B AND 501-504 D) ATTACHED TO ASN 257.
 ;
-3 branched man "DManpa1-3DManpb1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-"            894.823   1   ?        ? ? ? 
-4 branched man "DManpb1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-"                     732.682   1   ?        ? ? ? 
-5 branched man "DManpa1-3[DManpa1-6]DManpb1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-" 1056.964  1   ?        ? ? ? 
-6 branched man "DManpa1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-"                     732.682   1   ?        ? ? ? 
-7 water    nat water                                                             18.015    528 ?        ? ? ? 
+3 branched man "alpha-D-mannopyranose-(1-3)-beta-D-mannopyranose-(1-4)-2-acetamido-2-deoxy-beta-D-glucopyranose-(1-4)-[alpha-L-fucopyranose-(1-3)]2-acetamido-2-deoxy-beta-D-glucopyranose"                              894.823   1   ?        ? ? ? 
+4 branched man "beta-D-mannopyranose-(1-4)-2-acetamido-2-deoxy-beta-D-glucopyranose-(1-4)-[alpha-L-fucopyranose-(1-3)]2-acetamido-2-deoxy-beta-D-glucopyranose"                                                          732.682   1   ?        ? ? ? 
+5 branched man "alpha-D-mannopyranose-(1-3)-[alpha-D-mannopyranose-(1-6)]beta-D-mannopyranose-(1-4)-2-acetamido-2-deoxy-beta-D-glucopyranose-(1-4)-[alpha-L-fucopyranose-(1-3)]2-acetamido-2-deoxy-beta-D-glucopyranose" 1056.964  1   ?        ? ? ? 
+6 branched man "alpha-D-mannopyranose-(1-4)-2-acetamido-2-deoxy-beta-D-glucopyranose-(1-4)-[alpha-L-fucopyranose-(1-3)]2-acetamido-2-deoxy-beta-D-glucopyranose"                                                         732.682   1   ?        ? ? ? 
+7 water    nat water                                                                                                                                                                                                     18.015    528 ?        ? ? ? 
 # 
 loop_
 _entity_src_nat.entity_id 
@@ -1842,21 +1842,21 @@ covale1  covale one  ? A ASN 69  ND2 ? ? ? 1_555 E NAG .   C1 ? ? A ASN 67  E NA
 covale2  covale one  ? B ASN 15  ND2 ? ? ? 1_555 F NAG .   C1 ? ? B ASN 257 F NAG 1   1_555 ? ? ? ? ? ? ? 1.450 ? N-Glycosylation 
 covale3  covale one  ? C ASN 69  ND2 ? ? ? 1_555 G NAG .   C1 ? ? C ASN 67  G NAG 1   1_555 ? ? ? ? ? ? ? 1.483 ? N-Glycosylation 
 covale4  covale one  ? D ASN 15  ND2 ? ? ? 1_555 H NAG .   C1 ? ? D ASN 257 H NAG 1   1_555 ? ? ? ? ? ? ? 1.456 ? N-Glycosylation 
-covale5  covale both ? E NAG .   O3  ? ? ? 1_555 E FUC .   C1 ? ? E NAG 1   E FUC 5   1_555 ? ? ? ? ? ? ? 1.430 ? ?               
-covale6  covale both ? E NAG .   O4  ? ? ? 1_555 E NAG .   C1 ? ? E NAG 1   E NAG 2   1_555 ? ? ? ? ? ? ? 1.387 ? ?               
+covale5  covale both ? E NAG .   O4  ? ? ? 1_555 E NAG .   C1 ? ? E NAG 1   E NAG 2   1_555 ? ? ? ? ? ? ? 1.387 ? ?               
+covale6  covale both ? E NAG .   O3  ? ? ? 1_555 E FUC .   C1 ? ? E NAG 1   E FUC 5   1_555 ? ? ? ? ? ? ? 1.430 ? ?               
 covale7  covale both ? E NAG .   O4  ? ? ? 1_555 E BMA .   C1 ? ? E NAG 2   E BMA 3   1_555 ? ? ? ? ? ? ? 1.396 ? ?               
 covale8  covale both ? E BMA .   O3  ? ? ? 1_555 E MAN .   C1 ? ? E BMA 3   E MAN 4   1_555 ? ? ? ? ? ? ? 1.408 ? ?               
-covale9  covale both ? F NAG .   O3  ? ? ? 1_555 F FUC .   C1 ? ? F NAG 1   F FUC 4   1_555 ? ? ? ? ? ? ? 1.425 ? ?               
-covale10 covale both ? F NAG .   O4  ? ? ? 1_555 F NAG .   C1 ? ? F NAG 1   F NAG 2   1_555 ? ? ? ? ? ? ? 1.385 ? ?               
+covale9  covale both ? F NAG .   O4  ? ? ? 1_555 F NAG .   C1 ? ? F NAG 1   F NAG 2   1_555 ? ? ? ? ? ? ? 1.385 ? ?               
+covale10 covale both ? F NAG .   O3  ? ? ? 1_555 F FUC .   C1 ? ? F NAG 1   F FUC 4   1_555 ? ? ? ? ? ? ? 1.425 ? ?               
 covale11 covale both ? F NAG .   O4  ? ? ? 1_555 F BMA .   C1 ? ? F NAG 2   F BMA 3   1_555 ? ? ? ? ? ? ? 1.389 ? ?               
-covale12 covale both ? G NAG .   O3  ? ? ? 1_555 G FUC .   C1 ? ? G NAG 1   G FUC 5   1_555 ? ? ? ? ? ? ? 1.427 ? ?               
-covale13 covale both ? G NAG .   O4  ? ? ? 1_555 G NAG .   C1 ? ? G NAG 1   G NAG 2   1_555 ? ? ? ? ? ? ? 1.388 ? ?               
+covale12 covale both ? G NAG .   O4  ? ? ? 1_555 G NAG .   C1 ? ? G NAG 1   G NAG 2   1_555 ? ? ? ? ? ? ? 1.388 ? ?               
+covale13 covale both ? G NAG .   O3  ? ? ? 1_555 G FUC .   C1 ? ? G NAG 1   G FUC 6   1_555 ? ? ? ? ? ? ? 1.427 ? ?               
 covale14 covale both ? G NAG .   O4  ? ? ? 1_555 G BMA .   C1 ? ? G NAG 2   G BMA 3   1_555 ? ? ? ? ? ? ? 1.399 ? ?               
 covale15 covale both ? G BMA .   O3  ? ? ? 1_555 G MAN .   C1 ? ? G BMA 3   G MAN 4   1_555 ? ? ? ? ? ? ? 1.406 ? ?               
-covale16 covale both ? G BMA .   O6  ? ? ? 1_555 G MAN .   C1 ? ? G BMA 3   G MAN 6   1_555 ? ? ? ? ? ? ? 1.410 ? ?               
-covale17 covale both ? H NAG .   O3  ? ? ? 1_555 H FUC .   C1 A ? H NAG 1   H FUC 4   1_555 ? ? ? ? ? ? ? 1.424 ? ?               
-covale18 covale both ? H NAG .   O3  ? ? ? 1_555 H FUC .   C1 B ? H NAG 1   H FUC 4   1_555 ? ? ? ? ? ? ? 1.416 ? ?               
-covale19 covale both ? H NAG .   O4  ? ? ? 1_555 H NAG .   C1 ? ? H NAG 1   H NAG 2   1_555 ? ? ? ? ? ? ? 1.390 ? ?               
+covale16 covale both ? G BMA .   O6  ? ? ? 1_555 G MAN .   C1 ? ? G BMA 3   G MAN 5   1_555 ? ? ? ? ? ? ? 1.410 ? ?               
+covale17 covale both ? H NAG .   O4  ? ? ? 1_555 H NAG .   C1 ? ? H NAG 1   H NAG 2   1_555 ? ? ? ? ? ? ? 1.390 ? ?               
+covale18 covale both ? H NAG .   O3  ? ? ? 1_555 H FUC .   C1 A ? H NAG 1   H FUC 4   1_555 ? ? ? ? ? ? ? 1.424 ? ?               
+covale19 covale both ? H NAG .   O3  ? ? ? 1_555 H FUC .   C1 B ? H NAG 1   H FUC 4   1_555 ? ? ? ? ? ? ? 1.416 ? ?               
 covale20 covale both ? H NAG .   O4  ? ? ? 1_555 H MAN .   C1 ? ? H NAG 2   H MAN 3   1_555 ? ? ? ? ? ? ? 1.391 ? ?               
 # 
 loop_
@@ -2631,8 +2631,8 @@ G 5 NAG 1 G NAG 1 C NAG 401 n
 G 5 NAG 2 G NAG 2 C NAG 403 n 
 G 5 BMA 3 G BMA 3 C BMA 404 n 
 G 5 MAN 4 G MAN 4 C MAN 405 n 
-G 5 FUC 5 G FUC 5 C FUC 402 n 
-G 5 MAN 6 G MAN 6 C MAN 406 n 
+G 5 MAN 5 G MAN 5 C MAN 406 n 
+G 5 FUC 6 G FUC 6 C FUC 402 n 
 H 6 NAG 1 H NAG 1 D NAG 501 n 
 H 6 NAG 2 H NAG 2 D NAG 503 n 
 H 6 MAN 3 H MAN 3 D MAN 504 n 
@@ -2676,14 +2676,18 @@ _pdbx_entity_branch_descriptor.descriptor
 _pdbx_entity_branch_descriptor.type 
 _pdbx_entity_branch_descriptor.program 
 _pdbx_entity_branch_descriptor.program_version 
-1 3 "DManpa1-3DManpb1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-"                                                                         "Glycam Condensed Sequence" GMML     1.0 
-2 3 "[]{[(4+1)][b-D-GlcpNAc]{[(3+1)][a-L-Fucp]{}[(4+1)][b-D-GlcpNAc]{[(4+1)][b-D-Manp]{[(3+1)][a-D-Manp]{}}}}}"                    LINUCS                      PDB-CARE ?   
-3 4 "DManpb1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-"                                                                                  "Glycam Condensed Sequence" GMML     1.0 
-4 4 "[]{[(4+1)][b-D-GlcpNAc]{[(3+1)][a-L-Fucp]{}[(4+1)][b-D-GlcpNAc]{[(4+1)][b-D-Manp]{}}}}"                                       LINUCS                      PDB-CARE ?   
-5 5 "DManpa1-3[DManpa1-6]DManpb1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-"                                                              "Glycam Condensed Sequence" GMML     1.0 
-6 5 "[]{[(4+1)][b-D-GlcpNAc]{[(3+1)][a-L-Fucp]{}[(4+1)][b-D-GlcpNAc]{[(4+1)][b-D-Manp]{[(3+1)][a-D-Manp]{}[(6+1)][a-D-Manp]{}}}}}" LINUCS                      PDB-CARE ?   
-7 6 "DManpa1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-"                                                                                  "Glycam Condensed Sequence" GMML     1.0 
-8 6 "[]{[(4+1)][b-D-GlcpNAc]{[(3+1)][a-L-Fucp]{}[(4+1)][b-D-GlcpNAc]{[(4+1)][a-D-Manp]{}}}}"                                       LINUCS                      PDB-CARE ?   
+1  3 "DManpa1-3DManpb1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-"                                                                             "Glycam Condensed Sequence" GMML       1.0    
+2  3 "WURCS=2.0/4,5,4/[a2122h-1b_1-5_2*NCC/3=O][a1221m-1a_1-5][a1122h-1b_1-5][a1122h-1a_1-5]/1-2-1-3-4/a3-b1_a4-c1_c4-d1_d3-e1"         WURCS                       PDB2Glycan 0.19.0 
+3  3 "[]{[(4+1)][b-D-GlcpNAc]{[(3+1)][a-L-Fucp]{}[(4+1)][b-D-GlcpNAc]{[(4+1)][b-D-Manp]{[(3+1)][a-D-Manp]{}}}}}"                        LINUCS                      PDB-CARE   ?      
+4  4 "DManpb1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-"                                                                                      "Glycam Condensed Sequence" GMML       1.0    
+5  4 "WURCS=2.0/3,4,3/[a2122h-1b_1-5_2*NCC/3=O][a1221m-1a_1-5][a1122h-1b_1-5]/1-2-1-3/a3-b1_a4-c1_c4-d1"                                WURCS                       PDB2Glycan 0.19.0 
+6  4 "[]{[(4+1)][b-D-GlcpNAc]{[(3+1)][a-L-Fucp]{}[(4+1)][b-D-GlcpNAc]{[(4+1)][b-D-Manp]{}}}}"                                           LINUCS                      PDB-CARE   ?      
+7  5 "DManpa1-3[DManpa1-6]DManpb1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-"                                                                  "Glycam Condensed Sequence" GMML       1.0    
+8  5 "WURCS=2.0/4,6,5/[a2122h-1b_1-5_2*NCC/3=O][a1221m-1a_1-5][a1122h-1b_1-5][a1122h-1a_1-5]/1-2-1-3-4-4/a3-b1_a4-c1_c4-d1_d3-e1_d6-f1" WURCS                       PDB2Glycan 0.19.0 
+9  5 "[]{[(4+1)][b-D-GlcpNAc]{[(3+1)][a-L-Fucp]{}[(4+1)][b-D-GlcpNAc]{[(4+1)][b-D-Manp]{[(3+1)][a-D-Manp]{}[(6+1)][a-D-Manp]{}}}}}"     LINUCS                      PDB-CARE   ?      
+10 6 "DManpa1-4DGlcpNAcb1-4[LFucpa1-3]DGlcpNAcb1-"                                                                                      "Glycam Condensed Sequence" GMML       1.0    
+11 6 "WURCS=2.0/3,4,3/[a2122h-1b_1-5_2*NCC/3=O][a1221m-1a_1-5][a1122h-1a_1-5]/1-2-1-3/a3-b1_a4-c1_c4-d1"                                WURCS                       PDB2Glycan 0.19.0 
+12 6 "[]{[(4+1)][b-D-GlcpNAc]{[(3+1)][a-L-Fucp]{}[(4+1)][b-D-GlcpNAc]{[(4+1)][a-D-Manp]{}}}}"                                           LINUCS                      PDB-CARE   ?      
 # 
 loop_
 _pdbx_entity_branch_link.link_id 
@@ -2708,8 +2712,8 @@ _pdbx_entity_branch_link.details
 8  5 2 NAG C1 O1 1 NAG O4 HO4 sing ? 
 9  5 3 BMA C1 O1 2 NAG O4 HO4 sing ? 
 10 5 4 MAN C1 O1 3 BMA O3 HO3 sing ? 
-11 5 5 FUC C1 O1 1 NAG O3 HO3 sing ? 
-12 5 6 MAN C1 O1 3 BMA O6 HO6 sing ? 
+11 5 5 MAN C1 O1 3 BMA O6 HO6 sing ? 
+12 5 6 FUC C1 O1 1 NAG O3 HO3 sing ? 
 13 6 2 NAG C1 O1 1 NAG O4 HO4 sing ? 
 14 6 3 MAN C1 O1 2 NAG O4 HO4 sing ? 
 15 6 4 FUC C1 O1 1 NAG O3 HO3 sing ? 
@@ -2732,8 +2736,8 @@ _pdbx_entity_branch_list.hetero
 5 NAG 2 n 
 5 BMA 3 n 
 5 MAN 4 n 
-5 FUC 5 n 
-5 MAN 6 n 
+5 MAN 5 n 
+5 FUC 6 n 
 6 NAG 1 n 
 6 NAG 2 n 
 6 MAN 3 n 
@@ -8055,27 +8059,27 @@ HETATM 5231 O O3  . MAN G 5 .   ? -12.451 20.740  36.748  1.00 34.14  ? 4    MAN
 HETATM 5232 O O4  . MAN G 5 .   ? -10.959 19.998  34.331  1.00 27.31  ? 4    MAN G O4  1 
 HETATM 5233 O O5  . MAN G 5 .   ? -13.502 17.408  34.513  1.00 30.22  ? 4    MAN G O5  1 
 HETATM 5234 O O6  . MAN G 5 .   ? -11.830 16.068  32.789  1.00 44.16  ? 4    MAN G O6  1 
-HETATM 5235 C C1  . FUC G 5 .   ? -17.464 13.018  25.220  1.00 54.35  ? 5    FUC G C1  1 
-HETATM 5236 C C2  . FUC G 5 .   ? -17.792 12.498  26.647  1.00 57.72  ? 5    FUC G C2  1 
-HETATM 5237 C C3  . FUC G 5 .   ? -17.742 13.637  27.649  1.00 64.98  ? 5    FUC G C3  1 
-HETATM 5238 C C4  . FUC G 5 .   ? -18.766 14.703  27.199  1.00 65.03  ? 5    FUC G C4  1 
-HETATM 5239 C C5  . FUC G 5 .   ? -18.490 15.115  25.744  1.00 60.69  ? 5    FUC G C5  1 
-HETATM 5240 C C6  . FUC G 5 .   ? -19.491 16.053  25.149  1.00 80.94  ? 5    FUC G C6  1 
-HETATM 5241 O O2  . FUC G 5 .   ? -16.849 11.494  26.982  1.00 50.50  ? 5    FUC G O2  1 
-HETATM 5242 O O3  . FUC G 5 .   ? -18.078 13.200  28.971  1.00 54.76  ? 5    FUC G O3  1 
-HETATM 5243 O O4  . FUC G 5 .   ? -20.055 14.118  27.295  1.00 81.13  ? 5    FUC G O4  1 
-HETATM 5244 O O5  . FUC G 5 .   ? -18.477 13.953  24.851  1.00 53.54  ? 5    FUC G O5  1 
-HETATM 5245 C C1  . MAN G 5 .   ? -20.331 20.912  29.984  1.00 115.47 ? 6    MAN G C1  1 
-HETATM 5246 C C2  . MAN G 5 .   ? -20.866 22.174  30.641  1.00 123.89 ? 6    MAN G C2  1 
-HETATM 5247 C C3  . MAN G 5 .   ? -22.040 21.692  31.470  1.00 128.01 ? 6    MAN G C3  1 
-HETATM 5248 C C4  . MAN G 5 .   ? -23.073 20.912  30.692  1.00 130.39 ? 6    MAN G C4  1 
-HETATM 5249 C C5  . MAN G 5 .   ? -22.480 19.922  29.723  1.00 127.13 ? 6    MAN G C5  1 
-HETATM 5250 C C6  . MAN G 5 .   ? -23.452 19.277  28.732  1.00 123.05 ? 6    MAN G C6  1 
-HETATM 5251 O O2  . MAN G 5 .   ? -21.022 23.223  29.652  1.00 135.93 ? 6    MAN G O2  1 
-HETATM 5252 O O3  . MAN G 5 .   ? -22.585 22.686  32.333  1.00 124.59 ? 6    MAN G O3  1 
-HETATM 5253 O O4  . MAN G 5 .   ? -23.939 20.197  31.572  1.00 137.56 ? 6    MAN G O4  1 
-HETATM 5254 O O5  . MAN G 5 .   ? -21.347 20.483  29.023  1.00 125.42 ? 6    MAN G O5  1 
-HETATM 5255 O O6  . MAN G 5 .   ? -22.907 18.874  27.455  1.00 105.59 ? 6    MAN G O6  1 
+HETATM 5235 C C1  . MAN G 5 .   ? -20.331 20.912  29.984  1.00 115.47 ? 5    MAN G C1  1 
+HETATM 5236 C C2  . MAN G 5 .   ? -20.866 22.174  30.641  1.00 123.89 ? 5    MAN G C2  1 
+HETATM 5237 C C3  . MAN G 5 .   ? -22.040 21.692  31.470  1.00 128.01 ? 5    MAN G C3  1 
+HETATM 5238 C C4  . MAN G 5 .   ? -23.073 20.912  30.692  1.00 130.39 ? 5    MAN G C4  1 
+HETATM 5239 C C5  . MAN G 5 .   ? -22.480 19.922  29.723  1.00 127.13 ? 5    MAN G C5  1 
+HETATM 5240 C C6  . MAN G 5 .   ? -23.452 19.277  28.732  1.00 123.05 ? 5    MAN G C6  1 
+HETATM 5241 O O2  . MAN G 5 .   ? -21.022 23.223  29.652  1.00 135.93 ? 5    MAN G O2  1 
+HETATM 5242 O O3  . MAN G 5 .   ? -22.585 22.686  32.333  1.00 124.59 ? 5    MAN G O3  1 
+HETATM 5243 O O4  . MAN G 5 .   ? -23.939 20.197  31.572  1.00 137.56 ? 5    MAN G O4  1 
+HETATM 5244 O O5  . MAN G 5 .   ? -21.347 20.483  29.023  1.00 125.42 ? 5    MAN G O5  1 
+HETATM 5245 O O6  . MAN G 5 .   ? -22.907 18.874  27.455  1.00 105.59 ? 5    MAN G O6  1 
+HETATM 5246 C C1  . FUC G 5 .   ? -17.464 13.018  25.220  1.00 54.35  ? 6    FUC G C1  1 
+HETATM 5247 C C2  . FUC G 5 .   ? -17.792 12.498  26.647  1.00 57.72  ? 6    FUC G C2  1 
+HETATM 5248 C C3  . FUC G 5 .   ? -17.742 13.637  27.649  1.00 64.98  ? 6    FUC G C3  1 
+HETATM 5249 C C4  . FUC G 5 .   ? -18.766 14.703  27.199  1.00 65.03  ? 6    FUC G C4  1 
+HETATM 5250 C C5  . FUC G 5 .   ? -18.490 15.115  25.744  1.00 60.69  ? 6    FUC G C5  1 
+HETATM 5251 C C6  . FUC G 5 .   ? -19.491 16.053  25.149  1.00 80.94  ? 6    FUC G C6  1 
+HETATM 5252 O O2  . FUC G 5 .   ? -16.849 11.494  26.982  1.00 50.50  ? 6    FUC G O2  1 
+HETATM 5253 O O3  . FUC G 5 .   ? -18.078 13.200  28.971  1.00 54.76  ? 6    FUC G O3  1 
+HETATM 5254 O O4  . FUC G 5 .   ? -20.055 14.118  27.295  1.00 81.13  ? 6    FUC G O4  1 
+HETATM 5255 O O5  . FUC G 5 .   ? -18.477 13.953  24.851  1.00 53.54  ? 6    FUC G O5  1 
 HETATM 5256 C C1  . NAG H 6 .   ? 15.231  53.524  28.709  1.00 32.98  ? 1    NAG H C1  1 
 HETATM 5257 C C2  . NAG H 6 .   ? 16.081  54.651  29.212  1.00 46.15  ? 1    NAG H C2  1 
 HETATM 5258 C C3  . NAG H 6 .   ? 17.445  54.135  29.615  1.00 54.21  ? 1    NAG H C3  1 

@@ -14,10 +14,5 @@ Or you may download [all of these models](models/all-models.tar.gz)
 
 A larger set of examples are available for download.
 
-- 461 models made from standard moosaccharides in [part1](models/PDB_model_with_oligo_made_of_standard_monosaccharides-part1.tar.gz) and [part2](models/PDB_model_with_oligo_made_of_standard_monosaccharides-part2.tar.gz)
-
-- 56 models made from [modified monosaccaharides](models/PDB_model_with_oligo_made_of_modified_monosaccharides.tar.gz)
-
-- 2 models containing an oligosaccharide in a [PRD definition](models/PDB_model_with_PRD_for_oligosaccharide.tar.gz)
-
+- 500 models divided in [part1](models/PDB_part1.tar.gz) and [part2](models/PDB_part2.tar.gz)
 
